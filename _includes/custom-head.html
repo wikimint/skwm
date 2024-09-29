@@ -1,0 +1,87 @@
+<!-- Custom Head Content -->
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>{{ page.title | escape }}</title>
+<meta name="description" content="{{ page.description | escape }}">
+<meta name="keywords" content="{{ page.keywords }}">
+<link rel="canonical" href="{{ site.url }}{{ page.url | remove: ".html" | remove: ".md" | escape }}">
+<script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "{% if page.layout == 'post' %}Article{% else %}WebPage{% endif %}",
+      "id": "{{ page.url | relative_url | prepend: site.url | replace: 'http:', 'https:' }}",
+      "headline": "{{ page.title | escape }}",
+      "description": "{{ page.description | strip_html | strip_newlines | escape }}",
+      "url": "{{ page.url | relative_url | replace: 'index.html', '' | replace: '.html', '' | prepend: site.url | replace: 'http:', 'https:' }}",
+      "author": {
+        "@type": "Person",
+        "name": "Selvakumaran Krishnan",
+        "url": "https://www.linkedin.com/in/selvakumaran-krishnan/",
+        "sameAs": [
+          "http://twitter.com/selvakumarankri",
+          "http://facebook.com/selvakumarank",
+          "https://www.crunchbase.com/person/selvakumaran-krishnan-20e4",
+          "https://www.behance.net/selvakumarankrishnan",
+          "https://mastodon.social/@selvakumarankrishnan",
+          "https://medium.com/@selvakumarankrishnan/about",
+          "https://hashnode.com/@selvakumarankrishnan",
+          "http://github.com/selvaklnc"
+        ],
+        "jobTitle": "Software Developer and Computer Programmer",
+        "worksFor": {
+          "@type": "Organization",
+          "name": "wmWebStack"
+        }
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "wmWebStack",
+        "description": "{{ page.description | strip_html | strip_newlines | escape }}",
+        "url": "{{ page.url | relative_url | replace: 'index.html', '' | replace: '.html', '' | prepend: site.url | replace: 'http:', 'https:' }}",
+        "email": "support@wikimint.com",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "{{ site.url | replace: 'http:', 'https:' }}/assets/images/wmWebStack-logo.png"
+        },
+        "sameAs": [
+          "https://www.facebook.com/wikimintdeveloper/",
+          "https://github.com/wikimint",
+          "https://www.linkedin.com/company/wikimintdeveloper"
+        ]
+      },
+      "datePublished": "{% if page.date %}{{ page.date | date_to_xmlschema }}{% else %}{{ site.time | date_to_xmlschema }}{% endif %}",
+      "dateModified": "{% if page.last_modified_at %}{{ page.last_modified_at | date_to_xmlschema }}{% else %}{{ site.time | date_to_xmlschema }}{% endif %}",
+      "inLanguage": "{{ page.lang | default: site.lang | default: 'en' }}",
+      "keywords": "{% if page.keywords %}{{ page.keywords | join: ', ' }}{% elsif page.tags %}{{ page.tags | join: ', ' }}{% else %}No keywords{% endif %}",
+      "breadcrumb": {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Version Log",
+            "item": "{{ site.url | replace: 'http:', 'https:' }}/version-log"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Getting Started",
+            "item": "{{ site.url | replace: 'http:', 'https:'  }}/docs/getting-started"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "FAQ",
+            "item": "{{ site.url | replace: 'http:', 'https:'  }}/docs/faq"
+          },
+          {
+            "@type": "ListItem",
+            "position": 4,
+            "name": "Configuration",
+            "item": "{{ site.url | replace: 'http:', 'https:'  }}/docs/configuration"
+          }
+        ]
+      }
+    }
+    </script>
+    

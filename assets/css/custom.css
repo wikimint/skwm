@@ -1,0 +1,39 @@
+.card-img{
+width:auto ! important;
+height:200px ! important;
+max-height:200px ! important;
+margin:auto ! important;
+}
+
+#techStack td img{
+    display:block;
+    margin:auto;
+}
+#techStack .card-body{
+    padding:0px;
+}
+#techStack td:first-of-type{
+    text-align:center;
+}
+#posts-container img{
+    max-height:150px;
+}
+#posts-container h3,
+#posts-container p{
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+#posts-container h3{
+    -webkit-line-clamp: 1;
+}
+
+.sticky-top{
+    top:80px ! important;
+    z-index:999 ! important;
+}
+header.sticky-top{
+    top:0 ! important;
+    z-index:999999999 ! important;
+}

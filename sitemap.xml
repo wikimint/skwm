@@ -1,0 +1,39 @@
+---
+layout: null
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  {% assign all_pages = site.pages | concat: site.static_files %}
+  
+  {% if site.include_homepage %}
+    <url>
+      <loc>{{ site.url }}/</loc>
+      <lastmod>{{ site.time | date: "%Y-%m-%d" }}</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>1.0</priority>
+    </url>
+  {% endif %}
+
+  {% for page in all_pages %}
+    {% if page.path contains ".md" and page.url and page.noindex != true %}
+      <url>
+        <loc>{{ site.url }}{{ page.url | remove: ".md" | remove: ".html" | escape }}</loc>
+        <lastmod>{{ page.last_modified_at | default: page.date | date: "%Y-%m-%d" }}</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.5</priority>
+      </url>
+    {% endif %}
+  {% endfor %}
+  
+  {% for post in site.posts %}
+    {% if post.noindex != true %}
+      <url>
+        <loc>{{ site.url }}{{ post.url | remove: ".html" | escape }}</loc>
+        <lastmod>{{ post.date | date: "%Y-%m-%d" }}</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+      </url>
+    {% endif %}
+  {% endfor %}
+  
+</urlset>

@@ -1,0 +1,103 @@
+---
+layout: default
+---
+
+<div class="container px-0 py-3">
+    <!-- Project Header -->
+    <div class="project-header position-relative text-white text-center py-5" style="background:#555;">
+        <div class="overlay position-absolute top-0 start-0 w-100 h-100" style="background: rgba(0, 0, 0, 0.5);"></div>
+        <div class="position-relative p-5">
+            <h1 class="display-4 fw-bold">{{ page.title }}</h1>
+            <p class="lead">{{ page.description }}</p>
+            <a href="{{ page.psite }}" target="_blank" aria-label="{{ page.title }}" title="{{ page.pname }}" class="btn btn-lg btn-primary mt-3">Go to {{ page.pname }}</a>
+        </div>
+    </div>
+
+    <div class="row mt-5">
+        <!-- Project Overview (Main Content) -->
+        <div class="col-lg-8">
+{{ content }}
+
+        </div>
+    
+         
+
+        <!-- Sidebar: Project Details -->
+        <div class="col-lg-4">
+
+            <div class="card shadow-sm mb-4">
+                <div class="card-header text-center">
+                    <h4>{{ page.pname }}</h4>
+                </div>
+                <div class="card-body">
+                    <img src="{{ page.image}}" alt="{{ page.imagealt }}" width="100%" height="auto"/>
+                </div>
+            </div>
+
+
+            <div class="card shadow-sm mb-4">
+                <div class="card-header">
+                    <h4>Project Details</h4>
+                </div>
+                <div class="card-body">
+                    
+                            <p><strong>Date:</strong> {{ page.date | date: "%B %d, %Y" }}</p>
+                            <p><strong>Tags:</strong>
+                            {% for tag in page.tags %}
+                                <span class="badge bg-primary">{{ tag }}</span>
+                            {% endfor %}
+                        </p>
+                      
+                </div>
+            </div>
+
+           
+        </div>
+    </div>
+</div>
+
+
+<div class="row">
+    <div class="col-lg-8">
+<h2 class="my-4">Explore Other Projects</h2>
+<hr/>
+<p>
+    Discover more projects where we’ve applied innovative solutions using modern technologies. Each project showcases unique approaches to web development and software engineering. Check them out below!
+</p>
+
+<div class="album py-5">
+    <div class="container p-0">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-2 g-3">
+            <!-- Get all project pages excluding the current one -->
+            {% assign projects_pages = site.pages | where_exp: "page", "page.url contains '/projects/'" %}
+            {% assign current_url = page.url %}
+            {% assign other_projects = projects_pages | where_exp: "page", "page.url != current_url" %}
+            
+            {% if other_projects.size > 0 %}
+                {% assign shuffled_projects = other_projects | sort: 'random' | limit: 6 %}
+                
+                {% for project in shuffled_projects %}
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            {% assign image_url = project.image %}
+                            <img src="{{ image_url }}" class="card-img-top card-img" alt="{{ project.title }}">
+                            <p class="card-text p-3 pb-0 mb-0">{{ project.description | strip_html | truncate: 150 }}</p>
+                            <div class="card-body d-flex justify-content-between align-items-center">
+                                {% if project.tags.size > 0 %}
+                                    <span class="bg-light text-success border border-success p-3 py-1 rounded-5">{{ project.tags[0] }}</span>
+                                {% endif %}
+                                <a aria-label="{{ project.title }}" title="{{ project.title }}" href="{{ site.url }}{{ project.url | remove: '.md' | remove: '.html' }}" class="btn bg-secondary-subtle text-secondary border border-secondary">View Project</a>
+                            </div>
+                        </div>
+                    </div>
+                {% endfor %}
+            {% else %}
+                <div class="col">
+                    <p>No projects found.</p>
+                </div>
+            {% endif %}
+        </div>
+    </div>
+</div>
+</div>
+</div>

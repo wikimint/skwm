@@ -1,0 +1,28 @@
+remote_theme: jekyll/minima
+markdown: kramdown
+
+# Site settings
+title: Selvakumaran Krishnan | Software Developer, SEO, Digital Marketing
+description: >- 
+  Professional software developer specializing in web development, PHP, WordPress, SEO, and digital marketing. Offering custom solutions for native desktop apps and online growth strategies.
+
+url: "https://sk.wikimint.com" 
+baseurl: "" 
+permalink: pretty
+
+
+# Ensure Jekyll includes the docs folder
+include:
+  - projects
+
+include_homepage: true
+
+collections:
+  projects:
+    output: true
+
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap

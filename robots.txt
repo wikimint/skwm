@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Sitemap: https://webstack.wikimint.com/sitemap.xml
+
