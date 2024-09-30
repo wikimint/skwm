@@ -24,16 +24,6 @@ layout: null
       </url>
     {% endif %}
   {% endfor %}
-  
-  {% for post in site.posts %}
-    {% if post.noindex != true %}
-      <url>
-        <loc>{{ site.url }}{{ post.url | remove: ".html" | escape }}</loc>
-        <lastmod>{{ post.date | date: "%Y-%m-%d" }}</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.7</priority>
-      </url>
-    {% endif %}
-  {% endfor %}
+
   
 </urlset>
