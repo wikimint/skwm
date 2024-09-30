@@ -89,3 +89,14 @@ noindex: false
 </div>
 </main>
 </div>
+
+<div class="row py-lg-5">
+      <div class="col-lg-7 col-md-8 mx-auto text-center">
+<h2>Bring Your Vision to Life</h2>
+<hr/>
+<p>Whether you’re starting a new project or need expert guidance on something in progress, I’m ready to collaborate and make your vision a reality. From custom web development to SEO solutions, I’m here to support your goals. Let’s connect and create something truly exceptional together!</p>
+ <p>
+          <a href="/projects" class="btn btn-primary my-2 px-4 py-2">Explore Projects</a>
+          <a href="/contact" class="btn btn-outline-primary my-2 px-4 py-2">Contact Me</a>
+        </p>
+</div>

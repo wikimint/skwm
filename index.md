@@ -30,10 +30,10 @@ noindex: false
   </section>
 
 <div class="row">
-<div class="col-md-6">
+<div class="col-md-6 my-3">
 <img width="100%" height="auto" src="/assets/images/selvakumaran-krishnan-web-developer-wikimint.webp" class="rounded img-fluid w-100" alt="Expert Software Developer | SEO, Digital Marketing, Web & PHP Development Services">
 </div>
-<div class="col-md-6">
+<div class="col-md-6 my-3">
 <h2>About <span class="lead fs-2">Selvakumaran Krishnan</span></h2>
 <hr/>
 <p>I am a dedicated professional with a strong passion for web design, online publishing, blog writing, programming, SEO, digital marketing, and framework development.</p>
@@ -45,8 +45,8 @@ noindex: false
 </div>
 </div>
 
-<div class="row py-5">
-<div class="col-md-6">
+<div class="row py-3">
+<div class="col-md-6 my-3">
 <h2 class="mb-3">What I Do?</h2>
 <div class="accordion" id="selvakumaran-krishnan-expertise">
   <div class="accordion-item">
@@ -113,7 +113,7 @@ Web Development
 
 
 </div>
-<div class="col-md-6">
+<div class="col-md-6 my-3">
 <h2>Why Work With Me?</h2>
 <hr/>
 <p>I believe in clear communication, timely delivery, and maintaining a high standard of quality in everything I do. My approach is straightforward: listen, understand, and deliver a product that exceeds expectations. I’m committed to not only delivering results but also ensuring that the entire process is smooth and hassle-free for you.</p>

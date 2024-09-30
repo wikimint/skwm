@@ -18,8 +18,8 @@ noindex: false
 
 <h1>Selvakumaran Krishnan</h1><hr/>
 
-<div class="row mt-5">
-<div class="col-md-3">
+<div class="row mt-2">
+<div class="col-md-3 my-3">
 <div class="accordion sticky-top" id="accordionPanelsStayOpenExample">
   <div class="accordion-item">
     <h2 class="accordion-header">
@@ -42,7 +42,7 @@ Table of Contents
   </div>
 
 
-<div class="card text-bg-light my-3">
+<div class="card text-bg-light mt-3">
   <div class="card-header bg-success-subtle">Selvakumaran Krishnan</div>
   <div class="card-body">
     <p class="card-text">Selvakumaran Krishnan, a professional web developer and SEO specialist with a passion for writing about technology. He focuses on creating efficient, user-friendly solutions to help others navigate their businesses. His work is aimed at sharing knowledge and fostering connections.</p>
@@ -55,7 +55,7 @@ Table of Contents
 
 
 
-<div class="col-md-6">
+<div class="col-md-6 my-3">
 <p>Selvakumaran Krishnan is a software developer known for his impactful work in web development and software engineering. With a solid foundation in programming and system design, he has created numerous tools and applications designed to streamline development processes and boost security.</p>
 
 <h2 id="early-life" class="fs-4">Early Life and Education</h2><hr/>
@@ -101,7 +101,7 @@ Table of Contents
 
 
 
-<div class="col-md-3">
+<div class="col-md-3 my-3">
     <div class="card">
         <img src="/assets/images/selvakumaran-krishnan.webp" class="card-img-top" alt="Profile Picture">
         <p class="small text-center">Selvakumaran Krishnan in 2023</p>

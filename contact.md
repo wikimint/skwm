@@ -14,8 +14,8 @@ keywords:
 noindex: false
 ---
 
-<div class="row mt-4">
-<div class="col-md-8">
+<div class="row mt-1">
+<div class="col-md-8 my-3">
 <h1>Get in Touch <span class="lead">with Selvakumaran Krishnan</span></h1><hr/>
 <p>
 I’m here to help you with web development, SEO consulting, and custom software solutions. If you have any questions, project inquiries, or just want to say hello, feel free to reach out. Let's work together to bring your digital ideas to life!
@@ -29,7 +29,7 @@ I’m here to help you with web development, SEO consulting, and custom software
 <p>Based in Chennai, Tamil Nadu, India, I work with clients globally. While most of my work is done remotely, I’m open to in-person consultations if you're nearby.</p>
 </div>
 
-<div class="col-md-4">
+<div class="col-md-4 my-3">
 <div class="card text-bg-light sticky-top">
   <div class="card-header bg-primary-subtle">Social Media</div>
   <div class="card-body p-0">
