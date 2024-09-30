@@ -26,6 +26,24 @@ layout: default
         <div class="col-lg-4">
 
             <div class="card shadow-sm mb-4">
+                <div class="card-header">
+                    <h4>Project Details</h4>
+                </div>
+                <div class="card-body">
+                    
+                            <p><strong>Published on</strong> <br/>{{ page.date | date: "%B %d, %Y" }}</p>
+                            <p><strong>Tagged under</strong><br/>
+                                <ul class="list-group list-group-flush p-0">
+                            {% for tag in page.tags %}
+                            <li class="list-group-item ps-0 text-capitalize ">{{ tag }}</li>
+                            {% endfor %}
+                            </ul>
+                        </p>
+                      
+                </div>
+            </div>
+
+            <div class="card shadow-sm mb-4 sticky-top">
                 <div class="card-header text-center">
                     <h4>{{ page.pname }}</h4>
                 </div>
@@ -34,24 +52,7 @@ layout: default
                 </div>
             </div>
 
-
-            <div class="card shadow-sm mb-4">
-                <div class="card-header">
-                    <h4>Project Details</h4>
-                </div>
-                <div class="card-body">
-                    
-                            <p><strong>Date:</strong> {{ page.date | date: "%B %d, %Y" }}</p>
-                            <p><strong>Tags:</strong>
-                            {% for tag in page.tags %}
-                                <span class="badge bg-primary">{{ tag }}</span>
-                            {% endfor %}
-                        </p>
-                      
-                </div>
-            </div>
-
-           
+            
         </div>
     </div>
 </div>

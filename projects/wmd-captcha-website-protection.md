@@ -17,7 +17,7 @@ tags:
 - user experience
 - technology
 
-date: 2024-09-25
+date: 2023-07-15
 image: /assets/images/wmdcaptcha.webp
 imagealt: "wmdCaptcha - Web and form protection with full security"
 

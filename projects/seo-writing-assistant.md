@@ -13,7 +13,7 @@ tags:
 - Free SEO Tool
 - SEO Best Practices
 
-date: 2024-09-25
+date: 2024-04-20
 image: /assets/images/seo-writing-tool.webp
 imagealt: "Enhance your content with the free SEO Writing Assistant. Access real-time keyword recommendations, readability checks, and SEO insights—like Yoast and SEMRUSH."
 

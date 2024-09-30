@@ -12,7 +12,7 @@ tags:
  - RGB Colors
  - Image Color Extraction
 
-date: 2024-09-25
+date: 2022-06-26
 image: /assets/images/html-color-code-palette.webp
 imagealt: "An interactive HTML color code palette offering color picking, image color extraction, and predefined color names. Get HEX and RGB codes instantly with a user-friendly interface."
 
