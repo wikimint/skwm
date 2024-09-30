@@ -2,6 +2,7 @@
 layout: default
 title: "Sitemap | wmWebStack"
 description: "An HTML sitemap of wmWebStack, listing all pages and their categories."
+date: 2024-09-29
 ---
 
 <h1>Sitemap</h1><hr/>

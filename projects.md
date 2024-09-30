@@ -2,6 +2,7 @@
 layout: default
 title: "Projects Handled by Selvakumaran Krishnan | Innovative Software Engineering & Solutions"
 description: "Explore the innovative projects handled by Selvakumaran Krishnan, showcasing creative solutions in web development, desktop applications, and technology-driven methodologies. Discover unique approaches to problem-solving."
+date: 2024-09-29
 keywords: Selvakumaran Krishnan, web development projects, innovative solutions, software engineering, desktop applications, creative techniques, open-source projects, technology solutions, responsive design, user-centric design
 ---
 

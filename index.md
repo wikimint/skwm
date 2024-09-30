@@ -2,6 +2,7 @@
 layout: default
 title: "Selvakumaran Krishnan | Software Developer, SEO, Digital Marketing"
 description: "Professional software developer specializing in web development, PHP, WordPress, SEO, and digital marketing. Offering custom solutions for native desktop apps and online growth strategies."
+date: 2024-09-29
 keywords:
   - software developer
   - SEO specialist
