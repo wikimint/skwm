@@ -26,19 +26,19 @@ keywords: Selvakumaran Krishnan, web development projects, innovative solutions,
 
                 {% for page in shuffled_projects %}
                     <div class="col">
-                        <div class="card shadow-sm">
+                        <div class="card shadow-sm projects-card">
                                 {% assign image_url = page.image %}
-                                <img src="{{ image_url }}" class="card-img-top card-img" alt="{{ page.title }}">
-                            <p class="card-text p-3 pb-0 mb-0">{{ page.description | strip_html | truncate: 150 }}</p>
-                            <div class="row d-flex align-items-center p-3">
-                            <div class="col-md-9 py-2">
+                                <div class="img-cont">
+                                
                                 {% if page.tags.size > 0 %}
-                                    <span class="w-sm-100 bg-light text-success border border-success p-3 py-1 rounded-5">{{ page.tags[0] }}</span>
+                                    <span class="tag w-sm-100 bg-primary text-white p-3 py-1">{{ page.tags[0] }}</span>
                                 {% endif %}
+                                
+                                <img src="{{ image_url }}" class="card-img-top card-img" alt="{{ page.title }}">
                                 </div>
-                                <div class="col-md-3 py-2">
-                                  <a aria-label="{{ page.title }}" title="{{ page.title }}" href="{{ site.url }}{{ page.url | remove: '.md' | remove: '.html' }}" class="btn bg-secondary-subtle text-secondary border border-secondary">View</a>
-                                  </div>
+                            <p class="card-text p-3 pb-0 mb-0">{{ page.description | strip_html | truncate: 150 }}</p>
+                            <div class="row d-flex align-items-center py-3 mx-3">
+                                  <a aria-label="{{ page.title }}" title="{{ page.title }}" href="{{ site.url }}{{ page.url | remove: '.md' | remove: '.html' }}" class="btn bg-primary-subtle text-dark border border-primary w-100">View Project</a>
                             </div>
                         </div>
                     </div>

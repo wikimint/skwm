@@ -1,8 +1,20 @@
 .card-img{
-width:auto ! important;
+width:100% ! important;
 height:200px ! important;
 max-height:200px ! important;
 margin:auto ! important;
+opacity:0.3;
+border-radius:0px ! important;
+}
+.img-cont{
+    background: #000;
+}
+.projects-card .tag{
+    position: absolute;
+    margin-top: 26px;
+    z-index: 999;
+    border-radius: 0 36px 36px 0 ! important;
+    text-transform: capitalize;
 }
 
 #techStack td img{
