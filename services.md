@@ -107,7 +107,7 @@ faqs:
 </div>
 
 <section id="faq-section" class="faq-container my-4">
-  <h2 class="mb-3 text-center">Frequently Asked Questions About My Services</h2>
+  <h2 class="mb-5 text-center">Frequently Asked Questions About My Services</h2>
 
   <div class="accordion" id="faq">
     {% for faq in page.faqs %}

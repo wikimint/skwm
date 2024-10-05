@@ -183,7 +183,7 @@ Table of Contents
 
 
 <section id="faq-section" class="faq-container my-4">
-  <h2 class="mb-3 text-center">Common Questions About Selvakumaran Krishnan</h2>
+  <h2 class="mb-5 text-center">Common Questions About Selvakumaran Krishnan</h2>
 
   <div class="accordion" id="faq">
     {% for faq in page.faqs %}
