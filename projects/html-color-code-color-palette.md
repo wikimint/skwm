@@ -4,7 +4,7 @@ title: "Interactive HTML Color Code Picker with HEX & RGB Output"
 description: "An interactive HTML color code palette that allows color picking, image color extraction, and selection from predefined color names. Instantly generate and copy HEX and RGB color codes with an easy-to-use, responsive interface designed for web developers and designers seeking efficient color code generation tools."
 keywords: "color picker, HTML color palette, RGB to HEX, image color extraction, color code generator, predefined color list, web color picker, color codes, HEX and RGB picker, jQuery color tool"
 pname: Color Palette
-psite: https://developer.wikimint.com/p/color-codes.html
+psite: https://developer.wikimint.com/p/color-codes.html#FFC107
 tags:
  - Web Development
  - Color Picker
