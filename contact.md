@@ -13,6 +13,15 @@ keywords:
  - tech services contact
  - project collaboration
 noindex: false
+faqs:
+  - question: "What is the best way to contact Selvakumaran?"
+    answer: "You can reach Selvakumaran via the contact form on this page or by email. He typically responds within 1-2 business days and is happy to discuss any project inquiries or collaboration opportunities."
+
+  - question: "Does Selvakumaran offer consultations?"
+    answer: "Yes, Selvakumaran offers free initial consultations to discuss your project needs and how he can help. You can use the contact form to schedule a time that works for you."
+
+  - question: "What information should I include when contacting Selvakumaran?"
+    answer: "When reaching out, it’s helpful to provide a brief description of your project or service request, your goals, and any deadlines you may have. This allows Selvakumaran to assess how he can assist you most effectively."
 ---
 
 <div class="row mt-1">
@@ -61,6 +70,26 @@ I’m here to help you with web development, SEO consulting, and custom software
 </div>
 </div>
 
+<section id="faq-section" class="faq-container my-4">
+  <h2 class="mb-3 text-center">Common Questions About Getting in Touch</h2>
+
+  <div class="accordion" id="faq">
+    {% for faq in page.faqs %}
+      <div class="accordion-item">
+        <h3 class="accordion-header">
+          <button class="accordion-button {% unless forloop.first %}collapsed{% endunless %}" type="button" data-bs-toggle="collapse" data-bs-target="#faq-{{ forloop.index }}" aria-expanded="{% if forloop.first %}true{% else %}false{% endif %}" aria-controls="faq-{{ forloop.index }}">
+            {{ faq.question }}
+          </button>
+        </h3>
+        <div id="faq-{{ forloop.index }}" class="accordion-collapse collapse {% if forloop.first %}show{% endif %}" data-bs-parent="#faq">
+          <div class="accordion-body">
+            {{ faq.answer }}
+          </div>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+</section>
 
 
 <div class="row py-lg-5 mt-5">

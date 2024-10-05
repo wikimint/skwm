@@ -15,6 +15,21 @@ keywords:
   - website development
   - software solutions
 noindex: false
+faqs:
+  - question: "What is Selvakumaran Krishnan’s professional background?"
+    answer: "Selvakumaran Krishnan is a skilled software developer with experience across a variety of programming languages and frameworks. Over the years, he has worked on numerous web and software projects, building scalable solutions for businesses and individual clients alike."
+
+  - question: "How did Selvakumaran get started in software development?"
+    answer: "Selvakumaran’s journey into software development began with his curiosity for solving problems through technology. With a passion for coding and creating efficient systems, he turned his interest into a full-time career, honing his skills in both front-end and back-end development."
+
+  - question: "What are Selvakumaran’s core values as a developer?"
+    answer: "Selvakumaran believes in writing clean, maintainable code and always strives for efficiency. He values open communication with clients and aims to deliver solutions that not only meet technical specifications but also align with business goals."
+
+  - question: "How does Selvakumaran stay updated with the latest trends in tech?"
+    answer: "As technology evolves, so does Selvakumaran. He continuously learns by exploring new tools, languages, and frameworks. He also follows industry blogs, participates in developer communities, and shares his own experiences through writing."
+
+  - question: "What motivates Selvakumaran in his work?"
+    answer: "For Selvakumaran, the joy of solving complex problems and seeing his work make a real impact drives him forward. His dedication to creating meaningful, user-focused solutions is at the heart of his motivation."
 ---
 
 <div class="row">
@@ -165,6 +180,29 @@ Table of Contents
 
 </div>
 </div>
+
+
+<section id="faq-section" class="faq-container my-4">
+  <h2 class="mb-3 text-center">Common Questions About Selvakumaran Krishnan</h2>
+
+  <div class="accordion" id="faq">
+    {% for faq in page.faqs %}
+      <div class="accordion-item">
+        <h3 class="accordion-header">
+          <button class="accordion-button {% unless forloop.first %}collapsed{% endunless %}" type="button" data-bs-toggle="collapse" data-bs-target="#faq-{{ forloop.index }}" aria-expanded="{% if forloop.first %}true{% else %}false{% endif %}" aria-controls="faq-{{ forloop.index }}">
+            {{ faq.question }}
+          </button>
+        </h3>
+        <div id="faq-{{ forloop.index }}" class="accordion-collapse collapse {% if forloop.first %}show{% endif %}" data-bs-parent="#faq">
+          <div class="accordion-body">
+            {{ faq.answer }}
+          </div>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+</section>
+
 
 <div class="row py-lg-5">
       <div class="col-lg-7 col-md-8 mx-auto text-center">

@@ -15,6 +15,21 @@ keywords:
   - website development
   - software solutions
 noindex: false
+faqs:
+  - question: "Who is Selvakumaran Krishnan?"
+    answer: "Selvakumaran Krishnan is a professional software developer with a passion for creating clean, efficient web applications. With years of experience in web development, he also enjoys sharing insights on software trends, coding techniques, and technical writing through his blog."
+
+  - question: "What kind of projects does Selvakumaran work on?"
+    answer: "Selvakumaran specializes in building dynamic web applications and tools for businesses and personal projects. From front-end development with JavaScript to back-end integration, he handles the full stack. His work also includes creating useful plugins and standalone applications tailored to specific client needs."
+
+  - question: "Why does Selvakumaran focus on writing articles and blogging?"
+    answer: "Writing is Selvakumaran’s way of sharing knowledge and contributing to the developer community. He believes that well-written articles can bridge the gap between complex software concepts and practical implementation, making it easier for developers at all levels to learn and grow."
+
+  - question: "What topics does Selvakumaran cover in his blog?"
+    answer: "Selvakumaran’s blog covers a range of topics, including web development best practices, coding tips, SEO strategies for developers, and software architecture. He also shares personal experiences and lessons learned from real-world projects, providing readers with a well-rounded perspective."
+
+  - question: "How can you collaborate with Selvakumaran Krishnan?"
+    answer: "Whether you’re a business looking for a reliable software solution or a fellow developer interested in collaboration, Selvakumaran is open to new opportunities. He enjoys working on innovative projects and is always eager to help others with their web development challenges."
 ---
 
 <section class="py-5 text-center container">
@@ -45,6 +60,7 @@ noindex: false
 <a href="/selvakumaran-krishnan" aria-label="Everything about Selvakumaran Krishnan" title="About Selvakumaran Krishnan" class="btn btn-outline-primary my-2 px-4 py-2">More About Me</a>
 </div>
 </div>
+
 
 <div class="row py-3">
 <div class="col-md-6 my-3">
@@ -183,6 +199,31 @@ Web Development
 </div>
 
 
+
+<section id="faq-section" class="faq-container my-4">
+  <h2 class="mb-3 text-center">Frequently Asked Questions About Selvakumaran Krishnan's Work</h2>
+
+  <div class="accordion" id="faq">
+    {% for faq in page.faqs %}
+      <div class="accordion-item">
+        <h3 class="accordion-header">
+          <button class="accordion-button {% unless forloop.first %}collapsed{% endunless %}" type="button" data-bs-toggle="collapse" data-bs-target="#faq-{{ forloop.index }}" aria-expanded="{% if forloop.first %}true{% else %}false{% endif %}" aria-controls="faq-{{ forloop.index }}">
+            {{ faq.question }}
+          </button>
+        </h3>
+        <div id="faq-{{ forloop.index }}" class="accordion-collapse collapse {% if forloop.first %}show{% endif %}" data-bs-parent="#faq">
+          <div class="accordion-body">
+            {{ faq.answer }}
+          </div>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+</section>
+
+
+
+
 <div class="row py-lg-5">
       <div class="col-lg-7 col-md-8 mx-auto text-center">
 <h2>Let’s Build Something Great Together</h2>
@@ -193,4 +234,11 @@ Web Development
           <a href="/contact" class="btn btn-outline-primary my-2 px-4 py-2">Contact Me</a>
         </p>
 </div>
+
+
+
+
+
+
+
 <script src="/assets/js/index.js"></script>

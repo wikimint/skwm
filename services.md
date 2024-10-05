@@ -13,6 +13,21 @@ keywords:
  - tech solutions
  - freelance web developer
 noindex: false
+faqs:
+  - question: "What services does Selvakumaran Krishnan offer?"
+    answer: "Selvakumaran offers a range of services, including web development, custom software solutions, and technical consulting. Whether you need a full-stack developer for a new project or improvements on an existing system, he can help you achieve your goals."
+
+  - question: "How does Selvakumaran collaborate with clients?"
+    answer: "Collaboration is key for Selvakumaran. He works closely with clients to understand their needs, communicates regularly, and ensures that the project stays on track. His approach is flexible, allowing for adjustments as the project evolves."
+
+  - question: "What industries does Selvakumaran work with?"
+    answer: "Selvakumaran has worked with clients across various industries, including tech startups, e-commerce, and small businesses. His ability to adapt to different business models allows him to provide customized solutions for each client."
+
+  - question: "How can businesses benefit from Selvakumaran’s services?"
+    answer: "Businesses that work with Selvakumaran benefit from his expertise in creating tailored solutions that improve efficiency, enhance user experience, and boost overall performance. His services are designed to help businesses scale and adapt to changing market demands."
+
+  - question: "What is the typical project timeline for Selvakumaran’s services?"
+    answer: "Project timelines depend on the complexity and scope of the work, but Selvakumaran is committed to delivering on time. He provides an estimated timeline during the planning stage and keeps clients informed of progress at every step."
 ---
 
 <h1 class="service-title mb-4">Professional Web Development Services</h1><hr/>
@@ -90,6 +105,28 @@ noindex: false
 </div>
 </main>
 </div>
+
+<section id="faq-section" class="faq-container my-4">
+  <h2 class="mb-3 text-center">Frequently Asked Questions About My Services</h2>
+
+  <div class="accordion" id="faq">
+    {% for faq in page.faqs %}
+      <div class="accordion-item">
+        <h3 class="accordion-header">
+          <button class="accordion-button {% unless forloop.first %}collapsed{% endunless %}" type="button" data-bs-toggle="collapse" data-bs-target="#faq-{{ forloop.index }}" aria-expanded="{% if forloop.first %}true{% else %}false{% endif %}" aria-controls="faq-{{ forloop.index }}">
+            {{ faq.question }}
+          </button>
+        </h3>
+        <div id="faq-{{ forloop.index }}" class="accordion-collapse collapse {% if forloop.first %}show{% endif %}" data-bs-parent="#faq">
+          <div class="accordion-body">
+            {{ faq.answer }}
+          </div>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+</section>
+
 
 <div class="row py-lg-5">
       <div class="col-lg-7 col-md-8 mx-auto text-center">

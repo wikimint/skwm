@@ -4,6 +4,21 @@ title: "Projects Handled by Selvakumaran Krishnan | Innovative Software Engineer
 description: "Explore the innovative projects handled by Selvakumaran Krishnan, showcasing creative solutions in web development, desktop applications, and technology-driven methodologies. Discover unique approaches to problem-solving."
 date: 2024-09-29
 keywords: Selvakumaran Krishnan, web development projects, innovative solutions, software engineering, desktop applications, creative techniques, open-source projects, technology solutions, responsive design, user-centric design
+faqs:
+  - question: "What kind of projects does Selvakumaran work on?"
+    answer: "Selvakumaran has a diverse portfolio of projects ranging from web applications to custom software solutions. He specializes in building dynamic, responsive websites and developing tools that solve specific business problems."
+
+  - question: "What is Selvakumaran’s development process like?"
+    answer: "Selvakumaran follows a structured process that includes requirement gathering, planning, design, development, and testing. He works closely with clients to understand their goals, ensures transparent communication throughout, and delivers solutions that align with project timelines."
+
+  - question: "How does Selvakumaran ensure project success?"
+    answer: "Success for Selvakumaran comes from a combination of technical expertise and clear client collaboration. He takes the time to thoroughly understand the project needs and uses his experience to guide clients through every phase, from concept to deployment."
+
+  - question: "Can Selvakumaran handle complex, large-scale projects?"
+    answer: "Absolutely. Selvakumaran has worked on projects of varying complexities, including multi-functional web applications and full-stack development. His technical know-how and problem-solving approach allow him to tackle large-scale projects with confidence."
+
+  - question: "Does Selvakumaran contribute to open-source projects?"
+    answer: "Yes, Selvakumaran is an active contributor to open-source projects. He believes in giving back to the developer community and enjoys collaborating with others on innovative solutions."
 ---
 
 <h1 class="display-6">Projects Handled by Selvakumaran Krishnan</h1><hr/>
@@ -51,6 +66,28 @@ keywords: Selvakumaran Krishnan, web development projects, innovative solutions,
         </div>
     </div>
 </div>
+
+
+<section id="faq-section" class="faq-container my-4">
+  <h2 class="mb-3 text-center">FAQs About My Projects and Contributions</h2>
+
+  <div class="accordion" id="faq">
+    {% for faq in page.faqs %}
+      <div class="accordion-item">
+        <h3 class="accordion-header">
+          <button class="accordion-button {% unless forloop.first %}collapsed{% endunless %}" type="button" data-bs-toggle="collapse" data-bs-target="#faq-{{ forloop.index }}" aria-expanded="{% if forloop.first %}true{% else %}false{% endif %}" aria-controls="faq-{{ forloop.index }}">
+            {{ faq.question }}
+          </button>
+        </h3>
+        <div id="faq-{{ forloop.index }}" class="accordion-collapse collapse {% if forloop.first %}show{% endif %}" data-bs-parent="#faq">
+          <div class="accordion-body">
+            {{ faq.answer }}
+          </div>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+</section>
 
 <div class="row py-lg-5">
       <div class="col-lg-7 col-md-8 mx-auto text-center">
