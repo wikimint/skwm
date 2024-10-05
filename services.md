@@ -51,7 +51,7 @@ faqs:
 
           </li>
   <li class="list-group-item">
-              <a class="nav-link" href="#managed-website">Managed Website Development</a>
+              <a class="nav-link" href="#managed-websites">Managed Website Development</a>
 </li>
   <li class="list-group-item">
               <a class="nav-link" href="#digital-marketing">Digital Marketing Services</a>
@@ -87,7 +87,7 @@ faqs:
 </div>
 
 <!-- Managed Website Development -->
-<div id="managed-website" class="card service-card mb-4">
+<div id="managed-websites" class="card service-card mb-4">
     <div class="card-body">
     <h3 class="card-title fs-4">Managed Website Development</h3>
     <p class="card-text">Focus on your business while I take care of the tech. From regular updates to security patches and ongoing support, I offer comprehensive website management services that keep your site running smoothly.</p>

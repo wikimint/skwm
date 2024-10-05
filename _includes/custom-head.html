@@ -133,4 +133,91 @@
       }
     }
     </script>
-    
+
+    {% if page.pname %}
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "CreativeWork",
+      "name": "{{ page.pname }}",
+      "headline": "{{ page.title }}",
+      "description": "{{ page.description }}",
+      "url": "{{ page.url | absolute_url }}",
+      "author": {
+        "@type": "Person",
+        "name": "Selvakumaran Krishnan"
+      }
+    }
+    </script>
+  {% endif %}
+
+
+{% assign project_pages = site.pages | where_exp: "page", "page.url contains '/projects/'" | limit: 6 %}
+{% if project_pages.size > 0 %}
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    "itemListElement": [
+      {% for project in project_pages %}
+      {
+        "@type": "CreativeWork",
+        "position": {{ forloop.index }},
+        "name": "{{ project.pname }}",
+        "description": "{{ project.description }}",
+        "url": "{{ project.url | absolute_url }}",
+        "author": {
+          "@type": "Person",
+          "name": "Selvakumaran Krishnan"
+        }
+      }{% unless forloop.last %},{% endunless %}
+      {% endfor %}
+    ]
+  }
+  </script>
+{% endif %}
+
+
+
+{% if page.url contains '/services' %}
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    "itemListElement": [
+      {% for service in site.data.services %}
+      {
+        "@type": "Service",
+        "name": "{{ service.name }}",
+        "description": "{{ service.description }}",
+        "provider": {
+          "@type": "Person",
+          "name": "Selvakumaran Krishnan"
+        },
+        "areaServed": "{{ service.areaServed | default: 'Global' }}",
+        "url": "{{ service.url | absolute_url }}"
+      }{% unless forloop.last %},{% endunless %}
+      {% endfor %}
+    ]
+  }
+  </script>
+{% endif %}
+
+
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "url": "{{ site.url }}",
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": "{{ site.url }}/search?q={search_term_string}",
+      "query-input": "required name=search_term_string"
+    }
+  }
+  </script>
+      
