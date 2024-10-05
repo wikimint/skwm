@@ -56,6 +56,9 @@ faqs:
   <li class="list-group-item">
               <a class="nav-link" href="#digital-marketing">Digital Marketing Services</a>
 </li>
+  <li class="list-group-item bg-warning-subtle">
+              <a class="nav-link" href="#service-disclaimer">Service Disclaimer</a>
+</li>
 </ul>
   </div>
 </div>
@@ -65,11 +68,21 @@ faqs:
 <!-- Main Content -->
 <main class="col-md-8 my-4">
 <img width="100%" height="auto" class="mb-4" alt="Professional web development, WordPress design, and digital marketing services to boost your online presence." src="/assets/images/web-development-services.webp"/>
+
+
+<div id="service-disclaimer" class="alert alert-warning mb-4" role="alert">
+<h4 class="alert-heading mb-3">Service Disclaimer</h4>
+  <p>The services listed here are meant to mainly highlight my skills and expertise. I’m happy to offer free consultations and advice, but I won’t be getting involved in any business (commercial) activities. My goal is to provide guidance, and I encourage you to collaborate with a local business professionals (service providers) nearby you for the implementation of my suggestions.</p>
+  <hr>
+  <p class="mb-0">This approach helps me stay updated with the latest technologies and allows me to apply my experience and knowledge in real-world projects with my current employer, while continually expanding through new challenges and ideas.</p>
+</div>
+
+
 <h2>Develop Your Business Potential</h2><hr/>
 <p>I specialize in delivering high-quality web development, WordPress design, and digital marketing services that help your business grow. Whether you’re building a new website or enhancing your online presence, I provide solutions that are efficient, scalable, and tailored to your goals.</p>
 
 <!-- Custom Web Development -->
-<div id="custom-development" class="card service-card mb-4">
+<div id="custom-development" class="card service-card mt-4">
     <div class="card-body">
     <h3 class="card-title fs-4">Custom Web Development</h3>
     <p class="card-text">Get tailor-made websites designed to meet your specific business needs. From static pages to full-fledged web applications, I provide high-performance, scalable solutions that fit your goals.</p>
@@ -78,7 +91,7 @@ faqs:
 </div>
 
 <!-- WordPress Design -->
-<div id="wordpress-design" class="card service-card mb-4">
+<div id="wordpress-design" class="card service-card mt-4">
     <div class="card-body">
     <h3 class="card-title fs-4">WordPress Design</h3>
     <p class="card-text">Beautiful and functional WordPress websites designed with user experience in mind. I’ll help you create a website that looks great, runs smoothly, and is easy to manage, no coding required.</p>
@@ -87,7 +100,7 @@ faqs:
 </div>
 
 <!-- Managed Website Development -->
-<div id="managed-websites" class="card service-card mb-4">
+<div id="managed-websites" class="card service-card mt-4">
     <div class="card-body">
     <h3 class="card-title fs-4">Managed Website Development</h3>
     <p class="card-text">Focus on your business while I take care of the tech. From regular updates to security patches and ongoing support, I offer comprehensive website management services that keep your site running smoothly.</p>
@@ -96,7 +109,7 @@ faqs:
 </div>
 
 <!-- Digital Marketing Services -->
-<div id="digital-marketing" class="card service-card mb-4">
+<div id="digital-marketing" class="card service-card mt-4">
     <div class="card-body">
     <h3 class="card-title fs-4">Digital Marketing Services</h3>
     <p class="card-text">Grow your online presence with expert digital marketing services. From SEO and content marketing to social media management, I help you connect with your audience and drive traffic to your site.</p>
