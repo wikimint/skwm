@@ -81,6 +81,8 @@ faqs:
 <h2>Develop Your Business Potential</h2><hr/>
 <p>I specialize in delivering high-quality web development, WordPress design, and digital marketing services that help your business grow. Whether you’re building a new website or enhancing your online presence, I provide solutions that are efficient, scalable, and tailored to your goals.</p>
 
+<p>My aim is to turn complex problems into simple solutions, and I love to work on projects that challenge my skills. With years of hands-on experience in technologies like PHP, JavaScript, WordPress, and C++, I’ve helped businesses build powerful digital products. Whether you're looking to develop a custom website, optimize your online presence with SEO, or create a desktop application, I’m here to help.</p>
+
 <!-- Custom Web Development -->
 <div id="custom-development" class="card service-card mt-4">
     <div class="card-body">
