@@ -180,7 +180,7 @@ Table of Contents
       <td>Jun, 2022</td>
     </tr>
     <tr>
-      <td><a href="/projects/seo-writing-assistant">SEO writing assistant</a> - To analyze blog article content quality and score on ral-time.</td>
+      <td><a href="/projects/seo-writing-assistant">SEO writing assistant</a> - To analyze blog article content quality and score on real-time.</td>
       <td>Apr, 2024</td>
     </tr>
       <tr>
