@@ -187,6 +187,14 @@ Table of Contents
     <td><a href="/projects/wmd-captcha-website-protection">Captcha protection</a> - To protect and secure web sites and forms with various features like catcha, right-click protection, inspect window protection, copy protection, etc.</td>
     <td>Jul, 2023</td>
   </tr>
+  <tr>
+    <td>JavaScript obfuscator - To obfuscate JavaScript code to protect it from code theft.</td>
+    <td>Jun, 2023</td>
+  </tr>
+    <tr>
+    <td>Text counter - It helps to quickly count words and characters of a copied text content.</td>
+    <td>Jul, 2022</td>
+  </tr>
   </tbody>
 </table>
 </div>
