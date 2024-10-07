@@ -5,6 +5,7 @@ max-height:200px ! important;
 margin:auto ! important;
 opacity:0.3;
 border-radius:0px ! important;
+object-fit: cover;
 }
 .img-cont{
     background: #000;

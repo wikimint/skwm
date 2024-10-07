@@ -49,5 +49,13 @@ $(document).ready(function() {
             $(document).one('click scroll keypress', function() {
                 loadScript();
             });
+
+            $("#visitors svg").ready(function() {
+                $("#visitors a").attr({
+                    "aria-label": "Visitors counter",
+                    "title": "Visitors counter"
+                });
+            });
+            
         });
 
