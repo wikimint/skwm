@@ -49,3 +49,9 @@ header.sticky-top{
     top:0 ! important;
     z-index:999999999 ! important;
 }
+#visitors a:nth-of-type(2){
+visibility:hidden;
+}
+a{
+    color:#1a0dab;
+}

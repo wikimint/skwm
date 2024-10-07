@@ -137,7 +137,7 @@ Web Development
 <p>I believe in clear communication, timely delivery, and maintaining a high standard of quality in everything I do. My approach is straightforward: listen, understand, and deliver a product that exceeds expectations. I’m committed to not only delivering results but also ensuring that the entire process is smooth and hassle-free for you.</p>
 
 <div id="service-disclaimer" class="alert alert-warning mb-4" role="alert">
-<h4 class="alert-heading mb-3">Service Disclaimer</h4>
+<h3 class="alert-heading mb-3 fs-4">Service Disclaimer</h3>
   <p>The services I offer are meant to showcase my skills and expertise. While I'm happy to provide free consultations and advice, I won't be participating in any business or commercial activities. My aim is to guide you, and I recommend partnering with local professionals near you for the actual implementation of my suggestions.</p>
   <hr>
   <p class="mb-0">This approach allows me to stay current with the latest technologies, apply my knowledge to real-world projects with my employer, and continue growing through new challenges and ideas.</p>
