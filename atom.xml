@@ -1,0 +1,40 @@
+---
+layout: null
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>{{ site.title | escape }}</title>
+  <link href="{{ site.url | append: site.baseurl }}/atom.xml" rel="self" />
+  <link href="{{ site.url | append: site.baseurl }}" />
+  <updated>{{ site.time | date_to_xmlschema }}</updated>
+  <author>
+    <name>{{ site.author }}</name>
+  </author>
+  <id>{{ site.url | append: site.baseurl }}</id>
+
+  {% assign all_pages = site.pages | concat: site.static_files %}
+
+  {% if site.include_homepage %}
+    <entry>
+      <title>Home</title>
+      <link href="{{ site.url }}/" />
+      <id>{{ site.url }}/</id>
+      <updated>{{ site.time | date_to_xmlschema }}</updated>
+      <summary>Homepage</summary>
+      <content type="html">Welcome to the homepage!</content>
+    </entry>
+  {% endif %}
+
+  {% for page in all_pages %}
+    {% if page.path contains ".md" and page.url and page.noindex != true %}
+      <entry>
+        <title>{{ page.title | escape }}</title>
+        <link href="{{ site.url }}{{ page.url | remove: ".md" | remove: ".html" | escape }}" />
+        <id>{{ site.url }}{{ page.url | remove: ".md" | remove: ".html" | escape }}</id>
+        <updated>{{ page.last_modified_at | default: page.date | date_to_xmlschema }}</updated>
+        <summary>{{ page.excerpt | strip_html | escape }}</summary>
+        <content type="html">{{ page.content | xml_escape }}</content>
+      </entry>
+    {% endif %}
+  {% endfor %}
+</feed>

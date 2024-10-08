@@ -8,6 +8,8 @@
     
   
     
+  
+    
       <url>
         <loc>http://localhost:4000/contact</loc>
         <lastmod>2024-09-29</lastmod>
@@ -41,6 +43,8 @@
         <changefreq>weekly</changefreq>
         <priority>0.5</priority>
       </url>
+    
+  
     
   
     

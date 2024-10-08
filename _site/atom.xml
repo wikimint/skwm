@@ -1,0 +1,1179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title></title>
+  <link href="http://localhost:4000/atom.xml" rel="self" />
+  <link href="http://localhost:4000" />
+  <updated>2024-10-08T23:22:08+05:30</updated>
+  <author>
+    <name></name>
+  </author>
+  <id>http://localhost:4000</id>
+
+  
+
+  
+
+  
+    
+  
+    
+  
+    
+      <entry>
+        <title>Get in Touch | Selvakumaran Krishnan – Web Developer &amp; SEO Specialist</title>
+        <link href="http://localhost:4000/contact" />
+        <id>http://localhost:4000/contact</id>
+        <updated>2024-09-29T00:00:00+05:30</updated>
+        <summary></summary>
+        <content type="html">&lt;div class=&quot;row mt-1&quot;&gt;
+&lt;div class=&quot;col-md-8 my-3&quot;&gt;
+&lt;h1&gt;Get in Touch &lt;span class=&quot;lead&quot;&gt;with Selvakumaran Krishnan&lt;/span&gt;&lt;/h1&gt;&lt;hr/&gt;
+&lt;p&gt;
+I’m here to help you with web development, SEO consulting, and custom software solutions. If you have any questions, project inquiries, or just want to say hello, feel free to reach out. Let&apos;s work together to bring your digital ideas to life!
+&lt;/p&gt;
+&lt;iframe src=&quot;https://wikimint-server.blogspot.com/p/contact.html?site=SK_SELVAKUMARAN_KRISHNAN&quot; style=&quot;width:100%;height:400px;border:none;overflow:hidden;&quot;&gt;&lt;/iframe&gt;
+&lt;h2&gt;Work Together&lt;/h2&gt;&lt;hr/&gt;
+&lt;h3&gt;Project Consultation&lt;/h3&gt;
+&lt;p&gt;I’m available for project consultations and custom development services. Whether you need a website built from scratch, SEO advice, or a unique software solution, I’d love to hear about your project.&lt;/p&gt;
+
+&lt;h2&gt;Location&lt;/h2&gt;
+&lt;p&gt;Based in Chennai, Tamil Nadu, India, I work with clients globally. While most of my work is done remotely, I’m open to in-person consultations if you&apos;re nearby.&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;col-md-4 my-3&quot;&gt;
+&lt;div class=&quot;card text-bg-light sticky-top&quot;&gt;
+  &lt;div class=&quot;card-header bg-primary-subtle&quot;&gt;Social Media&lt;/div&gt;
+  &lt;div class=&quot;card-body p-0&quot;&gt;
+    &lt;p class=&quot;p-3 pb-0&quot;&gt;You can also connect with me on social media for updates, insights, and casual discussions:&lt;/p&gt;
+
+&lt;ul class=&quot;list-group list-group-flush&quot;&gt;
+  &lt;li class=&quot;list-group-item&quot;&gt;
+  &lt;a href=&quot;http://linkedin.com/in/selvakumaran-krishnan&quot; aria-label=&quot;Connect with Selvakumaran Krishnan on LinkedIn&quot; title=&quot;Connect with me on LinkedIn&quot; class=&quot;text-secondary&quot; target=&quot;_blank&quot;&gt;
+              &lt;i class=&quot;bi bi-linkedin me-3&quot;&gt;&lt;/i&gt; Connect on LinkedIn
+          &lt;/a&gt;
+          &lt;/li&gt;
+  &lt;li class=&quot;list-group-item&quot;&gt;
+  &lt;a href=&quot;http://github.com/selvaklnc&quot; aria-label=&quot;Explore projects of Selvakumaran Krishnan on GitHub&quot; title=&quot;Explore my projects on GitHub&quot; class=&quot;text-secondary&quot; target=&quot;_blank&quot;&gt;
+              &lt;i class=&quot;bi bi-github me-3&quot;&gt;&lt;/i&gt; Explore on Github
+          &lt;/a&gt;
+          &lt;/li&gt;
+  &lt;li class=&quot;list-group-item&quot;&gt;&lt;a href=&quot;http://facebook.com/selvakumarank&quot; aria-label=&quot;Join Selvakumaran Krishnan on Facebook&quot; title=&quot;Join me on Facebook&quot; class=&quot;text-secondary&quot; target=&quot;_blank&quot;&gt;
+            &lt;i class=&quot;bi bi-facebook me-3&quot;&gt;&lt;/i&gt; Join me on Facebook
+        &lt;/a&gt;&lt;/li&gt;
+  &lt;li class=&quot;list-group-item&quot;&gt;&lt;a href=&quot;http://twitter.com/selvakumarankri&quot; aria-label=&quot;Follow Selvakumaran Krishnan on Twitter&quot; title=&quot;Follow me on Twitter&quot; class=&quot;text-secondary&quot; target=&quot;_blank&quot;&gt;
+            &lt;i class=&quot;bi bi-twitter me-3&quot;&gt;&lt;/i&gt; Follow me on Twitter
+        &lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;section id=&quot;faq-section&quot; class=&quot;faq-container my-4&quot;&gt;
+  &lt;h2 class=&quot;mb-5 text-center&quot;&gt;Common Questions About Getting in Touch&lt;/h2&gt;
+
+  &lt;div class=&quot;accordion&quot; id=&quot;faq&quot;&gt;
+    {% for faq in page.faqs %}
+      &lt;div class=&quot;accordion-item&quot;&gt;
+        &lt;h3 class=&quot;accordion-header&quot;&gt;
+          &lt;button class=&quot;accordion-button {% unless forloop.first %}collapsed{% endunless %}&quot; type=&quot;button&quot; data-bs-toggle=&quot;collapse&quot; data-bs-target=&quot;#faq-{{ forloop.index }}&quot; aria-expanded=&quot;{% if forloop.first %}true{% else %}false{% endif %}&quot; aria-controls=&quot;faq-{{ forloop.index }}&quot;&gt;
+            {{ faq.question }}
+          &lt;/button&gt;
+        &lt;/h3&gt;
+        &lt;div id=&quot;faq-{{ forloop.index }}&quot; class=&quot;accordion-collapse collapse {% if forloop.first %}show{% endif %}&quot; data-bs-parent=&quot;#faq&quot;&gt;
+          &lt;div class=&quot;accordion-body&quot;&gt;
+            {{ faq.answer }}
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    {% endfor %}
+  &lt;/div&gt;
+&lt;/section&gt;
+
+
+&lt;div class=&quot;row py-lg-5 mt-5&quot;&gt;
+&lt;div class=&quot;col-lg-7 col-md-8 mx-auto text-center&quot;&gt;
+&lt;h2&gt;Let’s Bring Your Vision to Life&lt;/h2&gt;
+&lt;hr/&gt;
+&lt;p&gt;Ready to kick off a new project or need expert help with something you’re already working on? I’m here to collaborate and make your ideas happen. Whether you need web development, SEO consulting, or just want to connect, don’t hesitate to get in touch. Let’s create something amazing together!&lt;p&gt;
+&lt;a href=&quot;/services&quot; class=&quot;btn btn-primary my-2 px-4 py-2&quot;&gt;Explore Services&lt;/a&gt;
+&lt;a href=&quot;/projects&quot; class=&quot;btn btn-outline-primary my-2 px-4 py-2&quot;&gt;View Projects&lt;/a&gt;
+</content>
+      </entry>
+    
+  
+    
+      <entry>
+        <title>Interactive HTML Color Code Picker with HEX &amp; RGB Output</title>
+        <link href="http://localhost:4000/projects/html-color-code-color-palette" />
+        <id>http://localhost:4000/projects/html-color-code-color-palette</id>
+        <updated>2022-06-26T00:00:00+05:30</updated>
+        <summary></summary>
+        <content type="html"> &lt;div class=&quot;card shadow-sm mb-4&quot; id=&quot;projectIntro&quot;&gt;
+    &lt;div class=&quot;card-header&quot;&gt;
+        &lt;h3 class=&quot;card-title&quot;&gt;Project Overview&lt;/h3&gt;
+    &lt;/div&gt;
+    &lt;!-- Project overview--&gt;
+    &lt;div class=&quot;card-body&quot;&gt;
+        &lt;p&gt;This project is an interactive HTML Color Code Palette designed to help users easily select and generate colors in HEX, RGB, and by name. It features an intuitive color picker, allowing users to choose colors from a palette, upload images to extract colors, or select from a predefined list of popular color names. The tool provides a seamless experience for designers, developers, and anyone who works with color codes.&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;!-- Features --&gt;
+&lt;div class=&quot;card shadow-sm mb-4&quot; id=&quot;projectFeatures&quot;&gt;
+    &lt;div class=&quot;card-header&quot;&gt;
+        &lt;h3 class=&quot;card-title&quot;&gt;Features&lt;/h3&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;card-body&quot;&gt;
+    &lt;ul&gt;
+   &lt;li&gt;Color Picker: Choose colors visually from an interactive palette.&lt;/li&gt;
+   &lt;li&gt;Image Color Extraction: Upload images to pick colors directly from any part of the image.&lt;/li&gt;
+   &lt;li&gt;HEX &amp; RGB Outputs: Get color codes in both HEX and RGB formats.&lt;/li&gt;
+   &lt;li&gt;Predefined Colors List: Select from a list of standard color names.&lt;/li&gt;
+   &lt;li&gt;Copy to Clipboard: Easily copy color codes for quick use.&lt;/li&gt;
+   &lt;li&gt;User-Friendly Interface: Clean and responsive design using jQuery for enhanced interactivity.&lt;/li&gt;
+   &lt;/ul&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;!-- Technologies Used --&gt;
+&lt;div class=&quot;card shadow-sm mb-4&quot; id=&quot;techStack&quot;&gt;
+    &lt;div class=&quot;card-header&quot;&gt;
+        &lt;h3 class=&quot;card-title&quot;&gt;Technologies Handled&lt;/h3&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;card-body&quot;&gt;
+    &lt;table&gt;
+      &lt;tr&gt;&lt;td&gt;{{ site.data.tech.html}} HTML&lt;/td&gt;&lt;td&gt;Structured the layout and elements of the web app.&lt;/td&gt;&lt;/tr&gt;
+      &lt;tr&gt;&lt;td&gt;{{ site.data.tech.css}} CSS&lt;/td&gt;&lt;td&gt;Styled the interface, ensuring responsive design across devices.&lt;/td&gt;&lt;/tr&gt;
+      &lt;tr&gt;&lt;td&gt;{{ site.data.tech.javascript}} JavaScript&lt;/td&gt;&lt;td&gt;Enabled the dynamic color generation and interaction features.&lt;/td&gt;&lt;/tr&gt;
+      &lt;tr&gt;&lt;td&gt;{{ site.data.tech.jquery}} jQuery&lt;/td&gt;&lt;td&gt;Simplified DOM manipulation and provided a smoother user experience.&lt;/td&gt;&lt;/tr&gt;
+    &lt;/table&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;!-- Lessons Learned --&gt;
+  &lt;div class=&quot;card shadow-sm mb-4&quot;&gt;
+      &lt;div class=&quot;card-header&quot;&gt;
+          &lt;h3 class=&quot;card-title&quot;&gt;Lessons Learned&lt;/h3&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;card-body&quot;&gt;
+&lt;ul&gt;
+&lt;li&gt;Improved understanding of color manipulation in web development, particularly working with color formats (HEX, RGB).&lt;/li&gt;
+&lt;li&gt;Gained experience in integrating image processing features to extract color information from images.&lt;/li&gt;
+&lt;li&gt;Learned to optimize the user interface for better usability and responsiveness across multiple devices.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+</content>
+      </entry>
+    
+  
+    
+      <entry>
+        <title>Selvakumaran Krishnan | Software Developer, SEO, Digital Marketing</title>
+        <link href="http://localhost:4000/" />
+        <id>http://localhost:4000/</id>
+        <updated>2024-09-29T00:00:00+05:30</updated>
+        <summary></summary>
+        <content type="html">&lt;section class=&quot;py-5 text-center container&quot;&gt;
+    &lt;div class=&quot;row py-lg-5&quot;&gt;
+      &lt;div class=&quot;col-lg-7 col-md-8 mx-auto&quot;&gt;
+      &lt;img width=&quot;150px&quot; height=&quot;auto&quot; src=&quot;/assets/images/sk-selvakumaran-krishnan.webp&quot; class=&quot;rounded mx-auto d-block mb-4&quot; alt=&quot;Selvakumaran Krishnan, a skilled software developer dedicated to building clean, efficient, and scalable solutions. Specializing in web development, desktop applications, SEO, and digital marketing, I deliver results that drive performance and growth.&quot;&gt;
+        &lt;h1 class=&quot;lead display-4 fw-medium&quot;&gt;Selvakumaran Krishnan&lt;/h1&gt;
+        &lt;p class=&quot;lead text-body-black&quot;&gt;A professional software developer with a focus on creating clean, efficient, and scalable solutions. I specialize in web development, native desktop applications, SEO, and digital marketing.&lt;/p&gt;
+        &lt;p&gt;
+          &lt;a href=&quot;/selvakumaran-krishnan&quot; class=&quot;btn btn-primary my-2 px-4 py-2&quot;&gt;More About Me&lt;/a&gt;
+          &lt;a href=&quot;https://selvakumaran.is-a.dev&quot; class=&quot;btn btn-outline-primary my-2 px-4 py-2&quot;&gt;Curriculum Vitae&lt;/a&gt;
+        &lt;/p&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/section&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+&lt;div class=&quot;col-md-6 my-3&quot;&gt;
+&lt;img width=&quot;100%&quot; height=&quot;auto&quot; src=&quot;/assets/images/selvakumaran-krishnan-web-developer-wikimint.webp&quot; class=&quot;rounded img-fluid w-100&quot; alt=&quot;Expert Software Developer | SEO, Digital Marketing, Web &amp; PHP Development Services&quot;&gt;
+&lt;/div&gt;
+&lt;div class=&quot;col-md-6 my-3&quot;&gt;
+&lt;h2&gt;About &lt;span class=&quot;lead fs-2&quot;&gt;Selvakumaran Krishnan&lt;/span&gt;&lt;/h2&gt;
+&lt;hr/&gt;
+&lt;p&gt;I am a dedicated professional with a strong passion for web design, online publishing, blog writing, programming, SEO, digital marketing, and framework development.&lt;/p&gt;
+
+&lt;p&gt;My journey began in 2008 when I started exploring various Web 2.0 platforms and quickly developed a keen interest in web design. In 2014, I expanded my expertise into programming, and since then, I have closely followed the evolution of open-source libraries, tools, themes, templates, datasets, plugins, widgets, and frameworks that shape the web development landscape.&lt;/p&gt;
+
+&lt;p&gt;Throughout my career, I have successfully managed a wide range of freelance projects, including developing WordPress sites, implementing SEO strategies, executing digital marketing campaigns, and creating web-based products. My commitment to staying at the forefront of industry trends enables me to deliver innovative and high-quality solutions for every project.&lt;/p&gt;
+&lt;a href=&quot;/selvakumaran-krishnan&quot; aria-label=&quot;Everything about Selvakumaran Krishnan&quot; title=&quot;About Selvakumaran Krishnan&quot; class=&quot;btn btn-outline-primary my-2 px-4 py-2&quot;&gt;More About Me&lt;/a&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+
+&lt;div class=&quot;row py-3&quot;&gt;
+&lt;div class=&quot;col-md-6 my-3&quot;&gt;
+&lt;h2 class=&quot;mb-3&quot;&gt;What I Do?&lt;/h2&gt;
+&lt;div class=&quot;accordion&quot; id=&quot;selvakumaran-krishnan-expertise&quot;&gt;
+  &lt;div class=&quot;accordion-item&quot;&gt;
+    &lt;h3 class=&quot;accordion-header&quot;&gt;
+      &lt;button class=&quot;accordion-button&quot; type=&quot;button&quot; data-bs-toggle=&quot;collapse&quot; data-bs-target=&quot;#web-development&quot; aria-expanded=&quot;true&quot; aria-controls=&quot;web-development&quot;&gt;
+Web Development
+      &lt;/button&gt;
+    &lt;/h3&gt;
+    &lt;div id=&quot;web-development&quot; class=&quot;accordion-collapse collapse show&quot; data-bs-parent=&quot;#selvakumaran-krishnan-expertise&quot;&gt;
+      &lt;div class=&quot;accordion-body&quot;&gt;
+         &lt;p&gt;I build responsive, SEO-friendly websites from the ground up using modern frameworks and technologies. From simple landing pages to complex web applications, I’ve got you covered. I focus on delivering sites that not only look great on any device but are also optimized to perform well in search engines, helping you reach a wider audience.&lt;/p&gt; &lt;p&gt;Every project is built with clean, scalable code, ensuring that your website grows seamlessly as your business evolves. No matter the complexity, I’m dedicated to crafting a web experience that meets your goals.&lt;/p&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;accordion-item&quot;&gt;
+    &lt;h3 class=&quot;accordion-header&quot;&gt;
+      &lt;button class=&quot;accordion-button collapsed&quot; type=&quot;button&quot; data-bs-toggle=&quot;collapse&quot; data-bs-target=&quot;#application-development&quot; aria-expanded=&quot;false&quot; aria-controls=&quot;application-development&quot;&gt;
+        Native Desktop Apps
+      &lt;/button&gt;
+    &lt;/h3&gt;
+    &lt;div id=&quot;application-development&quot; class=&quot;accordion-collapse collapse&quot; data-bs-parent=&quot;#selvakumaran-krishnan-expertise&quot;&gt;
+      &lt;div class=&quot;accordion-body&quot;&gt;
+        I develop fast and secure desktop applications tailored to your specific business needs.
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;accordion-item&quot;&gt;
+    &lt;h3 class=&quot;accordion-header&quot;&gt;
+      &lt;button class=&quot;accordion-button collapsed&quot; type=&quot;button&quot; data-bs-toggle=&quot;collapse&quot; data-bs-target=&quot;#seo-digital-marketing&quot; aria-expanded=&quot;false&quot; aria-controls=&quot;seo-digital-marketing&quot;&gt;
+        SEO &amp; Digital Marketing
+      &lt;/button&gt;
+    &lt;/h3&gt;
+    &lt;div id=&quot;seo-digital-marketing&quot; class=&quot;accordion-collapse collapse&quot; data-bs-parent=&quot;#selvakumaran-krishnan-expertise&quot;&gt;
+      &lt;div class=&quot;accordion-body&quot;&gt;
+        I optimize websites to rank better on search engines, improving online visibility and driving traffic to your site.
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;accordion-item&quot;&gt;
+    &lt;h3 class=&quot;accordion-header&quot;&gt;
+      &lt;button class=&quot;accordion-button collapsed&quot; type=&quot;button&quot; data-bs-toggle=&quot;collapse&quot; data-bs-target=&quot;#software-development&quot; aria-expanded=&quot;false&quot; aria-controls=&quot;software-development&quot;&gt;
+        Software Development
+      &lt;/button&gt;
+    &lt;/h3&gt;
+    &lt;div id=&quot;software-development&quot; class=&quot;accordion-collapse collapse&quot; data-bs-parent=&quot;#selvakumaran-krishnan-expertise&quot;&gt;
+      &lt;div class=&quot;accordion-body&quot;&gt;
+          I design and develop reliable, scalable software solutions tailored to meet business needs. My expertise spans multiple programming languages and platforms, ensuring high-performance applications for various industries.
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+    &lt;div class=&quot;accordion-item&quot;&gt;
+    &lt;h3 class=&quot;accordion-header&quot;&gt;
+      &lt;button class=&quot;accordion-button collapsed&quot; type=&quot;button&quot; data-bs-toggle=&quot;collapse&quot; data-bs-target=&quot;#article-writing&quot; aria-expanded=&quot;false&quot; aria-controls=&quot;article-writing&quot;&gt;
+        Article Writing
+      &lt;/button&gt;
+    &lt;/h3&gt;
+    &lt;div id=&quot;article-writing&quot; class=&quot;accordion-collapse collapse&quot; data-bs-parent=&quot;#selvakumaran-krishnan-expertise&quot;&gt;
+      &lt;div class=&quot;accordion-body&quot;&gt;
+          I&apos;m very interesting in writing technical articles as well as general knowledge resource blogs. I specialize in writing quality, unique and SEO optimized articles in a more structured format. I&apos;m very concerned in this, that&apos;s how I created &lt;a href=&quot;/projects/seo-writing-assistant&quot;&gt;SEO writing assistant&lt;/a&gt; tool
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+&lt;/div&gt;
+&lt;div class=&quot;col-md-6 my-3&quot;&gt;
+&lt;h2&gt;Why Work With Me?&lt;/h2&gt;
+&lt;hr/&gt;
+&lt;p&gt;I believe in clear communication, timely delivery, and maintaining a high standard of quality in everything I do. My approach is straightforward: listen, understand, and deliver a product that exceeds expectations. I’m committed to not only delivering results but also ensuring that the entire process is smooth and hassle-free for you.&lt;/p&gt;
+
+&lt;div id=&quot;service-disclaimer&quot; class=&quot;alert alert-warning mb-4&quot; role=&quot;alert&quot;&gt;
+&lt;h3 class=&quot;alert-heading mb-3 fs-4&quot;&gt;Service Disclaimer&lt;/h3&gt;
+  &lt;p&gt;The services I offer are meant to showcase my skills and expertise. While I&apos;m happy to provide free consultations and advice, I won&apos;t be participating in any business or commercial activities. My aim is to guide you, and I recommend partnering with local professionals near you for the actual implementation of my suggestions.&lt;/p&gt;
+  &lt;hr&gt;
+  &lt;p class=&quot;mb-0&quot;&gt;This approach allows me to stay current with the latest technologies, apply my knowledge to real-world projects with my employer, and continue growing through new challenges and ideas.&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;a href=&quot;/services&quot; aria-label=&quot;Services offered by Selvakumaran Krishnan&quot; title=&quot;Services - Selvakumaran Krishnan&quot; class=&quot;btn btn-outline-secondary my-2 px-4 py-2&quot;&gt;Explore Services&lt;/a&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+
+
+
+&lt;h2 class=&quot;my-4&quot;&gt;Projects Handled&lt;/h2&gt; &lt;hr/&gt; &lt;p&gt; Explore projects where I&apos;ve implemented creative solutions with cutting-edge technologies like web, native desktop, creative tricks. Each project highlights distinctive methodologies in web development and software engineering. These projects includes both personal freeware projects as well as official client projects. Take a look at them below! &lt;/p&gt;
+
+&lt;a href=&quot;/projects&quot; class=&quot;btn btn-outline-primary my-2 px-4 py-2&quot;&gt;Explore All Projects&lt;/a&gt;
+
+&lt;div class=&quot;album py-5&quot;&gt;
+    &lt;div class=&quot;container p-0&quot;&gt;
+
+
+
+        &lt;div class=&quot;row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3&quot;&gt;
+            {% assign projects_pages = site.pages | where_exp: &quot;page&quot;, &quot;page.url contains &apos;/projects/&apos;&quot; %}
+            {% if projects_pages.size &gt; 0 %}
+                {% assign shuffled_projects = projects_pages | sort: &apos;random&apos; | limit: 6 %}
+
+                {% for page in shuffled_projects %}
+                    &lt;div class=&quot;col&quot;&gt;
+                        &lt;div class=&quot;card shadow-sm projects-card&quot;&gt;
+                                {% assign image_url = page.image %}
+                                &lt;div class=&quot;img-cont&quot;&gt;
+                                
+                                {% if page.tags.size &gt; 0 %}
+                                    &lt;span class=&quot;tag w-sm-100 bg-primary text-white p-3 py-1&quot;&gt;{{ page.tags[0] }}&lt;/span&gt;
+                                {% endif %}
+                                
+                                &lt;img src=&quot;{{ image_url }}&quot; class=&quot;card-img-top card-img&quot; alt=&quot;{{ page.title }}&quot;&gt;
+                                &lt;/div&gt;
+                            &lt;p class=&quot;card-text p-3 pb-0 mb-0&quot;&gt;{{ page.description | strip_html | truncate: 150 }}&lt;/p&gt;
+                            &lt;div class=&quot;row d-flex align-items-center py-3 mx-3&quot;&gt;
+                                  &lt;a aria-label=&quot;{{ page.title }}&quot; title=&quot;{{ page.title }}&quot; href=&quot;{{ site.url }}{{ page.url | remove: &apos;.md&apos; | remove: &apos;.html&apos; }}&quot; class=&quot;btn bg-primary-subtle text-dark border border-primary w-100&quot;&gt;View Project&lt;/a&gt;
+                            &lt;/div&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+                {% endfor %}
+            {% else %}
+                &lt;div class=&quot;col&quot;&gt;
+                    &lt;p&gt;No projects found.&lt;/p&gt;
+                &lt;/div&gt;
+            {% endif %}
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+## Latest Blog Posts
+&lt;hr/&gt;
+&lt;p&gt;Stay updated with the most recent insights, tips, and stories from a variety of topics including web development, digital marketing, reading lists, and personal reflections. Here, we’ve curated the latest posts from our diverse blog collection, bringing you fresh and engaging content right at your fingertips. Whether you&apos;re looking for professional advice or thought-provoking reads, you&apos;ll find something that sparks your interest. Dive into the latest articles below!&lt;/p&gt;
+
+&lt;div class=&quot;list-group&quot;&gt;
+ 
+  &lt;div class=&quot;row mt-3&quot; id=&quot;posts-container&quot;&gt;
+            &lt;!-- Blog posts will be injected here --&gt;
+        &lt;/div&gt;
+
+&lt;/div&gt;
+
+
+
+&lt;section id=&quot;faq-section&quot; class=&quot;faq-container my-4&quot;&gt;
+  &lt;h2 class=&quot;mb-5 text-center&quot;&gt;Frequently Asked Questions About Selvakumaran Krishnan&apos;s Work&lt;/h2&gt;
+
+  &lt;div class=&quot;accordion&quot; id=&quot;faq&quot;&gt;
+    {% for faq in page.faqs %}
+      &lt;div class=&quot;accordion-item&quot;&gt;
+        &lt;h3 class=&quot;accordion-header&quot;&gt;
+          &lt;button class=&quot;accordion-button {% unless forloop.first %}collapsed{% endunless %}&quot; type=&quot;button&quot; data-bs-toggle=&quot;collapse&quot; data-bs-target=&quot;#faq-{{ forloop.index }}&quot; aria-expanded=&quot;{% if forloop.first %}true{% else %}false{% endif %}&quot; aria-controls=&quot;faq-{{ forloop.index }}&quot;&gt;
+            {{ faq.question }}
+          &lt;/button&gt;
+        &lt;/h3&gt;
+        &lt;div id=&quot;faq-{{ forloop.index }}&quot; class=&quot;accordion-collapse collapse {% if forloop.first %}show{% endif %}&quot; data-bs-parent=&quot;#faq&quot;&gt;
+          &lt;div class=&quot;accordion-body&quot;&gt;
+            {{ faq.answer }}
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    {% endfor %}
+  &lt;/div&gt;
+&lt;/section&gt;
+
+
+
+
+&lt;div class=&quot;row py-lg-5&quot;&gt;
+      &lt;div class=&quot;col-lg-7 col-md-8 mx-auto text-center&quot;&gt;
+&lt;h2&gt;Let’s Build Something Great Together&lt;/h2&gt;
+&lt;hr/&gt;
+&lt;p&gt;If you’re ready to start a project, need help with an ongoing one, or just want to connect, feel free to reach out. Let’s turn your ideas into reality.&lt;/p&gt;
+ &lt;p&gt;
+          &lt;a href=&quot;/services&quot; class=&quot;btn btn-primary my-2 px-4 py-2&quot;&gt;Explore Services&lt;/a&gt;
+          &lt;a href=&quot;/contact&quot; class=&quot;btn btn-outline-primary my-2 px-4 py-2&quot;&gt;Contact Me&lt;/a&gt;
+        &lt;/p&gt;
+&lt;/div&gt;
+
+
+
+
+
+
+
+&lt;script src=&quot;/assets/js/index.js&quot;&gt;&lt;/script&gt;</content>
+      </entry>
+    
+  
+    
+      <entry>
+        <title>Projects Handled by Selvakumaran Krishnan | Innovative Software Engineering &amp; Solutions</title>
+        <link href="http://localhost:4000/projects" />
+        <id>http://localhost:4000/projects</id>
+        <updated>2024-09-29T00:00:00+05:30</updated>
+        <summary></summary>
+        <content type="html">&lt;h1 class=&quot;display-6&quot;&gt;Projects Handled by Selvakumaran Krishnan&lt;/h1&gt;&lt;hr/&gt;
+
+&lt;p&gt;Welcome to my project portfolio! Here, you can find a range of projects where I&apos;ve applied creative solutions using the latest technologies in web development and native desktop applications. Each project showcases a unique approach to tackling real-world challenges, highlighting both personal freeware projects and professional client work.&lt;/p&gt;
+
+&lt;p&gt;From building responsive websites that enhance user experiences to developing desktop applications that streamline workflows, my work reflects a commitment to quality and innovation. I focus on integrating modern frameworks and user-friendly designs to meet the needs of various users.&lt;/p&gt;
+
+&lt;h2&gt;Explore My Innovative Solutions&lt;/h2&gt;&lt;hr/&gt;
+&lt;p&gt;This portfolio not only showcases my technical skills but also represents my journey of continuous learning in the ever-evolving tech landscape. I love experimenting with new technologies and following best practices to create functional and visually appealing solutions.&lt;/p&gt;
+
+&lt;p&gt;Take a look at the projects below to see how I bring ideas to life through technology!&lt;/p&gt;
+
+&lt;div class=&quot;album py-5&quot;&gt;
+    &lt;div class=&quot;container p-0&quot;&gt;
+        &lt;div class=&quot;row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3&quot;&gt;
+            {% assign projects_pages = site.pages | where_exp: &quot;page&quot;, &quot;page.url contains &apos;/projects/&apos;&quot; %}
+            {% if projects_pages.size &gt; 0 %}
+                {% assign shuffled_projects = projects_pages | sort: &apos;random&apos; %}
+
+                {% for page in shuffled_projects %}
+                    &lt;div class=&quot;col&quot;&gt;
+                        &lt;div class=&quot;card shadow-sm projects-card&quot;&gt;
+                                {% assign image_url = page.image %}
+                                &lt;div class=&quot;img-cont&quot;&gt;
+                                
+                                {% if page.tags.size &gt; 0 %}
+                                    &lt;span class=&quot;tag w-sm-100 bg-primary text-white p-3 py-1&quot;&gt;{{ page.tags[0] }}&lt;/span&gt;
+                                {% endif %}
+                                
+                                &lt;img src=&quot;{{ image_url }}&quot; class=&quot;card-img-top card-img&quot; alt=&quot;{{ page.title }}&quot;&gt;
+                                &lt;/div&gt;
+                            &lt;p class=&quot;card-text p-3 pb-0 mb-0&quot;&gt;{{ page.description | strip_html | truncate: 150 }}&lt;/p&gt;
+                            &lt;div class=&quot;row d-flex align-items-center py-3 mx-3&quot;&gt;
+                                  &lt;a aria-label=&quot;{{ page.title }}&quot; title=&quot;{{ page.title }}&quot; href=&quot;{{ site.url }}{{ page.url | remove: &apos;.md&apos; | remove: &apos;.html&apos; }}&quot; class=&quot;btn bg-primary-subtle text-dark border border-primary w-100&quot;&gt;View Project&lt;/a&gt;
+                            &lt;/div&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+                {% endfor %}
+            {% else %}
+                &lt;div class=&quot;col&quot;&gt;
+                    &lt;p&gt;No projects found.&lt;/p&gt;
+                &lt;/div&gt;
+            {% endif %}
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+&lt;section id=&quot;faq-section&quot; class=&quot;faq-container my-4&quot;&gt;
+  &lt;h2 class=&quot;mb-5 text-center&quot;&gt;FAQs About My Projects and Contributions&lt;/h2&gt;
+
+  &lt;div class=&quot;accordion&quot; id=&quot;faq&quot;&gt;
+    {% for faq in page.faqs %}
+      &lt;div class=&quot;accordion-item&quot;&gt;
+        &lt;h3 class=&quot;accordion-header&quot;&gt;
+          &lt;button class=&quot;accordion-button {% unless forloop.first %}collapsed{% endunless %}&quot; type=&quot;button&quot; data-bs-toggle=&quot;collapse&quot; data-bs-target=&quot;#faq-{{ forloop.index }}&quot; aria-expanded=&quot;{% if forloop.first %}true{% else %}false{% endif %}&quot; aria-controls=&quot;faq-{{ forloop.index }}&quot;&gt;
+            {{ faq.question }}
+          &lt;/button&gt;
+        &lt;/h3&gt;
+        &lt;div id=&quot;faq-{{ forloop.index }}&quot; class=&quot;accordion-collapse collapse {% if forloop.first %}show{% endif %}&quot; data-bs-parent=&quot;#faq&quot;&gt;
+          &lt;div class=&quot;accordion-body&quot;&gt;
+            {{ faq.answer }}
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    {% endfor %}
+  &lt;/div&gt;
+&lt;/section&gt;
+
+&lt;div class=&quot;row py-lg-5&quot;&gt;
+      &lt;div class=&quot;col-lg-7 col-md-8 mx-auto text-center&quot;&gt;
+&lt;h2&gt;Take Your Project to the Next Level?&lt;/h2&gt;
+&lt;hr/&gt;
+&lt;p&gt;If you’re looking to start something new, improve an existing project, or simply have a chat, I’m excited to help. Let’s work together to turn your ideas into successful digital solutions. Reach out today, and let’s make it happen!&lt;/p&gt;
+ &lt;p&gt;
+          &lt;a href=&quot;/services&quot; class=&quot;btn btn-primary my-2 px-4 py-2&quot;&gt;Explore Services&lt;/a&gt;
+          &lt;a href=&quot;/contact&quot; class=&quot;btn btn-outline-primary my-2 px-4 py-2&quot;&gt;Contact Me&lt;/a&gt;
+        &lt;/p&gt;
+&lt;/div&gt;</content>
+      </entry>
+    
+  
+    
+  
+    
+  
+    
+      <entry>
+        <title>About Selvakumaran Krishnan | Software Developer, SEO, Digital Marketing</title>
+        <link href="http://localhost:4000/selvakumaran-krishnan" />
+        <id>http://localhost:4000/selvakumaran-krishnan</id>
+        <updated>2024-09-29T00:00:00+05:30</updated>
+        <summary></summary>
+        <content type="html">&lt;div class=&quot;row&quot;&gt;
+&lt;div class=&quot;col-md-9&quot;&gt;
+&lt;h1&gt;Selvakumaran Krishnan&lt;/h1&gt;
+&lt;/div&gt;
+&lt;div class=&quot;col-md-3 d-flex align-items-center&quot;&gt;
+&lt;span class=&quot;ms-auto&quot;&gt;&lt;span class=&quot;rw-ui-container&quot;&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;hr/&gt;
+
+&lt;div class=&quot;row mt-2&quot;&gt;
+&lt;div class=&quot;col-md-3 my-3&quot;&gt;
+&lt;div class=&quot;accordion sticky-top&quot; id=&quot;accordionPanelsStayOpenExample&quot;&gt;
+  &lt;div class=&quot;accordion-item&quot;&gt;
+    &lt;h2 class=&quot;accordion-header&quot;&gt;
+      &lt;button class=&quot;accordion-button&quot; type=&quot;button&quot; data-bs-toggle=&quot;collapse&quot; data-bs-target=&quot;#panelsStayOpen-collapseOne&quot; aria-expanded=&quot;true&quot; aria-controls=&quot;panelsStayOpen-collapseOne&quot;&gt;
+Table of Contents
+      &lt;/button&gt;
+    &lt;/h2&gt;
+    &lt;div id=&quot;panelsStayOpen-collapseOne&quot; class=&quot;accordion-collapse collapse show&quot;&gt;
+      &lt;div class=&quot;accordion-body&quot;&gt;
+       &lt;ul class=&quot;list-group list-group-flush&quot;&gt;
+        &lt;li class=&quot;list-group-item&quot;&gt;&lt;a class=&quot;link-dark&quot; href=&quot;#early-life&quot;&gt;Early life&lt;/a&gt;&lt;/li&gt;
+        &lt;li class=&quot;list-group-item&quot;&gt;&lt;a class=&quot;link-dark&quot; href=&quot;#career&quot;&gt;Career overview&lt;/a&gt;&lt;/li&gt;
+        &lt;li class=&quot;list-group-item&quot;&gt;&lt;a class=&quot;link-dark&quot; href=&quot;#projects&quot;&gt;Key projects&lt;/a&gt;&lt;/li&gt;
+        &lt;li class=&quot;list-group-item&quot;&gt;&lt;a class=&quot;link-dark&quot; href=&quot;#skills&quot;&gt;Skills&lt;/a&gt;&lt;/li&gt;
+        &lt;li class=&quot;list-group-item&quot;&gt;&lt;a class=&quot;link-dark&quot; href=&quot;#education&quot;&gt;Education&lt;/a&gt;&lt;/li&gt;
+        &lt;li class=&quot;list-group-item&quot;&gt;&lt;a class=&quot;link-dark&quot; href=&quot;#community&quot;&gt;Community&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+
+
+&lt;div class=&quot;card text-bg-light mt-3&quot;&gt;
+  &lt;div class=&quot;card-header bg-success-subtle&quot;&gt;Selvakumaran Krishnan&lt;/div&gt;
+  &lt;div class=&quot;card-body&quot;&gt;
+    &lt;p class=&quot;card-text&quot;&gt;Selvakumaran Krishnan, a professional web developer and SEO specialist with a passion for writing about technology. He focuses on creating efficient, user-friendly solutions to help others navigate their businesses. His work is aimed at sharing knowledge and fostering connections.&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+
+
+
+&lt;div class=&quot;col-md-6 my-3&quot;&gt;
+&lt;p&gt;Selvakumaran Krishnan is a software developer known for his impactful work in web development and software engineering. With a solid foundation in programming and system design, he has created numerous tools and applications designed to streamline development processes and boost security.&lt;/p&gt;
+
+&lt;h2 id=&quot;early-life&quot; class=&quot;fs-4&quot;&gt;Early Life and Education&lt;/h2&gt;&lt;hr/&gt;
+&lt;p&gt;Selvakumaran Krishnan was born in 1988 in Tamil Nadu, India. He grew up in Kullanchavadi, located in the Cuddalore District, where he pursued his education and cultivated a passion for software development, web design, and digital marketing.&lt;/p&gt;
+
+&lt;h2 id=&quot;career&quot; class=&quot;fs-4&quot;&gt;Career Overview&lt;/h2&gt;&lt;hr/&gt;
+&lt;p&gt;Selvakumaran Krishnan has established himself as a reliable provider of top-notch software solutions across various platforms. His skills encompass a wide range of software development areas, including web technologies, application security, and contributions to open-source projects. He is especially recognized for developing wmWebStack, a freeware desktop application for Windows that combines essential web development tools like PHP, Apache, and MySQL into a seamless package.&lt;/p&gt;
+
+&lt;p&gt;Below is the list of notable work experience of Selvakumaran Krishnan:&lt;/p&gt;
+
+&lt;div class=&quot;table-responsive&quot;&gt;
+&lt;table class=&quot;table-white&quot;&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th scope=&quot;col&quot;&gt;Role&lt;/th&gt;
+      &lt;th scope=&quot;col&quot; class=&quot;text-nowrap&quot;&gt;Sector&lt;/th&gt;
+      &lt;th scope=&quot;col&quot; class=&quot;text-nowrap&quot;&gt;Responsibilities&lt;/th&gt;
+      &lt;th scope=&quot;col&quot; class=&quot;text-nowrap&quot;&gt;Duration&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Software Engineer&lt;/td&gt;
+      &lt;td&gt;IT&lt;/td&gt;
+      &lt;td&gt;Web development&lt;/td&gt;
+      &lt;td&gt;Current&lt;/td&gt;
+      &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Commercial Assistant&lt;/td&gt;
+      &lt;td&gt;Mechanical Industry&lt;/td&gt;
+      &lt;td&gt;Sales commercial&lt;/td&gt;
+      &lt;td&gt;5 years&lt;/td&gt;
+    &lt;/tr&gt;
+        &lt;tr&gt;
+      &lt;td&gt;Blogging&lt;/td&gt;
+      &lt;td&gt;Part-time&lt;/td&gt;
+      &lt;td&gt;Writing, SEO, web designing, full-stack, freeware &amp; open-source projects&lt;/td&gt;
+      &lt;td&gt;10 years&lt;/td&gt;
+    &lt;/tr&gt; 
+        &lt;tr&gt;
+      &lt;td&gt;Store/Purchase Asst.&lt;/td&gt;
+      &lt;td&gt;Mechanical Industry&lt;/td&gt;
+      &lt;td&gt;Inventory, purchase&lt;/td&gt;
+      &lt;td&gt;2 years&lt;/td&gt;
+      &lt;/tr&gt;
+          &lt;tr&gt;
+      &lt;td&gt;Service Engineer&lt;/td&gt;
+      &lt;td&gt;Computer Hardware&lt;/td&gt;
+      &lt;td&gt;Hardware service, software installation&lt;/td&gt;
+      &lt;td&gt;1 year&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Executive&lt;/td&gt;
+      &lt;td&gt;Industrial Supplies&lt;/td&gt;
+      &lt;td&gt;Inventory, sales, purchase&lt;/td&gt;
+      &lt;td&gt;2 years&lt;/td&gt;
+    &lt;/tr&gt;  
+           &lt;tr&gt;
+      &lt;td&gt;Teacher&lt;/td&gt;
+      &lt;td&gt;Seconary Grade&lt;/td&gt;
+      &lt;td&gt;Teaching 6th - 8th Std. classes&lt;/td&gt;
+      &lt;td&gt;1 year&lt;/td&gt;
+    &lt;/tr&gt; 
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+
+
+&lt;h2 id=&quot;projects&quot; class=&quot;fs-4&quot;&gt;Key Projects&lt;/h2&gt;&lt;hr/&gt;
+
+&lt;p&gt;Selvakumaran Krishnan is a versatile Web Developer, Writer, and SEO Specialist with a track record of creating impactful tools like wmWebStack, a localhost web stack for Windows, and various web applications including an SEO writing assistant and captcha protection systems. He is also an active contributor to open-source communities, specializing in technical writing and web development tools.&lt;/p&gt;
+
+&lt;h3 class=&quot;fs-5&quot;&gt;wmWebStack&lt;/h3&gt;
+&lt;p&gt;wmWebStack is a lightweight, integrated development environment for Windows, designed to simplify the web development process. The stack includes essential tools like PHP, Apache, MySQL, along with features such as Serveo.net for live publishing and ClamAV for enhanced security.&lt;/p&gt;
+
+&lt;h3 class=&quot;fs-5&quot;&gt;Wikimint&lt;/h3&gt;
+&lt;p&gt;Wikimint Magazine delivers insightful content on business and technology, covering topics like digital marketing, web development, and the latest tech trends. The magazine’s aim is to provide practical knowledge and industry insights, helping readers stay up-to-date on emerging developments in these fields.&lt;/p&gt;
+
+&lt;h3 class=&quot;fs-5&quot;&gt;Open Source Contributions&lt;/h3&gt;
+&lt;p&gt;Krishnan is actively engaged in the open-source community, where he contributes to enhancing development tools and frameworks used globally. His work spans across various projects, focusing on improving user experiences and advancing the tools available for developers worldwide.&lt;/p&gt;
+
+&lt;p&gt;Below is the list of all projects handled and successfully launched by Selvakumaran Krishnan:&lt;/p&gt;
+
+&lt;div class=&quot;table-responsive&quot;&gt;
+&lt;table class=&quot;table-white&quot;&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th scope=&quot;col&quot;&gt;Project&lt;/th&gt;
+      &lt;th scope=&quot;col&quot; class=&quot;text-nowrap&quot;&gt;Launched In&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;wmWebStack - HTTP localhost server stack written in C for Windows desktop.&lt;/td&gt;
+      &lt;td&gt;Aug, 2024&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;/projects/html-color-code-color-palette&quot;&gt;Color palette&lt;/a&gt; - To discover and find multiple color options for web development and creative designing.&lt;/td&gt;
+      &lt;td&gt;Jun, 2022&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;/projects/seo-writing-assistant&quot;&gt;SEO writing assistant&lt;/a&gt; - To analyze blog article content quality and score on real-time.&lt;/td&gt;
+      &lt;td&gt;Apr, 2024&lt;/td&gt;
+    &lt;/tr&gt;
+      &lt;tr&gt;
+    &lt;td&gt;&lt;a href=&quot;/projects/wmd-captcha-website-protection&quot;&gt;Captcha protection&lt;/a&gt; - To protect and secure web sites and forms with various features like catcha, right-click protection, inspect window protection, copy protection, etc.&lt;/td&gt;
+    &lt;td&gt;Jul, 2023&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;JavaScript obfuscator - To obfuscate JavaScript code to protect it from code theft.&lt;/td&gt;
+    &lt;td&gt;Jun, 2023&lt;/td&gt;
+  &lt;/tr&gt;
+    &lt;tr&gt;
+    &lt;td&gt;Text counter - It helps to quickly count words and characters of a copied text content.&lt;/td&gt;
+    &lt;td&gt;Jul, 2022&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&quot;skills&quot; class=&quot;fs-4&quot;&gt;Professional Skills&lt;/h2&gt;&lt;hr/&gt;
+
+&lt;h3 class=&quot;fs-5&quot;&gt;Programming Languages&lt;/h3&gt;
+&lt;p&gt;Selvakumaran Krishnan is proficient in C, PHP, and other programming languages essential for software and web development. His strong command of coding enables him to develop efficient, scalable, and secure applications.&lt;/p&gt;
+
+&lt;h3 class=&quot;fs-5&quot;&gt;Software Development&lt;/h3&gt;
+&lt;p&gt;He has extensive experience in designing and implementing software solutions, with a particular focus on performance, security, and usability. Krishnan&apos;s solutions are crafted to address the technical needs of developers and end-users alike.&lt;/p&gt;
+
+&lt;h3 class=&quot;fs-5&quot;&gt;Web Technologies&lt;/h3&gt;
+&lt;p&gt;Krishnan is well-versed in various web technologies, including PHP, Apache, MySQL, and ClamAV. His expertise spans web servers, databases, and integrated development environments, helping him create robust and secure web applications.&lt;/p&gt;
+
+&lt;h2 id=&quot;education&quot; class=&quot;fs-4&quot;&gt;Education and Background&lt;/h2&gt;&lt;hr/&gt;
+&lt;p&gt;Selvakumaran Krishnan holds a degree in Mathematics and has gained years of hands-on experience in software development. His career reflects a deep commitment to improving development practices and offering innovative solutions that meet the evolving needs of developers.&lt;/p&gt;
+
+&lt;h2 id=&quot;community&quot; class=&quot;fs-4&quot;&gt;Community Involvement&lt;/h2&gt;&lt;hr/&gt;
+&lt;p&gt;As a strong supporter of open-source software, Krishnan actively participates in the tech community. He shares his knowledge through contributions to collaborative projects, aiming to make development tools more accessible and efficient for users across the globe.&lt;/p&gt;
+&lt;/div&gt;
+
+
+
+
+
+&lt;div class=&quot;col-md-3 my-3&quot;&gt;
+    &lt;div class=&quot;card&quot;&gt;
+        &lt;img src=&quot;/assets/images/selvakumaran-krishnan.webp&quot; class=&quot;card-img-top&quot; alt=&quot;Profile Picture&quot;&gt;
+        &lt;p class=&quot;small text-center&quot;&gt;Selvakumaran Krishnan in 2023&lt;/p&gt;
+        &lt;div class=&quot;card-body small p-1&quot;&gt;
+&lt;table class=&quot;table table-borderless&quot;&gt;
+           &lt;tr&gt;
+           &lt;td&gt;&lt;strong&gt;Born&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;Selvakumaran Krishnan, 1988, India, Tamil Nadu&lt;/td&gt;
+           &lt;/tr&gt;
+           &lt;tr&gt;
+           &lt;td&gt;&lt;strong&gt;Nationality&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;Indian&lt;/td&gt;
+           &lt;/tr&gt;
+           &lt;tr&gt;
+           &lt;td&gt;&lt;strong&gt;Occupation&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;Software Engineer&lt;/td&gt;
+           &lt;/tr&gt;
+           &lt;tr&gt;
+           &lt;td&gt;&lt;strong&gt;Known for&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;Wikimint, Software Development, wmWebStack&lt;/td&gt;
+           &lt;/tr&gt;
+           &lt;tr&gt;
+           &lt;td&gt;&lt;strong&gt;Website&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;https://sk.wikimint.com&quot;&gt;sk.wikimint.com&lt;/a&gt;&lt;/td&gt;
+           &lt;/tr&gt;
+        
+           &lt;/table&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+    
+&lt;div class=&quot;card text-bg-light my-3 sticky-top&quot;&gt;
+  &lt;div class=&quot;card-header bg-warning-subtle&quot;&gt;Social Media&lt;/div&gt;
+  &lt;div class=&quot;card-body p-0&quot;&gt;
+    &lt;p class=&quot;p-3 pb-0&quot;&gt;You can also connect with me on social media for updates, insights, and casual discussions:&lt;/p&gt;
+
+&lt;ul class=&quot;list-group list-group-flush&quot;&gt;
+  &lt;li class=&quot;list-group-item&quot;&gt;
+  &lt;a href=&quot;http://linkedin.com/in/selvakumaran-krishnan&quot; aria-label=&quot;Connect with Selvakumaran Krishnan on LinkedIn&quot; title=&quot;Connect with me on LinkedIn&quot; class=&quot;text-secondary&quot; target=&quot;_blank&quot;&gt;
+              &lt;i class=&quot;bi bi-linkedin me-3&quot;&gt;&lt;/i&gt; Connect on LinkedIn
+          &lt;/a&gt;
+          &lt;/li&gt;
+  &lt;li class=&quot;list-group-item&quot;&gt;
+  &lt;a href=&quot;http://github.com/selvaklnc&quot; aria-label=&quot;Explore projects of Selvakumaran Krishnan on GitHub&quot; title=&quot;Explore my projects on GitHub&quot; class=&quot;text-secondary&quot; target=&quot;_blank&quot;&gt;
+              &lt;i class=&quot;bi bi-github me-3&quot;&gt;&lt;/i&gt; Explore on Github
+          &lt;/a&gt;
+          &lt;/li&gt;
+  &lt;li class=&quot;list-group-item&quot;&gt;&lt;a href=&quot;http://facebook.com/selvakumarank&quot; aria-label=&quot;Join Selvakumaran Krishnan on Facebook&quot; title=&quot;Join me on Facebook&quot; class=&quot;text-secondary&quot; target=&quot;_blank&quot;&gt;
+            &lt;i class=&quot;bi bi-facebook me-3&quot;&gt;&lt;/i&gt; Join me on Facebook
+        &lt;/a&gt;&lt;/li&gt;
+  &lt;li class=&quot;list-group-item&quot;&gt;&lt;a href=&quot;http://twitter.com/selvakumarankri&quot; aria-label=&quot;Follow Selvakumaran Krishnan on Twitter&quot; title=&quot;Follow me on Twitter&quot; class=&quot;text-secondary&quot; target=&quot;_blank&quot;&gt;
+            &lt;i class=&quot;bi bi-twitter me-3&quot;&gt;&lt;/i&gt; Follow me on Twitter
+        &lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+&lt;/div&gt;
+&lt;/div&gt;
+
+
+&lt;section id=&quot;faq-section&quot; class=&quot;faq-container my-4&quot;&gt;
+  &lt;h2 class=&quot;mb-5 text-center&quot;&gt;Common Questions About Selvakumaran Krishnan&lt;/h2&gt;
+
+  &lt;div class=&quot;accordion&quot; id=&quot;faq&quot;&gt;
+    {% for faq in page.faqs %}
+      &lt;div class=&quot;accordion-item&quot;&gt;
+        &lt;h3 class=&quot;accordion-header&quot;&gt;
+          &lt;button class=&quot;accordion-button {% unless forloop.first %}collapsed{% endunless %}&quot; type=&quot;button&quot; data-bs-toggle=&quot;collapse&quot; data-bs-target=&quot;#faq-{{ forloop.index }}&quot; aria-expanded=&quot;{% if forloop.first %}true{% else %}false{% endif %}&quot; aria-controls=&quot;faq-{{ forloop.index }}&quot;&gt;
+            {{ faq.question }}
+          &lt;/button&gt;
+        &lt;/h3&gt;
+        &lt;div id=&quot;faq-{{ forloop.index }}&quot; class=&quot;accordion-collapse collapse {% if forloop.first %}show{% endif %}&quot; data-bs-parent=&quot;#faq&quot;&gt;
+          &lt;div class=&quot;accordion-body&quot;&gt;
+            {{ faq.answer }}
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    {% endfor %}
+  &lt;/div&gt;
+&lt;/section&gt;
+
+
+&lt;div class=&quot;row py-lg-5&quot;&gt;
+      &lt;div class=&quot;col-lg-7 col-md-8 mx-auto text-center&quot;&gt;
+&lt;h2&gt;Turn Your Ideas Into Reality&lt;/h2&gt;
+&lt;hr/&gt;
+&lt;p&gt;Looking to start a new project or need assistance with an ongoing one? I’m here to work with you and transform your vision into something impactful. Whether it’s custom web development, SEO strategy, or simply a conversation, I’m ready to help. Reach out, and let’s build something extraordinary together!&lt;/p&gt;
+ &lt;p&gt;
+          &lt;a href=&quot;/services&quot; class=&quot;btn btn-primary my-2 px-4 py-2&quot;&gt;Explore Services&lt;/a&gt;
+          &lt;a href=&quot;/projects&quot; class=&quot;btn btn-outline-primary my-2 px-4 py-2&quot;&gt;View Projects&lt;/a&gt;
+        &lt;/p&gt;
+&lt;/div&gt;</content>
+      </entry>
+    
+  
+    
+      <entry>
+        <title>SEO Writing Assistant Tool for Content Optimization</title>
+        <link href="http://localhost:4000/projects/seo-writing-assistant" />
+        <id>http://localhost:4000/projects/seo-writing-assistant</id>
+        <updated>2024-04-20T00:00:00+05:30</updated>
+        <summary></summary>
+        <content type="html"> &lt;div class=&quot;card shadow-sm mb-4&quot;&gt;
+    &lt;div class=&quot;card-header&quot;&gt;
+        &lt;h3 class=&quot;card-title&quot;&gt;Project Overview&lt;/h3&gt;
+    &lt;/div&gt;
+    &lt;!-- Project overview--&gt;
+    &lt;div class=&quot;card-body&quot;&gt;
+        &lt;p&gt;The SEO Writing Assistant is a free online tool designed to help content creators optimize their writing for search engines. Similar to Yoast SEO and SEMRUSH Writing Assistant, this tool offers real-time SEO recommendations, keyword suggestions, readability analysis, and optimization tips to improve your content&apos;s visibility and ranking potential. Whether you&apos;re writing blog posts, articles, or website copy, the assistant ensures your content aligns with SEO best practices.&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;!-- Features --&gt;
+&lt;div class=&quot;card shadow-sm mb-4&quot;&gt;
+&lt;div class=&quot;card-header&quot;&gt;
+&lt;h3 class=&quot;card-title&quot;&gt;Features&lt;/h3&gt;
+&lt;/div&gt;
+&lt;div class=&quot;card-body&quot;&gt;
+&lt;ul&gt;
+    &lt;li&gt;&lt;strong&gt;Real-Time SEO Suggestions&lt;/strong&gt;: Receive instant feedback on keyword usage, meta tags, and overall SEO structure.&lt;/li&gt;
+    &lt;li&gt;&lt;strong&gt;Readability Analysis&lt;/strong&gt;: Improve content clarity with readability scores and recommendations.&lt;/li&gt;
+    &lt;li&gt;&lt;strong&gt;Keyword Suggestions&lt;/strong&gt;: Get relevant keyword ideas to boost your content’s search engine ranking.&lt;/li&gt;
+    &lt;li&gt;&lt;strong&gt;Meta Tag Optimization&lt;/strong&gt;: Create SEO-friendly meta titles and descriptions.&lt;/li&gt;
+    &lt;li&gt;&lt;strong&gt;Competitor Insights&lt;/strong&gt;: Analyze competitors’ content strategies and adjust your content accordingly.&lt;/li&gt;
+    &lt;li&gt;&lt;strong&gt;Plagiarism Checker&lt;/strong&gt;: Ensure your content is unique with built-in plagiarism detection.&lt;/li&gt;
+    &lt;li&gt;&lt;strong&gt;Content Scoring&lt;/strong&gt;: Get an overall SEO score for your content to gauge optimization success.&lt;/li&gt;
+    &lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;!-- Technologies Used --&gt;
+&lt;div class=&quot;card shadow-sm mb-4&quot; id=&quot;techStack&quot;&gt;
+    &lt;div class=&quot;card-header&quot;&gt;
+        &lt;h3 class=&quot;card-title&quot;&gt;Technologies Handled&lt;/h3&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;card-body&quot;&gt;
+           &lt;table&gt;
+      &lt;tr&gt;&lt;td&gt;{{ site.data.tech.html}} HTML&lt;/td&gt;&lt;td&gt;Structured the layout and elements of the web app.&lt;/td&gt;&lt;/tr&gt;
+      &lt;tr&gt;&lt;td&gt;{{ site.data.tech.css}} CSS&lt;/td&gt;&lt;td&gt;Styled the interface, ensuring responsive design across devices.&lt;/td&gt;&lt;/tr&gt;
+      &lt;tr&gt;&lt;td&gt;{{ site.data.tech.javascript}} JavaScript&lt;/td&gt;&lt;td&gt; To handle dynamic SEO analysis and real-time feedback.&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td&gt;{{ site.data.tech.jquery}} jQuery&lt;/td&gt;&lt;td&gt; To enhance interactivity and streamline tool functionality.&lt;/td&gt;&lt;/tr&gt;
+        &lt;tr&gt;&lt;td&gt;{{ site.data.tech.api}} API&lt;/td&gt;&lt;td&gt;Integrated to offer suggestions and keyword data from industry leaders like Google.&lt;/td&gt;&lt;/tr&gt;
+
+
+    &lt;/table&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;!-- Lessons Learned --&gt;
+  &lt;div class=&quot;card shadow-sm mb-4&quot;&gt;
+      &lt;div class=&quot;card-header&quot;&gt;
+          &lt;h3 class=&quot;card-title&quot;&gt;Lessons Learned&lt;/h3&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;card-body&quot;&gt;
+&lt;ul&gt;
+&lt;li&gt;Deepened knowledge of SEO principles and how they affect content ranking.&lt;/li&gt;
+&lt;li&gt;Enhanced understanding of content readability, keyword density, and meta tag importance in SEO.&lt;/li&gt;
+&lt;li&gt;Learned how to integrate multiple SEO APIs to create a comprehensive content optimization tool.&lt;/li&gt;
+&lt;li&gt;Gained experience in user experience (UX) design to ensure the tool is both intuitive and effective.&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;/div&gt;
+&lt;/div&gt;
+
+</content>
+      </entry>
+    
+  
+    
+      <entry>
+        <title>Professional Web Development &amp; SEO Services | Selvakumaran Krishnan</title>
+        <link href="http://localhost:4000/services" />
+        <id>http://localhost:4000/services</id>
+        <updated>2024-09-29T00:00:00+05:30</updated>
+        <summary></summary>
+        <content type="html">&lt;h1 class=&quot;service-title mb-4&quot;&gt;Professional Web Development Services&lt;/h1&gt;&lt;hr/&gt;
+
+
+&lt;div class=&quot;row&quot;&gt;
+      &lt;!-- Sidebar --&gt;
+      &lt;div class=&quot;col-md-4 my-4&quot;&gt;
+      &lt;div class=&quot;card text-bg-light sticky-top&quot;&gt;
+  &lt;div class=&quot;card-header bg-primary-subtle&quot;&gt;Available Services&lt;/div&gt;
+  &lt;div class=&quot;card-body p-0&quot;&gt;
+    &lt;p class=&quot;p-3 pb-0&quot;&gt;Navigate through the variety of services I offer, tailored to meet your digital needs. From custom web development to effective digital marketing strategies, find the solutions that will elevate your business.&lt;/p&gt;
+
+&lt;ul class=&quot;list-group list-group-flush&quot;&gt;
+  &lt;li class=&quot;list-group-item&quot;&gt;
+            &lt;a class=&quot;nav-link active&quot; href=&quot;#custom-development&quot;&gt;Custom Web Development&lt;/a&gt;
+
+          &lt;/li&gt;
+  &lt;li class=&quot;list-group-item&quot;&gt;
+            &lt;a class=&quot;nav-link&quot; href=&quot;#wordpress-design&quot;&gt;WordPress Design&lt;/a&gt;
+
+          &lt;/li&gt;
+  &lt;li class=&quot;list-group-item&quot;&gt;
+              &lt;a class=&quot;nav-link&quot; href=&quot;#managed-websites&quot;&gt;Managed Website Development&lt;/a&gt;
+&lt;/li&gt;
+  &lt;li class=&quot;list-group-item&quot;&gt;
+              &lt;a class=&quot;nav-link&quot; href=&quot;#digital-marketing&quot;&gt;Digital Marketing Services&lt;/a&gt;
+&lt;/li&gt;
+  &lt;li class=&quot;list-group-item bg-warning-subtle&quot;&gt;
+              &lt;a class=&quot;nav-link&quot; href=&quot;#service-disclaimer&quot;&gt;Service Disclaimer&lt;/a&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+
+&lt;!-- Main Content --&gt;
+&lt;main class=&quot;col-md-8 my-4&quot;&gt;
+&lt;img width=&quot;100%&quot; height=&quot;auto&quot; class=&quot;mb-4&quot; alt=&quot;Professional web development, WordPress design, and digital marketing services to boost your online presence.&quot; src=&quot;/assets/images/web-development-services.webp&quot;/&gt;
+
+
+&lt;div id=&quot;service-disclaimer&quot; class=&quot;alert alert-warning mb-4&quot; role=&quot;alert&quot;&gt;
+&lt;h4 class=&quot;alert-heading mb-3&quot;&gt;Service Disclaimer&lt;/h4&gt;
+  &lt;p&gt;The services listed here are meant to mainly highlight my skills and expertise. I’m happy to offer free consultations and advice, but I won’t be getting involved in any business (commercial) activities. My goal is to provide guidance, and I encourage you to collaborate with a local business professionals (service providers) nearby you for the implementation of my suggestions.&lt;/p&gt;
+  &lt;hr&gt;
+  &lt;p class=&quot;mb-0&quot;&gt;This approach helps me stay updated with the latest technologies and allows me to apply my experience and knowledge in real-world projects with my current employer, while continually expanding through new challenges and ideas.&lt;/p&gt;
+&lt;/div&gt;
+
+
+&lt;h2&gt;Develop Your Business Potential&lt;/h2&gt;&lt;hr/&gt;
+&lt;p&gt;I specialize in delivering high-quality web development, WordPress design, and digital marketing services that help your business grow. Whether you’re building a new website or enhancing your online presence, I provide solutions that are efficient, scalable, and tailored to your goals.&lt;/p&gt;
+
+&lt;p&gt;My aim is to turn complex problems into simple solutions, and I love to work on projects that challenge my skills. With years of hands-on experience in technologies like PHP, JavaScript, WordPress, and C++, I’ve helped businesses build powerful digital products. Whether you&apos;re looking to develop a custom website, optimize your online presence with SEO, or create a desktop application, I’m here to help.&lt;/p&gt;
+
+&lt;!-- Custom Web Development --&gt;
+&lt;div id=&quot;custom-development&quot; class=&quot;card service-card mt-4&quot;&gt;
+    &lt;div class=&quot;card-body&quot;&gt;
+    &lt;h3 class=&quot;card-title fs-4&quot;&gt;Custom Web Development&lt;/h3&gt;
+    &lt;p class=&quot;card-text&quot;&gt;Get tailor-made websites designed to meet your specific business needs. From static pages to full-fledged web applications, I provide high-performance, scalable solutions that fit your goals.&lt;/p&gt;
+        &lt;a href=&quot;/contact&quot; aria-label=&quot;Get custom web development services&quot; class=&quot;btn btn-outline-primary my-2 px-4 py-2&quot;&gt;Get Started&lt;/a&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;!-- WordPress Design --&gt;
+&lt;div id=&quot;wordpress-design&quot; class=&quot;card service-card mt-4&quot;&gt;
+    &lt;div class=&quot;card-body&quot;&gt;
+    &lt;h3 class=&quot;card-title fs-4&quot;&gt;WordPress Design&lt;/h3&gt;
+    &lt;p class=&quot;card-text&quot;&gt;Beautiful and functional WordPress websites designed with user experience in mind. I’ll help you create a website that looks great, runs smoothly, and is easy to manage, no coding required.&lt;/p&gt;
+        &lt;a href=&quot;/contact&quot; aria-label=&quot;Get WordPress design&quot; class=&quot;btn btn-outline-primary my-2 px-4 py-2&quot;&gt;Get Started&lt;/a&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;!-- Managed Website Development --&gt;
+&lt;div id=&quot;managed-websites&quot; class=&quot;card service-card mt-4&quot;&gt;
+    &lt;div class=&quot;card-body&quot;&gt;
+    &lt;h3 class=&quot;card-title fs-4&quot;&gt;Managed Website Development&lt;/h3&gt;
+    &lt;p class=&quot;card-text&quot;&gt;Focus on your business while I take care of the tech. From regular updates to security patches and ongoing support, I offer comprehensive website management services that keep your site running smoothly.&lt;/p&gt;
+        &lt;a href=&quot;/contact&quot; aria-label=&quot;Get managed website development services&quot; class=&quot;btn btn-outline-primary my-2 px-4 py-2&quot;&gt;Get Started&lt;/a&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;!-- Digital Marketing Services --&gt;
+&lt;div id=&quot;digital-marketing&quot; class=&quot;card service-card mt-4&quot;&gt;
+    &lt;div class=&quot;card-body&quot;&gt;
+    &lt;h3 class=&quot;card-title fs-4&quot;&gt;Digital Marketing Services&lt;/h3&gt;
+    &lt;p class=&quot;card-text&quot;&gt;Grow your online presence with expert digital marketing services. From SEO and content marketing to social media management, I help you connect with your audience and drive traffic to your site.&lt;/p&gt;
+    &lt;a href=&quot;/contact&quot; aria-label=&quot;Get digital marketing services&quot; class=&quot;btn btn-outline-primary my-2 px-4 py-2&quot;&gt;Get Started&lt;/a&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;/main&gt;
+&lt;/div&gt;
+
+&lt;section id=&quot;faq-section&quot; class=&quot;faq-container my-4&quot;&gt;
+  &lt;h2 class=&quot;mb-5 text-center&quot;&gt;Frequently Asked Questions About My Services&lt;/h2&gt;
+
+  &lt;div class=&quot;accordion&quot; id=&quot;faq&quot;&gt;
+    {% for faq in page.faqs %}
+      &lt;div class=&quot;accordion-item&quot;&gt;
+        &lt;h3 class=&quot;accordion-header&quot;&gt;
+          &lt;button class=&quot;accordion-button {% unless forloop.first %}collapsed{% endunless %}&quot; type=&quot;button&quot; data-bs-toggle=&quot;collapse&quot; data-bs-target=&quot;#faq-{{ forloop.index }}&quot; aria-expanded=&quot;{% if forloop.first %}true{% else %}false{% endif %}&quot; aria-controls=&quot;faq-{{ forloop.index }}&quot;&gt;
+            {{ faq.question }}
+          &lt;/button&gt;
+        &lt;/h3&gt;
+        &lt;div id=&quot;faq-{{ forloop.index }}&quot; class=&quot;accordion-collapse collapse {% if forloop.first %}show{% endif %}&quot; data-bs-parent=&quot;#faq&quot;&gt;
+          &lt;div class=&quot;accordion-body&quot;&gt;
+            {{ faq.answer }}
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    {% endfor %}
+  &lt;/div&gt;
+&lt;/section&gt;
+
+
+&lt;div class=&quot;row py-lg-5&quot;&gt;
+      &lt;div class=&quot;col-lg-7 col-md-8 mx-auto text-center&quot;&gt;
+&lt;h2&gt;Bring Your Vision to Life&lt;/h2&gt;
+&lt;hr/&gt;
+&lt;p&gt;Whether you’re starting a new project or need expert guidance on something in progress, I’m ready to collaborate and make your vision a reality. From custom web development to SEO solutions, I’m here to support your goals. Let’s connect and create something truly exceptional together!&lt;/p&gt;
+ &lt;p&gt;
+          &lt;a href=&quot;/projects&quot; class=&quot;btn btn-primary my-2 px-4 py-2&quot;&gt;Explore Projects&lt;/a&gt;
+          &lt;a href=&quot;/contact&quot; class=&quot;btn btn-outline-primary my-2 px-4 py-2&quot;&gt;Contact Me&lt;/a&gt;
+        &lt;/p&gt;
+&lt;/div&gt;</content>
+      </entry>
+    
+  
+    
+      <entry>
+        <title>Sitemap | wmWebStack</title>
+        <link href="http://localhost:4000/sitemap" />
+        <id>http://localhost:4000/sitemap</id>
+        <updated>2024-09-29T00:00:00+05:30</updated>
+        <summary></summary>
+        <content type="html">&lt;h1&gt;Sitemap&lt;/h1&gt;&lt;hr/&gt;
+
+  &lt;h2&gt;&lt;strong&gt;Pages&lt;/strong&gt;&lt;/h2&gt;&lt;hr/&gt;
+  &lt;ul class=&quot;list-group list-group-flush my-3&quot;&gt;
+    &lt;li class=&quot;list-group-item&quot;&gt;&lt;a href=&quot;{{ site.url }}/&quot;&gt;Home&lt;/a&gt;&lt;/li&gt;
+    &lt;li class=&quot;list-group-item&quot;&gt;&lt;a href=&quot;{{ site.url }}/selvakumaran-krishnan&quot;&gt;About Selvakumaran Krishnan&lt;/a&gt;&lt;/li&gt;
+    &lt;li class=&quot;list-group-item&quot;&gt;&lt;a href=&quot;{{ site.url }}/projects&quot;&gt;Projects handled by Selvakumaran Krishnan&lt;/a&gt;&lt;/li&gt;
+    &lt;li class=&quot;list-group-item&quot;&gt;&lt;a href=&quot;{{ site.url }}/services&quot;&gt;Services offered by Selvakumaran Krishnan&lt;/a&gt;&lt;/li&gt;
+        &lt;li class=&quot;list-group-item&quot;&gt;&lt;a href=&quot;{{ site.url }}/contact&quot;&gt;Contact Selvakumaran Krishnan&lt;/a&gt;&lt;/li&gt;
+
+    &lt;!-- Add other specific home directory pages if necessary --&gt;
+  &lt;/ul&gt;
+
+  &lt;h2&gt;&lt;strong&gt;Projects&lt;/strong&gt;&lt;/h2&gt;&lt;hr/&gt;
+   &lt;ul class=&quot;list-group list-group-flush my-3&quot;&gt;
+    {% assign projects_pages = site.pages | where_exp: &quot;page&quot;, &quot;page.url contains &apos;/projects/&apos;&quot; %}
+    {% if projects_pages.size &gt; 0 %}
+      {% for page in projects_pages %}
+        {% if page.title and page.url %}
+          &lt;li class=&quot;list-group-item&quot;&gt;&lt;a href=&quot;{{ site.url }}{{ page.url | remove: &quot;.md&quot; | remove: &quot;.html&quot; }}&quot;&gt;{{ page.title | escape }}&lt;/a&gt;&lt;/li&gt;
+        {% endif %}
+      {% endfor %}
+    {% else %}
+      &lt;li&gt;No documentation pages found.&lt;/li&gt;
+    {% endif %}
+  &lt;/ul&gt;
+</content>
+      </entry>
+    
+  
+    
+  
+    
+  
+    
+      <entry>
+        <title>wmdCaptcha is a reCaptcha alternative with full web protection</title>
+        <link href="http://localhost:4000/projects/wmd-captcha-website-protection" />
+        <id>http://localhost:4000/projects/wmd-captcha-website-protection</id>
+        <updated>2023-07-15T00:00:00+05:30</updated>
+        <summary></summary>
+        <content type="html"> &lt;div class=&quot;card shadow-sm mb-4&quot;&gt;
+    &lt;div class=&quot;card-header&quot;&gt;
+        &lt;h3 class=&quot;card-title&quot;&gt;Project Overview&lt;/h3&gt;
+    &lt;/div&gt;
+    &lt;!-- Project overview--&gt;
+    &lt;div class=&quot;card-body&quot;&gt;
+        &lt;p&gt;wmdCaptcha is a lightweight, open-source CAPTCHA and form protection solution developed to secure web forms against automated bots and spam submissions. The project is built to be simple yet effective, integrating seamlessly into a variety of web platforms with minimal effort.&lt;/p&gt;
+        &lt;p&gt;The project aims to provide a flexible and reliable CAPTCHA solution for web developers who need form security without the overhead of large libraries or services. It’s ideal for use in contact forms, login pages, and any form submission mechanism that requires user verification.&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;!-- Features --&gt;
+&lt;div class=&quot;card shadow-sm mb-4&quot;&gt;
+    &lt;div class=&quot;card-header&quot;&gt;
+        &lt;h3 class=&quot;card-title&quot;&gt;Features&lt;/h3&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;card-body&quot;&gt;
+        - Easy integration with HTML forms
+        - Simple and easy CAPTCHA challenges to enhance security
+        - Protection against common spam and bot-based attacks
+        - Lightweight and fast, making it suitable for performance-sensitive websites
+        - Include common web based securities like, right-click prevention, text copy protection, etc.
+        - Protects developer console window.
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;!-- Technologies Used --&gt;
+&lt;div class=&quot;card shadow-sm mb-4&quot; id=&quot;techStack&quot;&gt;
+    &lt;div class=&quot;card-header&quot;&gt;
+        &lt;h3 class=&quot;card-title&quot;&gt;Technologies Handled&lt;/h3&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;card-body&quot;&gt;
+           &lt;table&gt;
+      &lt;tr&gt;&lt;td&gt;{{ site.data.tech.html}} HTML&lt;/td&gt;&lt;td&gt;Structured the layout and elements of the web app.&lt;/td&gt;&lt;/tr&gt;
+      &lt;tr&gt;&lt;td&gt;{{ site.data.tech.css}} CSS&lt;/td&gt;&lt;td&gt;Styled the interface, ensuring responsive design across devices.&lt;/td&gt;&lt;/tr&gt;
+      &lt;tr&gt;&lt;td&gt;{{ site.data.tech.javascript}} JavaScript&lt;/td&gt;&lt;td&gt;Enabled the dynamic color generation and interaction features.&lt;/td&gt;&lt;/tr&gt;
+    &lt;/table&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;!-- Lessons Learned --&gt;
+  &lt;div class=&quot;card shadow-sm mb-4&quot;&gt;
+      &lt;div class=&quot;card-header&quot;&gt;
+          &lt;h3 class=&quot;card-title&quot;&gt;Lessons Learned&lt;/h3&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;card-body&quot;&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;h4&gt;Balancing Usability and Security&lt;/h4&gt;
+&lt;p&gt;One of the main challenges in building wmdCaptcha was finding a balance between making the CAPTCHA strong enough to deter bots while still being user-friendly. CAPTCHAs are notoriously annoying to users, so it was essential to create one that was easy to solve but challenging for automated scripts. I learned that randomized challenges and customization options can go a long way in improving both security and user experience.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;h4&gt;Understanding Common Attack Vectors&lt;/h4&gt;
+&lt;p&gt;During the development process, I had to thoroughly research the various ways bots attempt to bypass CAPTCHA systems. This deep dive into the world of form-based attacks was enlightening and helped me implement strategies to protect forms more effectively. I learned how to block automated requests using time-based verification, hidden fields, and challenge randomness.&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;&lt;h4&gt;Optimizing Performance&lt;/h4&gt;
+&lt;p&gt;While CAPTCHAs are a security measure, they can also slow down websites if not implemented efficiently. Through this project, I learned the importance of writing lightweight and optimized code to ensure the CAPTCHA doesn’t affect site performance. I used efficient image rendering and avoided unnecessary processing to keep wmdCaptcha quick and responsive.&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;&lt;h4&gt;Customization and Flexibility&lt;/h4&gt;
+&lt;p&gt;Many developers require CAPTCHA systems that fit the look and feel of their website. I learned to design wmdCaptcha with high flexibility, allowing users to easily customize the appearance of the CAPTCHA to suit their needs. From font style to background color, I ensured the CAPTCHA could be personalized without sacrificing security.&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;&lt;h4&gt;The Importance of Documentation&lt;/h4&gt;
+&lt;p&gt;Throughout the project, I realized the value of thorough documentation. Creating clear and concise instructions for integration, usage, and customization is vital for open-source projects. Proper documentation helps users understand the system quickly and reduces the time spent on support.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;By working on wmdCaptcha, I not only strengthened my coding and security skills but also gained insight into the intricacies of balancing user experience with effective spam protection. This project has given me a deeper appreciation for the subtle complexities involved in web security.&lt;/p&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+
+</content>
+      </entry>
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+</feed>

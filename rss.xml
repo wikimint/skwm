@@ -1,0 +1,39 @@
+---
+layout: null
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>{{ site.title | escape }}</title>
+    <link>{{ site.url | append: site.baseurl }}</link>
+    <description>{{ site.description | escape }}</description>
+    <language>en-us</language>
+    <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
+    <atom:link href="{{ site.url | append: site.baseurl }}/rss.xml" rel="self" type="application/rss+xml" />
+
+    {% assign all_pages = site.pages | concat: site.static_files %}
+    
+    {% if site.include_homepage %}
+      <item>
+        <title>Home</title>
+        <link>{{ site.url }}/</link>
+        <guid>{{ site.url }}/</guid>
+        <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
+        <description>Homepage</description>
+      </item>
+    {% endif %}
+
+    {% for page in all_pages %}
+      {% if page.path contains ".md" and page.url and page.noindex != true %}
+        <item>
+          <title>{{ page.title | escape }}</title>
+          <link>{{ site.url }}{{ page.url | remove: ".md" | remove: ".html" | escape }}</link>
+          <guid>{{ site.url }}{{ page.url | remove: ".md" | remove: ".html" | escape }}</guid>
+          <pubDate>{{ page.last_modified_at | default: page.date | date_to_rfc822 }}</pubDate>
+          <description>{{ page.excerpt | strip_html | escape }}</description>
+        </item>
+      {% endif %}
+    {% endfor %}
+    
+  </channel>
+</rss>
