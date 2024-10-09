@@ -3,7 +3,7 @@
   <title></title>
   <link href="http://localhost:4000/atom.xml" rel="self" />
   <link href="http://localhost:4000" />
-  <updated>2024-10-08T23:22:08+05:30</updated>
+  <updated>2024-10-09T21:51:18+05:30</updated>
   <author>
     <name></name>
   </author>
@@ -178,9 +178,9 @@ I’m here to help you with web development, SEO consulting, and custom software
         <updated>2024-09-29T00:00:00+05:30</updated>
         <summary></summary>
         <content type="html">&lt;section class=&quot;py-5 text-center container&quot;&gt;
-    &lt;div class=&quot;row py-lg-5&quot;&gt;
+    &lt;div class=&quot;row&quot;&gt;
       &lt;div class=&quot;col-lg-7 col-md-8 mx-auto&quot;&gt;
-      &lt;img width=&quot;150px&quot; height=&quot;auto&quot; src=&quot;/assets/images/sk-selvakumaran-krishnan.webp&quot; class=&quot;rounded mx-auto d-block mb-4&quot; alt=&quot;Selvakumaran Krishnan, a skilled software developer dedicated to building clean, efficient, and scalable solutions. Specializing in web development, desktop applications, SEO, and digital marketing, I deliver results that drive performance and growth.&quot;&gt;
+      &lt;img width=&quot;300px&quot; height=&quot;300px&quot; src=&quot;/assets/images/selvakumaran-krishnan.webp&quot; class=&quot;rounded-circle mx-auto d-block mb-4&quot; alt=&quot;Selvakumaran Krishnan, a skilled software developer dedicated to building clean, efficient, and scalable solutions. Specializing in web development, desktop applications, SEO, and digital marketing, I deliver results that drive performance and growth.&quot;&gt;
         &lt;h1 class=&quot;lead display-4 fw-medium&quot;&gt;Selvakumaran Krishnan&lt;/h1&gt;
         &lt;p class=&quot;lead text-body-black&quot;&gt;A professional software developer with a focus on creating clean, efficient, and scalable solutions. I specialize in web development, native desktop applications, SEO, and digital marketing.&lt;/p&gt;
         &lt;p&gt;

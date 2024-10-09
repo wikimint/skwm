@@ -31,11 +31,10 @@ faqs:
   - question: "How can you collaborate with Selvakumaran Krishnan?"
     answer: "Whether you’re a business looking for a reliable software solution or a fellow developer interested in collaboration, Selvakumaran is open to new opportunities. He enjoys working on innovative projects and is always eager to help others with their web development challenges."
 ---
-
 <section class="py-5 text-center container">
-    <div class="row py-lg-5">
+    <div class="row">
       <div class="col-lg-7 col-md-8 mx-auto">
-      <img width="150px" height="auto" src="/assets/images/sk-selvakumaran-krishnan.webp" class="rounded mx-auto d-block mb-4" alt="Selvakumaran Krishnan, a skilled software developer dedicated to building clean, efficient, and scalable solutions. Specializing in web development, desktop applications, SEO, and digital marketing, I deliver results that drive performance and growth.">
+      <img width="300px" height="300px" src="/assets/images/selvakumaran-krishnan.webp" class="rounded-circle mx-auto d-block mb-4" alt="Selvakumaran Krishnan, a skilled software developer dedicated to building clean, efficient, and scalable solutions. Specializing in web development, desktop applications, SEO, and digital marketing, I deliver results that drive performance and growth.">
         <h1 class="lead display-4 fw-medium">Selvakumaran Krishnan</h1>
         <p class="lead text-body-black">A professional software developer with a focus on creating clean, efficient, and scalable solutions. I specialize in web development, native desktop applications, SEO, and digital marketing.</p>
         <p>
