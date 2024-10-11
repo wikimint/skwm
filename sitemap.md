@@ -8,15 +8,21 @@ date: 2024-09-29
 <h1>Sitemap</h1><hr/>
 
   <h2><strong>Pages</strong></h2><hr/>
-  <ul class="list-group list-group-flush my-3">
-    <li class="list-group-item"><a href="{{ site.url }}/">Home</a></li>
-    <li class="list-group-item"><a href="{{ site.url }}/selvakumaran-krishnan">About Selvakumaran Krishnan</a></li>
-    <li class="list-group-item"><a href="{{ site.url }}/projects">Projects handled by Selvakumaran Krishnan</a></li>
-    <li class="list-group-item"><a href="{{ site.url }}/services">Services offered by Selvakumaran Krishnan</a></li>
-        <li class="list-group-item"><a href="{{ site.url }}/contact">Contact Selvakumaran Krishnan</a></li>
 
-    <!-- Add other specific home directory pages if necessary -->
-  </ul>
+{% assign all_pages = site.pages %}
+
+<ul class="list-group list-group-flush my-3">
+  {% for page in all_pages %}
+    {% if page.path contains ".md" and page.url and page.noindex != true %}
+      {% assign dir = page.path | split: "/" %}
+      {% if dir.size == 1 %}
+        <li class="list-group-item"><a href="{{ site.url }}{{ page.url | remove: ".md" | remove: ".html" | escape }}">{{ page.title }}</a></li>
+      {% endif %}
+    {% endif %}
+  {% endfor %}
+</ul>
+
+
 
   <h2><strong>Projects</strong></h2><hr/>
    <ul class="list-group list-group-flush my-3">

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Professional Web Development & SEO Services | Selvakumaran Krishnan"
+title: "Get Consultatio at No Cost | Web Development & SEO Advice | Selvakumaran Krishnan"
 description: "Offering expert web development, SEO consulting, and custom software solutions to help businesses grow online. Get efficient, scalable, and user-friendly digital solutions tailored to your needs."
 date: 2024-09-29
 keywords:
@@ -30,14 +30,14 @@ faqs:
     answer: "Project timelines depend on the complexity and scope of the work, but Selvakumaran is committed to delivering on time. He provides an estimated timeline during the planning stage and keeps clients informed of progress at every step."
 ---
 
-<h1 class="service-title mb-4">Professional Web Development Services</h1><hr/>
+<h1 class="service-title mb-4">Web Development & SEO Consultation</h1><hr/>
 
 
 <div class="row">
       <!-- Sidebar -->
       <div class="col-md-4 my-4">
       <div class="card text-bg-light sticky-top">
-  <div class="card-header bg-primary-subtle">Available Services</div>
+  <div class="card-header bg-primary-subtle">Available Consultation</div>
   <div class="card-body p-0">
     <p class="p-3 pb-0">Navigate through the variety of services I offer, tailored to meet your digital needs. From custom web development to effective digital marketing strategies, find the solutions that will elevate your business.</p>
 

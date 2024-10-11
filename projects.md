@@ -95,7 +95,7 @@ faqs:
 <hr/>
 <p>If you’re looking to start something new, improve an existing project, or simply have a chat, I’m excited to help. Let’s work together to turn your ideas into successful digital solutions. Reach out today, and let’s make it happen!</p>
  <p>
-          <a href="/services" class="btn btn-primary my-2 px-4 py-2">Explore Services</a>
+          <a href="/get-consultation" class="btn btn-primary my-2 px-4 py-2">Get Consultation</a>
           <a href="/contact" class="btn btn-outline-primary my-2 px-4 py-2">Contact Me</a>
         </p>
 </div>

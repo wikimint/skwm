@@ -97,5 +97,5 @@ I’m here to help you with web development, SEO consulting, and custom software
 <h2>Let’s Bring Your Vision to Life</h2>
 <hr/>
 <p>Ready to kick off a new project or need expert help with something you’re already working on? I’m here to collaborate and make your ideas happen. Whether you need web development, SEO consulting, or just want to connect, don’t hesitate to get in touch. Let’s create something amazing together!<p>
-<a href="/services" class="btn btn-primary my-2 px-4 py-2">Explore Services</a>
+<a href="/get-consultation" class="btn btn-primary my-2 px-4 py-2">Get Consultation</a>
 <a href="/projects" class="btn btn-outline-primary my-2 px-4 py-2">View Projects</a>

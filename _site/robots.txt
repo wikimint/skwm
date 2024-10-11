@@ -1,4 +1,5 @@
 User-agent: *
 Allow: /
+Redirect 301 /services /get-consultation
 Sitemap: https://webstack.wikimint.com/sitemap.xml
 

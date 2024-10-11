@@ -307,7 +307,7 @@ Table of Contents
 <hr/>
 <p>Looking to start a new project or need assistance with an ongoing one? I’m here to work with you and transform your vision into something impactful. Whether it’s custom web development, SEO strategy, or simply a conversation, I’m ready to help. Reach out, and let’s build something extraordinary together!</p>
  <p>
-          <a href="/services" class="btn btn-primary my-2 px-4 py-2">Explore Services</a>
+          <a href="/get-consultation" class="btn btn-primary my-2 px-4 py-2">Get Consultation</a>
           <a href="/projects" class="btn btn-outline-primary my-2 px-4 py-2">View Projects</a>
         </p>
 </div>

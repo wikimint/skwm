@@ -20,6 +20,15 @@
   
     
       <url>
+        <loc>http://localhost:4000/get-consultation</loc>
+        <lastmod>2024-09-29</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.5</priority>
+      </url>
+    
+  
+    
+      <url>
         <loc>http://localhost:4000/projects/html-color-code-color-palette</loc>
         <lastmod>2022-06-26</lastmod>
         <changefreq>weekly</changefreq>
@@ -62,15 +71,6 @@
       <url>
         <loc>http://localhost:4000/projects/seo-writing-assistant</loc>
         <lastmod>2024-04-20</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.5</priority>
-      </url>
-    
-  
-    
-      <url>
-        <loc>http://localhost:4000/services</loc>
-        <lastmod>2024-09-29</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.5</priority>
       </url>

@@ -31,8 +31,8 @@ faqs:
   - question: "How can you collaborate with Selvakumaran Krishnan?"
     answer: "Whether you’re a business looking for a reliable software solution or a fellow developer interested in collaboration, Selvakumaran is open to new opportunities. He enjoys working on innovative projects and is always eager to help others with their web development challenges."
 ---
-<section class="py-5 text-center container">
-    <div class="row">
+<section class="py-5 text-center">
+    <div class="row container">
       <div class="col-lg-7 col-md-8 mx-auto">
       <img width="300px" height="300px" src="/assets/images/selvakumaran-krishnan.webp" class="rounded-circle mx-auto d-block mb-4" alt="Selvakumaran Krishnan, a skilled software developer dedicated to building clean, efficient, and scalable solutions. Specializing in web development, desktop applications, SEO, and digital marketing, I deliver results that drive performance and growth.">
         <h1 class="lead display-4 fw-medium">Selvakumaran Krishnan</h1>
@@ -142,7 +142,7 @@ Web Development
   <p class="mb-0">This approach allows me to stay current with the latest technologies, apply my knowledge to real-world projects with my employer, and continue growing through new challenges and ideas.</p>
 </div>
 
-<a href="/services" aria-label="Services offered by Selvakumaran Krishnan" title="Services - Selvakumaran Krishnan" class="btn btn-outline-secondary my-2 px-4 py-2">Explore Services</a>
+<a href="/get-consultation" aria-label="Services offered by Selvakumaran Krishnan" title="Services - Selvakumaran Krishnan" class="btn btn-outline-secondary my-2 px-4 py-2">Get Consultation</a>
 
 </div>
 </div>
@@ -237,14 +237,10 @@ Web Development
 <hr/>
 <p>If you’re ready to start a project, need help with an ongoing one, or just want to connect, feel free to reach out. Let’s turn your ideas into reality.</p>
  <p>
-          <a href="/services" class="btn btn-primary my-2 px-4 py-2">Explore Services</a>
+          <a href="/get-consultation" class="btn btn-primary my-2 px-4 py-2">Get Consultation</a>
           <a href="/contact" class="btn btn-outline-primary my-2 px-4 py-2">Contact Me</a>
         </p>
 </div>
-
-
-
-
 
 
 

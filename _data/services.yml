@@ -1,19 +1,19 @@
   - name: "Custom Web Development"
     description: "Unlock the potential of your business with personalized web development services tailored to your unique needs. Whether you require a simple static website or a robust web application, Selvakumaran Krishnan delivers high-performance, scalable solutions designed to help you achieve your business objectives."
     areaServed: "Global"
-    url: "/services#custom-development"
+    url: "/get-consultation#custom-development"
     
   - name: "WordPress Design"
     description: "Transform your online presence with stunning and user-friendly WordPress website designs. Selvakumaran Krishnan specializes in creating aesthetically pleasing and highly functional WordPress sites that enhance user experience and are easy to manage, requiring no coding skills."
     areaServed: "Global"
-    url: "/services#wordpress-design"
+    url: "/get-consultation#wordpress-design"
 
   - name: "Managed Website Development"
     description: "Let Selvakumaran Krishnan handle the technical aspects of your website while you focus on growing your business. With comprehensive managed website development services, including routine updates, security enhancements, and ongoing technical support, your website will remain secure and efficient."
     areaServed: "Global"
-    url: "/services#managed-websites"
+    url: "/get-consultation#managed-websites"
 
   - name: "Digital Marketing Services"
     description: "Elevate your brand's visibility and engage your target audience with expert digital marketing services. From search engine optimization (SEO) and content marketing strategies to effective social media management, Selvakumaran Krishnan helps you connect with customers and drive significant traffic to your website."
     areaServed: "Global"
-    url: "/services#digital-marketing"
+    url: "/get-consultation#digital-marketing"

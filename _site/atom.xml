@@ -3,7 +3,7 @@
   <title></title>
   <link href="http://localhost:4000/atom.xml" rel="self" />
   <link href="http://localhost:4000" />
-  <updated>2024-10-09T21:51:18+05:30</updated>
+  <updated>2024-10-11T21:00:27+05:30</updated>
   <author>
     <name></name>
   </author>
@@ -98,9 +98,142 @@ I’m here to help you with web development, SEO consulting, and custom software
 &lt;h2&gt;Let’s Bring Your Vision to Life&lt;/h2&gt;
 &lt;hr/&gt;
 &lt;p&gt;Ready to kick off a new project or need expert help with something you’re already working on? I’m here to collaborate and make your ideas happen. Whether you need web development, SEO consulting, or just want to connect, don’t hesitate to get in touch. Let’s create something amazing together!&lt;p&gt;
-&lt;a href=&quot;/services&quot; class=&quot;btn btn-primary my-2 px-4 py-2&quot;&gt;Explore Services&lt;/a&gt;
+&lt;a href=&quot;/get-consultation&quot; class=&quot;btn btn-primary my-2 px-4 py-2&quot;&gt;Get Consultation&lt;/a&gt;
 &lt;a href=&quot;/projects&quot; class=&quot;btn btn-outline-primary my-2 px-4 py-2&quot;&gt;View Projects&lt;/a&gt;
 </content>
+      </entry>
+    
+  
+    
+      <entry>
+        <title>Get Consultatio at No Cost | Web Development &amp; SEO Advice | Selvakumaran Krishnan</title>
+        <link href="http://localhost:4000/get-consultation" />
+        <id>http://localhost:4000/get-consultation</id>
+        <updated>2024-09-29T00:00:00+05:30</updated>
+        <summary></summary>
+        <content type="html">&lt;h1 class=&quot;service-title mb-4&quot;&gt;Web Development &amp; SEO Consultation&lt;/h1&gt;&lt;hr/&gt;
+
+
+&lt;div class=&quot;row&quot;&gt;
+      &lt;!-- Sidebar --&gt;
+      &lt;div class=&quot;col-md-4 my-4&quot;&gt;
+      &lt;div class=&quot;card text-bg-light sticky-top&quot;&gt;
+  &lt;div class=&quot;card-header bg-primary-subtle&quot;&gt;Available Consultation&lt;/div&gt;
+  &lt;div class=&quot;card-body p-0&quot;&gt;
+    &lt;p class=&quot;p-3 pb-0&quot;&gt;Navigate through the variety of services I offer, tailored to meet your digital needs. From custom web development to effective digital marketing strategies, find the solutions that will elevate your business.&lt;/p&gt;
+
+&lt;ul class=&quot;list-group list-group-flush&quot;&gt;
+  &lt;li class=&quot;list-group-item&quot;&gt;
+            &lt;a class=&quot;nav-link active&quot; href=&quot;#custom-development&quot;&gt;Custom Web Development&lt;/a&gt;
+
+          &lt;/li&gt;
+  &lt;li class=&quot;list-group-item&quot;&gt;
+            &lt;a class=&quot;nav-link&quot; href=&quot;#wordpress-design&quot;&gt;WordPress Design&lt;/a&gt;
+
+          &lt;/li&gt;
+  &lt;li class=&quot;list-group-item&quot;&gt;
+              &lt;a class=&quot;nav-link&quot; href=&quot;#managed-websites&quot;&gt;Managed Website Development&lt;/a&gt;
+&lt;/li&gt;
+  &lt;li class=&quot;list-group-item&quot;&gt;
+              &lt;a class=&quot;nav-link&quot; href=&quot;#digital-marketing&quot;&gt;Digital Marketing Services&lt;/a&gt;
+&lt;/li&gt;
+  &lt;li class=&quot;list-group-item bg-warning-subtle&quot;&gt;
+              &lt;a class=&quot;nav-link&quot; href=&quot;#service-disclaimer&quot;&gt;Service Disclaimer&lt;/a&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+
+&lt;!-- Main Content --&gt;
+&lt;main class=&quot;col-md-8 my-4&quot;&gt;
+&lt;img width=&quot;100%&quot; height=&quot;auto&quot; class=&quot;mb-4&quot; alt=&quot;Professional web development, WordPress design, and digital marketing services to boost your online presence.&quot; src=&quot;/assets/images/web-development-services.webp&quot;/&gt;
+
+
+&lt;div id=&quot;service-disclaimer&quot; class=&quot;alert alert-warning mb-4&quot; role=&quot;alert&quot;&gt;
+&lt;h4 class=&quot;alert-heading mb-3&quot;&gt;Service Disclaimer&lt;/h4&gt;
+  &lt;p&gt;The services listed here are meant to mainly highlight my skills and expertise. I’m happy to offer free consultations and advice, but I won’t be getting involved in any business (commercial) activities. My goal is to provide guidance, and I encourage you to collaborate with a local business professionals (service providers) nearby you for the implementation of my suggestions.&lt;/p&gt;
+  &lt;hr&gt;
+  &lt;p class=&quot;mb-0&quot;&gt;This approach helps me stay updated with the latest technologies and allows me to apply my experience and knowledge in real-world projects with my current employer, while continually expanding through new challenges and ideas.&lt;/p&gt;
+&lt;/div&gt;
+
+
+&lt;h2&gt;Develop Your Business Potential&lt;/h2&gt;&lt;hr/&gt;
+&lt;p&gt;I specialize in delivering high-quality web development, WordPress design, and digital marketing services that help your business grow. Whether you’re building a new website or enhancing your online presence, I provide solutions that are efficient, scalable, and tailored to your goals.&lt;/p&gt;
+
+&lt;p&gt;My aim is to turn complex problems into simple solutions, and I love to work on projects that challenge my skills. With years of hands-on experience in technologies like PHP, JavaScript, WordPress, and C++, I’ve helped businesses build powerful digital products. Whether you&apos;re looking to develop a custom website, optimize your online presence with SEO, or create a desktop application, I’m here to help.&lt;/p&gt;
+
+&lt;!-- Custom Web Development --&gt;
+&lt;div id=&quot;custom-development&quot; class=&quot;card service-card mt-4&quot;&gt;
+    &lt;div class=&quot;card-body&quot;&gt;
+    &lt;h3 class=&quot;card-title fs-4&quot;&gt;Custom Web Development&lt;/h3&gt;
+    &lt;p class=&quot;card-text&quot;&gt;Get tailor-made websites designed to meet your specific business needs. From static pages to full-fledged web applications, I provide high-performance, scalable solutions that fit your goals.&lt;/p&gt;
+        &lt;a href=&quot;/contact&quot; aria-label=&quot;Get custom web development services&quot; class=&quot;btn btn-outline-primary my-2 px-4 py-2&quot;&gt;Get Started&lt;/a&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;!-- WordPress Design --&gt;
+&lt;div id=&quot;wordpress-design&quot; class=&quot;card service-card mt-4&quot;&gt;
+    &lt;div class=&quot;card-body&quot;&gt;
+    &lt;h3 class=&quot;card-title fs-4&quot;&gt;WordPress Design&lt;/h3&gt;
+    &lt;p class=&quot;card-text&quot;&gt;Beautiful and functional WordPress websites designed with user experience in mind. I’ll help you create a website that looks great, runs smoothly, and is easy to manage, no coding required.&lt;/p&gt;
+        &lt;a href=&quot;/contact&quot; aria-label=&quot;Get WordPress design&quot; class=&quot;btn btn-outline-primary my-2 px-4 py-2&quot;&gt;Get Started&lt;/a&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;!-- Managed Website Development --&gt;
+&lt;div id=&quot;managed-websites&quot; class=&quot;card service-card mt-4&quot;&gt;
+    &lt;div class=&quot;card-body&quot;&gt;
+    &lt;h3 class=&quot;card-title fs-4&quot;&gt;Managed Website Development&lt;/h3&gt;
+    &lt;p class=&quot;card-text&quot;&gt;Focus on your business while I take care of the tech. From regular updates to security patches and ongoing support, I offer comprehensive website management services that keep your site running smoothly.&lt;/p&gt;
+        &lt;a href=&quot;/contact&quot; aria-label=&quot;Get managed website development services&quot; class=&quot;btn btn-outline-primary my-2 px-4 py-2&quot;&gt;Get Started&lt;/a&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;!-- Digital Marketing Services --&gt;
+&lt;div id=&quot;digital-marketing&quot; class=&quot;card service-card mt-4&quot;&gt;
+    &lt;div class=&quot;card-body&quot;&gt;
+    &lt;h3 class=&quot;card-title fs-4&quot;&gt;Digital Marketing Services&lt;/h3&gt;
+    &lt;p class=&quot;card-text&quot;&gt;Grow your online presence with expert digital marketing services. From SEO and content marketing to social media management, I help you connect with your audience and drive traffic to your site.&lt;/p&gt;
+    &lt;a href=&quot;/contact&quot; aria-label=&quot;Get digital marketing services&quot; class=&quot;btn btn-outline-primary my-2 px-4 py-2&quot;&gt;Get Started&lt;/a&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;/main&gt;
+&lt;/div&gt;
+
+&lt;section id=&quot;faq-section&quot; class=&quot;faq-container my-4&quot;&gt;
+  &lt;h2 class=&quot;mb-5 text-center&quot;&gt;Frequently Asked Questions About My Services&lt;/h2&gt;
+
+  &lt;div class=&quot;accordion&quot; id=&quot;faq&quot;&gt;
+    {% for faq in page.faqs %}
+      &lt;div class=&quot;accordion-item&quot;&gt;
+        &lt;h3 class=&quot;accordion-header&quot;&gt;
+          &lt;button class=&quot;accordion-button {% unless forloop.first %}collapsed{% endunless %}&quot; type=&quot;button&quot; data-bs-toggle=&quot;collapse&quot; data-bs-target=&quot;#faq-{{ forloop.index }}&quot; aria-expanded=&quot;{% if forloop.first %}true{% else %}false{% endif %}&quot; aria-controls=&quot;faq-{{ forloop.index }}&quot;&gt;
+            {{ faq.question }}
+          &lt;/button&gt;
+        &lt;/h3&gt;
+        &lt;div id=&quot;faq-{{ forloop.index }}&quot; class=&quot;accordion-collapse collapse {% if forloop.first %}show{% endif %}&quot; data-bs-parent=&quot;#faq&quot;&gt;
+          &lt;div class=&quot;accordion-body&quot;&gt;
+            {{ faq.answer }}
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    {% endfor %}
+  &lt;/div&gt;
+&lt;/section&gt;
+
+
+&lt;div class=&quot;row py-lg-5&quot;&gt;
+      &lt;div class=&quot;col-lg-7 col-md-8 mx-auto text-center&quot;&gt;
+&lt;h2&gt;Bring Your Vision to Life&lt;/h2&gt;
+&lt;hr/&gt;
+&lt;p&gt;Whether you’re starting a new project or need expert guidance on something in progress, I’m ready to collaborate and make your vision a reality. From custom web development to SEO solutions, I’m here to support your goals. Let’s connect and create something truly exceptional together!&lt;/p&gt;
+ &lt;p&gt;
+          &lt;a href=&quot;/projects&quot; class=&quot;btn btn-primary my-2 px-4 py-2&quot;&gt;Explore Projects&lt;/a&gt;
+          &lt;a href=&quot;/contact&quot; class=&quot;btn btn-outline-primary my-2 px-4 py-2&quot;&gt;Contact Me&lt;/a&gt;
+        &lt;/p&gt;
+&lt;/div&gt;</content>
       </entry>
     
   
@@ -177,8 +310,8 @@ I’m here to help you with web development, SEO consulting, and custom software
         <id>http://localhost:4000/</id>
         <updated>2024-09-29T00:00:00+05:30</updated>
         <summary></summary>
-        <content type="html">&lt;section class=&quot;py-5 text-center container&quot;&gt;
-    &lt;div class=&quot;row&quot;&gt;
+        <content type="html">&lt;section class=&quot;py-5 text-center&quot;&gt;
+    &lt;div class=&quot;row container&quot;&gt;
       &lt;div class=&quot;col-lg-7 col-md-8 mx-auto&quot;&gt;
       &lt;img width=&quot;300px&quot; height=&quot;300px&quot; src=&quot;/assets/images/selvakumaran-krishnan.webp&quot; class=&quot;rounded-circle mx-auto d-block mb-4&quot; alt=&quot;Selvakumaran Krishnan, a skilled software developer dedicated to building clean, efficient, and scalable solutions. Specializing in web development, desktop applications, SEO, and digital marketing, I deliver results that drive performance and growth.&quot;&gt;
         &lt;h1 class=&quot;lead display-4 fw-medium&quot;&gt;Selvakumaran Krishnan&lt;/h1&gt;
@@ -288,7 +421,7 @@ Web Development
   &lt;p class=&quot;mb-0&quot;&gt;This approach allows me to stay current with the latest technologies, apply my knowledge to real-world projects with my employer, and continue growing through new challenges and ideas.&lt;/p&gt;
 &lt;/div&gt;
 
-&lt;a href=&quot;/services&quot; aria-label=&quot;Services offered by Selvakumaran Krishnan&quot; title=&quot;Services - Selvakumaran Krishnan&quot; class=&quot;btn btn-outline-secondary my-2 px-4 py-2&quot;&gt;Explore Services&lt;/a&gt;
+&lt;a href=&quot;/get-consultation&quot; aria-label=&quot;Services offered by Selvakumaran Krishnan&quot; title=&quot;Services - Selvakumaran Krishnan&quot; class=&quot;btn btn-outline-secondary my-2 px-4 py-2&quot;&gt;Get Consultation&lt;/a&gt;
 
 &lt;/div&gt;
 &lt;/div&gt;
@@ -383,14 +516,10 @@ Web Development
 &lt;hr/&gt;
 &lt;p&gt;If you’re ready to start a project, need help with an ongoing one, or just want to connect, feel free to reach out. Let’s turn your ideas into reality.&lt;/p&gt;
  &lt;p&gt;
-          &lt;a href=&quot;/services&quot; class=&quot;btn btn-primary my-2 px-4 py-2&quot;&gt;Explore Services&lt;/a&gt;
+          &lt;a href=&quot;/get-consultation&quot; class=&quot;btn btn-primary my-2 px-4 py-2&quot;&gt;Get Consultation&lt;/a&gt;
           &lt;a href=&quot;/contact&quot; class=&quot;btn btn-outline-primary my-2 px-4 py-2&quot;&gt;Contact Me&lt;/a&gt;
         &lt;/p&gt;
 &lt;/div&gt;
-
-
-
-
 
 
 
@@ -479,7 +608,7 @@ Web Development
 &lt;hr/&gt;
 &lt;p&gt;If you’re looking to start something new, improve an existing project, or simply have a chat, I’m excited to help. Let’s work together to turn your ideas into successful digital solutions. Reach out today, and let’s make it happen!&lt;/p&gt;
  &lt;p&gt;
-          &lt;a href=&quot;/services&quot; class=&quot;btn btn-primary my-2 px-4 py-2&quot;&gt;Explore Services&lt;/a&gt;
+          &lt;a href=&quot;/get-consultation&quot; class=&quot;btn btn-primary my-2 px-4 py-2&quot;&gt;Get Consultation&lt;/a&gt;
           &lt;a href=&quot;/contact&quot; class=&quot;btn btn-outline-primary my-2 px-4 py-2&quot;&gt;Contact Me&lt;/a&gt;
         &lt;/p&gt;
 &lt;/div&gt;</content>
@@ -772,7 +901,7 @@ Table of Contents
 &lt;hr/&gt;
 &lt;p&gt;Looking to start a new project or need assistance with an ongoing one? I’m here to work with you and transform your vision into something impactful. Whether it’s custom web development, SEO strategy, or simply a conversation, I’m ready to help. Reach out, and let’s build something extraordinary together!&lt;/p&gt;
  &lt;p&gt;
-          &lt;a href=&quot;/services&quot; class=&quot;btn btn-primary my-2 px-4 py-2&quot;&gt;Explore Services&lt;/a&gt;
+          &lt;a href=&quot;/get-consultation&quot; class=&quot;btn btn-primary my-2 px-4 py-2&quot;&gt;Get Consultation&lt;/a&gt;
           &lt;a href=&quot;/projects&quot; class=&quot;btn btn-outline-primary my-2 px-4 py-2&quot;&gt;View Projects&lt;/a&gt;
         &lt;/p&gt;
 &lt;/div&gt;</content>
@@ -854,139 +983,6 @@ Table of Contents
   
     
       <entry>
-        <title>Professional Web Development &amp; SEO Services | Selvakumaran Krishnan</title>
-        <link href="http://localhost:4000/services" />
-        <id>http://localhost:4000/services</id>
-        <updated>2024-09-29T00:00:00+05:30</updated>
-        <summary></summary>
-        <content type="html">&lt;h1 class=&quot;service-title mb-4&quot;&gt;Professional Web Development Services&lt;/h1&gt;&lt;hr/&gt;
-
-
-&lt;div class=&quot;row&quot;&gt;
-      &lt;!-- Sidebar --&gt;
-      &lt;div class=&quot;col-md-4 my-4&quot;&gt;
-      &lt;div class=&quot;card text-bg-light sticky-top&quot;&gt;
-  &lt;div class=&quot;card-header bg-primary-subtle&quot;&gt;Available Services&lt;/div&gt;
-  &lt;div class=&quot;card-body p-0&quot;&gt;
-    &lt;p class=&quot;p-3 pb-0&quot;&gt;Navigate through the variety of services I offer, tailored to meet your digital needs. From custom web development to effective digital marketing strategies, find the solutions that will elevate your business.&lt;/p&gt;
-
-&lt;ul class=&quot;list-group list-group-flush&quot;&gt;
-  &lt;li class=&quot;list-group-item&quot;&gt;
-            &lt;a class=&quot;nav-link active&quot; href=&quot;#custom-development&quot;&gt;Custom Web Development&lt;/a&gt;
-
-          &lt;/li&gt;
-  &lt;li class=&quot;list-group-item&quot;&gt;
-            &lt;a class=&quot;nav-link&quot; href=&quot;#wordpress-design&quot;&gt;WordPress Design&lt;/a&gt;
-
-          &lt;/li&gt;
-  &lt;li class=&quot;list-group-item&quot;&gt;
-              &lt;a class=&quot;nav-link&quot; href=&quot;#managed-websites&quot;&gt;Managed Website Development&lt;/a&gt;
-&lt;/li&gt;
-  &lt;li class=&quot;list-group-item&quot;&gt;
-              &lt;a class=&quot;nav-link&quot; href=&quot;#digital-marketing&quot;&gt;Digital Marketing Services&lt;/a&gt;
-&lt;/li&gt;
-  &lt;li class=&quot;list-group-item bg-warning-subtle&quot;&gt;
-              &lt;a class=&quot;nav-link&quot; href=&quot;#service-disclaimer&quot;&gt;Service Disclaimer&lt;/a&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-
-
-&lt;!-- Main Content --&gt;
-&lt;main class=&quot;col-md-8 my-4&quot;&gt;
-&lt;img width=&quot;100%&quot; height=&quot;auto&quot; class=&quot;mb-4&quot; alt=&quot;Professional web development, WordPress design, and digital marketing services to boost your online presence.&quot; src=&quot;/assets/images/web-development-services.webp&quot;/&gt;
-
-
-&lt;div id=&quot;service-disclaimer&quot; class=&quot;alert alert-warning mb-4&quot; role=&quot;alert&quot;&gt;
-&lt;h4 class=&quot;alert-heading mb-3&quot;&gt;Service Disclaimer&lt;/h4&gt;
-  &lt;p&gt;The services listed here are meant to mainly highlight my skills and expertise. I’m happy to offer free consultations and advice, but I won’t be getting involved in any business (commercial) activities. My goal is to provide guidance, and I encourage you to collaborate with a local business professionals (service providers) nearby you for the implementation of my suggestions.&lt;/p&gt;
-  &lt;hr&gt;
-  &lt;p class=&quot;mb-0&quot;&gt;This approach helps me stay updated with the latest technologies and allows me to apply my experience and knowledge in real-world projects with my current employer, while continually expanding through new challenges and ideas.&lt;/p&gt;
-&lt;/div&gt;
-
-
-&lt;h2&gt;Develop Your Business Potential&lt;/h2&gt;&lt;hr/&gt;
-&lt;p&gt;I specialize in delivering high-quality web development, WordPress design, and digital marketing services that help your business grow. Whether you’re building a new website or enhancing your online presence, I provide solutions that are efficient, scalable, and tailored to your goals.&lt;/p&gt;
-
-&lt;p&gt;My aim is to turn complex problems into simple solutions, and I love to work on projects that challenge my skills. With years of hands-on experience in technologies like PHP, JavaScript, WordPress, and C++, I’ve helped businesses build powerful digital products. Whether you&apos;re looking to develop a custom website, optimize your online presence with SEO, or create a desktop application, I’m here to help.&lt;/p&gt;
-
-&lt;!-- Custom Web Development --&gt;
-&lt;div id=&quot;custom-development&quot; class=&quot;card service-card mt-4&quot;&gt;
-    &lt;div class=&quot;card-body&quot;&gt;
-    &lt;h3 class=&quot;card-title fs-4&quot;&gt;Custom Web Development&lt;/h3&gt;
-    &lt;p class=&quot;card-text&quot;&gt;Get tailor-made websites designed to meet your specific business needs. From static pages to full-fledged web applications, I provide high-performance, scalable solutions that fit your goals.&lt;/p&gt;
-        &lt;a href=&quot;/contact&quot; aria-label=&quot;Get custom web development services&quot; class=&quot;btn btn-outline-primary my-2 px-4 py-2&quot;&gt;Get Started&lt;/a&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-
-&lt;!-- WordPress Design --&gt;
-&lt;div id=&quot;wordpress-design&quot; class=&quot;card service-card mt-4&quot;&gt;
-    &lt;div class=&quot;card-body&quot;&gt;
-    &lt;h3 class=&quot;card-title fs-4&quot;&gt;WordPress Design&lt;/h3&gt;
-    &lt;p class=&quot;card-text&quot;&gt;Beautiful and functional WordPress websites designed with user experience in mind. I’ll help you create a website that looks great, runs smoothly, and is easy to manage, no coding required.&lt;/p&gt;
-        &lt;a href=&quot;/contact&quot; aria-label=&quot;Get WordPress design&quot; class=&quot;btn btn-outline-primary my-2 px-4 py-2&quot;&gt;Get Started&lt;/a&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-
-&lt;!-- Managed Website Development --&gt;
-&lt;div id=&quot;managed-websites&quot; class=&quot;card service-card mt-4&quot;&gt;
-    &lt;div class=&quot;card-body&quot;&gt;
-    &lt;h3 class=&quot;card-title fs-4&quot;&gt;Managed Website Development&lt;/h3&gt;
-    &lt;p class=&quot;card-text&quot;&gt;Focus on your business while I take care of the tech. From regular updates to security patches and ongoing support, I offer comprehensive website management services that keep your site running smoothly.&lt;/p&gt;
-        &lt;a href=&quot;/contact&quot; aria-label=&quot;Get managed website development services&quot; class=&quot;btn btn-outline-primary my-2 px-4 py-2&quot;&gt;Get Started&lt;/a&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-
-&lt;!-- Digital Marketing Services --&gt;
-&lt;div id=&quot;digital-marketing&quot; class=&quot;card service-card mt-4&quot;&gt;
-    &lt;div class=&quot;card-body&quot;&gt;
-    &lt;h3 class=&quot;card-title fs-4&quot;&gt;Digital Marketing Services&lt;/h3&gt;
-    &lt;p class=&quot;card-text&quot;&gt;Grow your online presence with expert digital marketing services. From SEO and content marketing to social media management, I help you connect with your audience and drive traffic to your site.&lt;/p&gt;
-    &lt;a href=&quot;/contact&quot; aria-label=&quot;Get digital marketing services&quot; class=&quot;btn btn-outline-primary my-2 px-4 py-2&quot;&gt;Get Started&lt;/a&gt;
-    &lt;/div&gt;
-&lt;/div&gt;
-&lt;/main&gt;
-&lt;/div&gt;
-
-&lt;section id=&quot;faq-section&quot; class=&quot;faq-container my-4&quot;&gt;
-  &lt;h2 class=&quot;mb-5 text-center&quot;&gt;Frequently Asked Questions About My Services&lt;/h2&gt;
-
-  &lt;div class=&quot;accordion&quot; id=&quot;faq&quot;&gt;
-    {% for faq in page.faqs %}
-      &lt;div class=&quot;accordion-item&quot;&gt;
-        &lt;h3 class=&quot;accordion-header&quot;&gt;
-          &lt;button class=&quot;accordion-button {% unless forloop.first %}collapsed{% endunless %}&quot; type=&quot;button&quot; data-bs-toggle=&quot;collapse&quot; data-bs-target=&quot;#faq-{{ forloop.index }}&quot; aria-expanded=&quot;{% if forloop.first %}true{% else %}false{% endif %}&quot; aria-controls=&quot;faq-{{ forloop.index }}&quot;&gt;
-            {{ faq.question }}
-          &lt;/button&gt;
-        &lt;/h3&gt;
-        &lt;div id=&quot;faq-{{ forloop.index }}&quot; class=&quot;accordion-collapse collapse {% if forloop.first %}show{% endif %}&quot; data-bs-parent=&quot;#faq&quot;&gt;
-          &lt;div class=&quot;accordion-body&quot;&gt;
-            {{ faq.answer }}
-          &lt;/div&gt;
-        &lt;/div&gt;
-      &lt;/div&gt;
-    {% endfor %}
-  &lt;/div&gt;
-&lt;/section&gt;
-
-
-&lt;div class=&quot;row py-lg-5&quot;&gt;
-      &lt;div class=&quot;col-lg-7 col-md-8 mx-auto text-center&quot;&gt;
-&lt;h2&gt;Bring Your Vision to Life&lt;/h2&gt;
-&lt;hr/&gt;
-&lt;p&gt;Whether you’re starting a new project or need expert guidance on something in progress, I’m ready to collaborate and make your vision a reality. From custom web development to SEO solutions, I’m here to support your goals. Let’s connect and create something truly exceptional together!&lt;/p&gt;
- &lt;p&gt;
-          &lt;a href=&quot;/projects&quot; class=&quot;btn btn-primary my-2 px-4 py-2&quot;&gt;Explore Projects&lt;/a&gt;
-          &lt;a href=&quot;/contact&quot; class=&quot;btn btn-outline-primary my-2 px-4 py-2&quot;&gt;Contact Me&lt;/a&gt;
-        &lt;/p&gt;
-&lt;/div&gt;</content>
-      </entry>
-    
-  
-    
-      <entry>
         <title>Sitemap | wmWebStack</title>
         <link href="http://localhost:4000/sitemap" />
         <id>http://localhost:4000/sitemap</id>
@@ -995,15 +991,21 @@ Table of Contents
         <content type="html">&lt;h1&gt;Sitemap&lt;/h1&gt;&lt;hr/&gt;
 
   &lt;h2&gt;&lt;strong&gt;Pages&lt;/strong&gt;&lt;/h2&gt;&lt;hr/&gt;
-  &lt;ul class=&quot;list-group list-group-flush my-3&quot;&gt;
-    &lt;li class=&quot;list-group-item&quot;&gt;&lt;a href=&quot;{{ site.url }}/&quot;&gt;Home&lt;/a&gt;&lt;/li&gt;
-    &lt;li class=&quot;list-group-item&quot;&gt;&lt;a href=&quot;{{ site.url }}/selvakumaran-krishnan&quot;&gt;About Selvakumaran Krishnan&lt;/a&gt;&lt;/li&gt;
-    &lt;li class=&quot;list-group-item&quot;&gt;&lt;a href=&quot;{{ site.url }}/projects&quot;&gt;Projects handled by Selvakumaran Krishnan&lt;/a&gt;&lt;/li&gt;
-    &lt;li class=&quot;list-group-item&quot;&gt;&lt;a href=&quot;{{ site.url }}/services&quot;&gt;Services offered by Selvakumaran Krishnan&lt;/a&gt;&lt;/li&gt;
-        &lt;li class=&quot;list-group-item&quot;&gt;&lt;a href=&quot;{{ site.url }}/contact&quot;&gt;Contact Selvakumaran Krishnan&lt;/a&gt;&lt;/li&gt;
 
-    &lt;!-- Add other specific home directory pages if necessary --&gt;
-  &lt;/ul&gt;
+{% assign all_pages = site.pages %}
+
+&lt;ul class=&quot;list-group list-group-flush my-3&quot;&gt;
+  {% for page in all_pages %}
+    {% if page.path contains &quot;.md&quot; and page.url and page.noindex != true %}
+      {% assign dir = page.path | split: &quot;/&quot; %}
+      {% if dir.size == 1 %}
+        &lt;li class=&quot;list-group-item&quot;&gt;&lt;a href=&quot;{{ site.url }}{{ page.url | remove: &quot;.md&quot; | remove: &quot;.html&quot; | escape }}&quot;&gt;{{ page.title }}&lt;/a&gt;&lt;/li&gt;
+      {% endif %}
+    {% endif %}
+  {% endfor %}
+&lt;/ul&gt;
+
+
 
   &lt;h2&gt;&lt;strong&gt;Projects&lt;/strong&gt;&lt;/h2&gt;&lt;hr/&gt;
    &lt;ul class=&quot;list-group list-group-flush my-3&quot;&gt;
