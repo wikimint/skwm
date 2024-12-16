@@ -142,7 +142,7 @@ Web Development
   <p class="mb-0">This approach allows me to stay current with the latest technologies, apply my knowledge to real-world projects with my employer, and continue growing through new challenges and ideas.</p>
 </div>
 
-<a href="/get-consultation" aria-label="Services offered by Selvakumaran Krishnan" title="Services - Selvakumaran Krishnan" class="btn btn-outline-secondary my-2 px-4 py-2">Get Consultation</a>
+<a href="/contact" aria-label="Services offered by Selvakumaran Krishnan" title="Services - Selvakumaran Krishnan" class="btn btn-outline-secondary my-2 px-4 py-2">Get Consultation</a>
 
 </div>
 </div>
@@ -207,7 +207,7 @@ Web Development
 
 
 
-<section id="faq-section" class="faq-container my-4">
+<section id="faq-section" class="faq-container my-4 d-none">
   <h2 class="mb-5 text-center">Frequently Asked Questions About Selvakumaran Krishnan's Work</h2>
 
   <div class="accordion" id="faq">
@@ -231,7 +231,7 @@ Web Development
 
 
 
-<div class="row py-lg-5">
+<div class="row py-lg-5 d-none">
       <div class="col-lg-7 col-md-8 mx-auto text-center">
 <h2>Let’s Build Something Great Together</h2>
 <hr/>

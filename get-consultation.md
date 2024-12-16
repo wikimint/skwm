@@ -121,7 +121,7 @@ faqs:
 </main>
 </div>
 
-<section id="faq-section" class="faq-container my-4">
+<section id="faq-section" class="faq-container my-4 d-none">
   <h2 class="mb-5 text-center">Frequently Asked Questions About My Services</h2>
 
   <div class="accordion" id="faq">
@@ -143,7 +143,7 @@ faqs:
 </section>
 
 
-<div class="row py-lg-5">
+<div class="row py-lg-5 d-none">
       <div class="col-lg-7 col-md-8 mx-auto text-center">
 <h2>Bring Your Vision to Life</h2>
 <hr/>

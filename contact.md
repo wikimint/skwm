@@ -31,12 +31,14 @@ faqs:
 I’m here to help you with web development, SEO consulting, and custom software solutions. If you have any questions, project inquiries, or just want to say hello, feel free to reach out. Let's work together to bring your digital ideas to life!
 </p>
 <iframe src="https://wikimint-server.blogspot.com/p/contact.html?site=SK_SELVAKUMARAN_KRISHNAN" style="width:100%;height:400px;border:none;overflow:hidden;"></iframe>
+<div class="d-none">
 <h2>Work Together</h2><hr/>
 <h3>Project Consultation</h3>
 <p>I’m available for project consultations and custom development services. Whether you need a website built from scratch, SEO advice, or a unique software solution, I’d love to hear about your project.</p>
 
 <h2>Location</h2>
 <p>Based in Chennai, Tamil Nadu, India, I work with clients globally. While most of my work is done remotely, I’m open to in-person consultations if you're nearby.</p>
+</div>
 </div>
 
 <div class="col-md-4 my-3">
@@ -70,7 +72,7 @@ I’m here to help you with web development, SEO consulting, and custom software
 </div>
 </div>
 
-<section id="faq-section" class="faq-container my-4">
+<section id="faq-section" class="faq-container my-4 d-none">
   <h2 class="mb-5 text-center">Common Questions About Getting in Touch</h2>
 
   <div class="accordion" id="faq">
@@ -92,7 +94,7 @@ I’m here to help you with web development, SEO consulting, and custom software
 </section>
 
 
-<div class="row py-lg-5 mt-5">
+<div class="row py-lg-5 mt-5 d-none">
 <div class="col-lg-7 col-md-8 mx-auto text-center">
 <h2>Let’s Bring Your Vision to Life</h2>
 <hr/>

@@ -279,7 +279,7 @@ Table of Contents
 </div>
 
 
-<section id="faq-section" class="faq-container my-4">
+<section id="faq-section" class="faq-container my-4 d-none">
   <h2 class="mb-5 text-center">Common Questions About Selvakumaran Krishnan</h2>
 
   <div class="accordion" id="faq">
@@ -301,7 +301,7 @@ Table of Contents
 </section>
 
 
-<div class="row py-lg-5">
+<div class="row py-lg-5 d-none">
       <div class="col-lg-7 col-md-8 mx-auto text-center">
 <h2>Turn Your Ideas Into Reality</h2>
 <hr/>
