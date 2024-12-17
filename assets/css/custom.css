@@ -80,3 +80,11 @@ hr.ray{
     background-image: -ms-linear-gradient(left, #fff, #0077b5, #fff);
     background-image: -o-linear-gradient(left, #fff, #0077b5, #fff);
 }
+
+.custom-tooltip {
+    --bs-tooltip-bg: #5468ff;
+    --bs-tooltip-color: #ffffff;
+  }
+  .skills p{
+    display:none;
+}

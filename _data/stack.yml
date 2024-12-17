@@ -1,37 +1,96 @@
 tools:
-
   - name: VS Code
     image: '/assets/images/vs-code.webp'
+    alt: 'Expertise in using VS Code for efficient coding and debugging.'
+    description: 'I use Visual Studio Code as my primary IDE for writing, debugging, and maintaining code across various programming languages, enhanced by its powerful extensions.'
+    slug: vs-code
+
   - name: GIT
     image: '/assets/images/git.webp'
+    alt: 'Proficiency in GIT for version control and collaboration.'
+    description: 'I am proficient in using GIT to manage code versions, collaborate with teams, and maintain a seamless workflow for software development projects.'
+    slug: git
+
   - name: GitHub
     image: '/assets/images/github.webp'
+    alt: 'Skilled in GitHub for repository management and collaboration.'
+    description: 'I effectively utilize GitHub for hosting, version control, and collaborating on projects, leveraging its features like pull requests and issue tracking.'
+    slug: github
+
   - name: SSH
     image: '/assets/images/shell.webp'
+    alt: 'Expert in using SSH for secure server management.'
+    description: 'I have extensive experience with SSH for managing servers, executing remote commands, and ensuring secure communication between systems.'
+    slug: ssh
+
   - name: FTP
     image: '/assets/images/ftp.webp'
- 
+    alt: 'Proficiency in FTP for file transfers and server management.'
+    description: 'I am skilled in using FTP tools to efficiently transfer files, manage web servers, and troubleshoot issues during deployments.'
+    slug: ftp
+
   - name: Ubuntu
     image: '/assets/images/ubuntu.webp'
+    alt: 'Expert in Ubuntu for software development and server management.'
+    description: 'Ubuntu is my go-to Linux distribution for development and server administration, offering reliability and extensive community support.'
+    slug: ubuntu
+
   - name: Linux
-    image: '/assets/images/linux.webp'    
+    image: '/assets/images/linux.webp'
+    alt: 'Proficient in Linux for system administration and development.'
+    description: 'I have a deep understanding of Linux systems, utilizing various distributions for development, server management, and automation tasks.'
+    slug: linux
+
   - name: Apache
-    image: '/assets/images/apache.webp'   
+    image: '/assets/images/apache.webp'
+    alt: 'Skilled in using Apache for hosting and managing web servers.'
+    description: 'I am adept at configuring and managing Apache servers to host websites and applications, ensuring performance and security.'
+    slug: apache
+
   - name: MySQL
-    image: '/assets/images/mysql.webp'       
+    image: '/assets/images/mysql.webp'
+    alt: 'Proficiency in MySQL for database management and development.'
+    description: 'I have extensive experience with MySQL, designing efficient database schemas, writing complex queries, and ensuring data integrity.'
+    slug: mysql
 
   - name: GCP
-    image: '/assets/images/google-cloud-platform.webp'    
- 
+    image: '/assets/images/google-cloud-platform.webp'
+    alt: 'Expert in using GCP for scalable cloud solutions.'
+    description: 'I leverage Google Cloud Platform services for deploying applications, managing databases, and implementing scalable solutions.'
+    slug: gcp
+
   - name: Shared Server
-    image: '/assets/images/shared-server.webp'   
+    image: '/assets/images/shared-server.webp'
+    alt: 'Experience in managing shared servers for hosting websites.'
+    description: 'I am skilled in configuring and managing shared servers, ensuring smooth hosting for websites and applications within limited resources.'
+    slug: shared-server
+
   - name: Individual Server
-    image: '/assets/images/individual-server.webp'           
+    image: '/assets/images/individual-server.webp'
+    alt: 'Proficiency in managing individual servers for dedicated hosting.'
+    description: 'I specialize in setting up and maintaining individual servers, providing dedicated hosting solutions tailored to specific requirements.'
+    slug: individual-server
+
   - name: API
-    image: '/assets/images/api.webp'     
+    image: '/assets/images/api.webp'
+    alt: 'Expertise in creating and consuming APIs for seamless integrations.'
+    description: 'I excel in developing robust APIs and integrating them with applications to enable efficient communication between systems.'
+    slug: api
+
   - name: WordPress
-    image: '/assets/images/wordpress.webp'                  
+    image: '/assets/images/wordpress.webp'
+    alt: 'Skilled in using WordPress for website development and customization.'
+    description: 'I have extensive experience with WordPress, building and customizing websites using themes, plugins, and custom code to meet diverse client needs.'
+    slug: wordpress
+
   - name: Bootstrap
-    image: '/assets/images/bootstrap.webp'     
+    image: '/assets/images/bootstrap.webp'
+    alt: 'Proficient in Bootstrap for responsive web design.'
+    description: 'I utilize Bootstrap to create modern, responsive, and mobile-friendly designs, streamlining the web development process.'
+    slug: bootstrap
+
   - name: NPM
-    image: '/assets/images/npm.webp'        
+    image: '/assets/images/npm.webp'
+    alt: 'Expert in using NPM for managing project dependencies.'
+    description: 'I am proficient in using NPM to manage project dependencies, streamline workflows, and ensure efficient package management in JavaScript projects.'
+    slug: npm

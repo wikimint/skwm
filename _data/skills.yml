@@ -1,26 +1,72 @@
 skills:
-
   - name: HTML
     image: '/assets/images/html.webp'
+    alt: 'Proficiency in HTML for creating structured web pages.'
+    description: 'I have strong expertise in HTML, crafting well-structured and semantic web pages that form the backbone of any web application.'
+    slug: html
+
   - name: CSS
     image: '/assets/images/css.webp'
+    alt: 'Skilled in CSS for creating visually appealing web designs.'
+    description: 'With a deep understanding of CSS, I can create responsive and aesthetically pleasing web designs that adapt to all screen sizes.'
+    slug: css
+
   - name: JavaScript
     image: '/assets/images/javascript.webp'
+    alt: 'Proficient in JavaScript for developing interactive web features.'
+    description: 'I excel in JavaScript, enabling me to build dynamic and interactive features for web applications, including advanced client-side scripting.'
+    slug: javascript
+
   - name: jQuery
     image: '/assets/images/jquery.webp'
+    alt: 'Experience in jQuery for efficient DOM manipulation and scripting.'
+    description: 'I have hands-on experience with jQuery, using its powerful tools to simplify JavaScript coding for seamless web functionality.'
+    slug: jquery
+
   - name: JSON
     image: '/assets/images/json.webp'
+    alt: 'Proficient in JSON for data exchange between systems.'
+    description: 'I am adept at working with JSON, leveraging it to efficiently handle data exchange in web applications and APIs.'
+    slug: json
+
   - name: XML
-    image: '/assets/images/xml.webp'        
+    image: '/assets/images/xml.webp'
+    alt: 'Skilled in XML for structured data handling and storage.'
+    description: 'I have a solid grasp of XML, using it to organize and transport structured data for diverse applications and systems.'
+    slug: xml
+
   - name: PHP
-    image: '/assets/images/php.webp'    
+    image: '/assets/images/php.webp'
+    alt: 'Proficiency in PHP for dynamic server-side web development.'
+    description: 'I am highly skilled in PHP, building robust server-side applications and integrating them seamlessly with databases like MySQL.'
+    slug: php
+
   - name: Python
-    image: '/assets/images/python.webp'    
+    image: '/assets/images/python.webp'
+    alt: 'Expert in Python for web development and automation.'
+    description: 'My Python skills enable me to tackle diverse challenges, from web development with frameworks like Django to writing efficient scripts for automation.'
+    slug: python
+
   - name: Ruby
-    image: '/assets/images/ruby.webp'   
+    image: '/assets/images/ruby.webp'
+    alt: 'Experience in Ruby for web applications and scripting.'
+    description: 'I have experience with Ruby, using it to create elegant solutions for web applications and developing maintainable codebases.'
+    slug: ruby
+
   - name: C
-    image: '/assets/images/c.webp'    
+    image: '/assets/images/c.webp'
+    alt: 'Proficiency in C for low-level programming and system design.'
+    description: 'My strong foundation in C allows me to work on system-level programming and understand core computing concepts effectively.'
+    slug: c
+
   - name: NodeJS
-    image: '/assets/images/nodejs.webp'       
+    image: '/assets/images/nodejs.webp'
+    alt: 'Skilled in Node.js for building scalable server-side applications.'
+    description: 'I excel in using Node.js to create high-performance, event-driven server-side applications, ensuring scalability and efficiency.'
+    slug: nodejs
+
   - name: React Native
-    image: '/assets/images/react-js.webp'        
+    image: '/assets/images/react-js.webp'
+    alt: 'Proficiency in React Native for cross-platform mobile development.'
+    description: 'I am proficient in React Native, building cross-platform mobile applications that offer a seamless user experience with a single codebase.'
+    slug: react-native

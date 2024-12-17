@@ -1,37 +1,97 @@
 skills:
 
-
   - name: SEO
     image: '/assets/images/seo.webp'
+    alt: 'I am an expert in search engine optimization techniques and strategies.'
+    description: 'I have proven expertise in improving website rankings through advanced on-page and off-page SEO techniques, keyword analysis, and technical audits. My focus is on boosting organic traffic and ensuring higher visibility in search results.'
+    slug: seo
+
   - name: Digital Marketing
     image: '/assets/images/digital-marketing.webp'
+    alt: 'I specialize in data-driven digital marketing strategies.'
+    description: 'I design and execute digital marketing campaigns across various platforms, focusing on measurable ROI, audience engagement, and targeted reach. My work is always optimized to drive growth and results.'
+    slug: digital-marketing
+
   - name: Subject Analysis
-    image: '/assets/images/subject-analysis.webp'      
+    image: '/assets/images/subject-analysis.webp'
+    alt: 'I am skilled at analyzing and breaking down complex topics.'
+    description: 'I am proficient in conducting in-depth research and analysis of complex subjects. This allows me to create accurate, detailed content that is highly relevant to target audiences.'
+    slug: subject-analysis
+
   - name: Content Creation
     image: '/assets/images/content-creation.webp'
+    alt: 'I am a creative content creator focused on quality and relevance.'
+    description: 'I develop engaging and high-quality content across multiple formats, including blogs, videos, and infographics, ensuring they are optimized for SEO and effectively engage the target audience.'
+    slug: content-creation
+
   - name: Article Writing
-    image: '/assets/images/article-writing.webp'  
+    image: '/assets/images/article-writing.webp'
+    alt: 'I am a professional article writer with diverse industry knowledge.'
+    description: 'I deliver well-researched and impactful articles tailored to specific industries. My writing combines creativity with accuracy, ensuring the content is informative and valuable to the reader.'
+    slug: article-writing
+
   - name: Creative Thinking
-    image: '/assets/images/creative-thinking.webp'      
+    image: '/assets/images/creative-thinking.webp'
+    alt: 'I am an innovative thinker with a solutions-oriented mindset.'
+    description: 'I generate unique ideas and strategies to solve complex challenges, driving creative solutions in content creation, marketing, and problem-solving.'
+    slug: creative-thinking
+
   - name: Social Media
     image: '/assets/images/social-media.webp'
+    alt: 'I have experience in social media content and strategy.'
+    description: 'I manage and grow social media accounts, creating engaging posts that increase follower engagement, brand visibility, and lead conversions. My strategies are tailored to each platform for maximum impact.'
+    slug: social-media
+
   - name: Problem Solving
-    image: '/assets/images/problem-solving.webp'    
+    image: '/assets/images/problem-solving.webp'
+    alt: 'I am an efficient problem solver with a logical approach.'
+    description: 'I apply critical thinking and innovative methods to identify root causes and implement practical solutions in challenging scenarios, ensuring smooth project execution.'
+    slug: problem-solving
+
   - name: Conflict Resolving
-    image: '/assets/images/conflict-resolving.webp'  
+    image: '/assets/images/conflict-resolving.webp'
+    alt: 'I am skilled at resolving workplace conflicts effectively.'
+    description: 'I facilitate productive communication and compromise, ensuring conflicts are resolved amicably while maintaining a positive team dynamic and project momentum.'
+    slug: conflict-resolving
+
   - name: Research Writing
-    image: '/assets/images/research-writing.webp'      
+    image: '/assets/images/research-writing.webp'
+    alt: 'I have experience in conducting and presenting in-depth research.'
+    description: 'I produce detailed and informative research documents, incorporating data analysis and evidence-based insights to deliver high-quality reports for academic and professional purposes.'
+    slug: research-writing
 
   - name: Self-Learning
     image: '/assets/images/self-learning.webp'
+    alt: 'I am passionate about independent and continuous learning.'
+    description: 'I thrive on learning new technologies and methodologies, adapting quickly to new challenges through self-driven exploration and consistent skill development.'
+    slug: self-learning
+
   - name: Multi Tasking
-    image: '/assets/images/multi-tasking.webp'    
+    image: '/assets/images/multi-tasking.webp'
+    alt: 'I am an efficient multitasker managing multiple responsibilities.'
+    description: 'I can balance multiple projects simultaneously without compromising quality or deadlines. I ensure seamless workflow and consistent progress across various tasks.'
+    slug: multi-tasking
+
   - name: Branding
-    image: '/assets/images/branding.webp'    
+    image: '/assets/images/branding.webp'
+    alt: 'I specialize in brand identity and promotion.'
+    description: 'I develop cohesive branding strategies to enhance brand visibility, establish credibility, and foster meaningful connections with the target audience through consistent messaging and design.'
+    slug: branding
+
   - name: Mind Mapping
-    image: '/assets/images/mind-map.webp'   
-     
+    image: '/assets/images/mind-map.webp'
+    alt: 'I am an expert in visualizing complex ideas through mind mapping.'
+    description: 'I use structured mind-mapping techniques to organize my thoughts, plan projects, and streamline workflows effectively, ensuring better clarity and productivity.'
+    slug: mind-mapping
+
   - name: Perfect Planning
-    image: '/assets/images/planning.webp'   
+    image: '/assets/images/planning.webp'
+    alt: 'I have exceptional planning and organizational skills.'
+    description: 'I create detailed project plans with clear milestones and timelines, ensuring tasks are completed efficiently and in alignment with organizational goals.'
+    slug: perfect-planning
+
   - name: On-time Completion
-    image: '/assets/images/on-time.webp'      
+    image: '/assets/images/on-time.webp'
+    alt: 'I am dedicated to meeting deadlines with precision.'
+    description: 'I prioritize tasks and manage my time effectively to ensure that all projects are completed on time, even when working under tight deadlines or with limited resources.'
+    slug: on-time-completion

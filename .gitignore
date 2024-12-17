@@ -1,0 +1,46 @@
+# Jekyll build artifacts
+/_site/
+
+# Node.js dependencies
+/node_modules/
+
+# Ruby gems
+/.bundle/
+vendor/bundle/
+
+# Log files
+/log/
+
+# Temporary files
+*.swp
+*.swo
+
+# MacOS specific files
+.DS_Store
+
+# Windows specific files
+Thumbs.db
+
+# IDE or editor specific files
+.idea/
+.vscode/
+
+# Gemfile.lock (optional: depending on your team or project workflow, you might want to keep it)
+Gemfile.lock
+
+# Environment-specific configuration (e.g., database, secret keys)
+.env
+.env.local
+
+# By default, we ignore all files in the assets folder, except for those that should be committed
+/assets/js/
+!assets/js/*.js
+/assets/css/
+!assets/css/*.css
+
+# Ignore the default .jekyll-cache
+.jekyll-cache/
+
+# Exclude files from the draft and unpublished posts
+_drafts/*
+!.gitkeep

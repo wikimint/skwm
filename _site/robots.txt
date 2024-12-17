@@ -1,5 +1,0 @@
-User-agent: *
-Allow: /
-Redirect 301 /services /get-consultation
-Sitemap: https://sk.wikimint.com/sitemap.xml
-

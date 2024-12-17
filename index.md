@@ -62,6 +62,7 @@ faqs:
 </div>
 
 
+
 <div id="skills" class="container pt-5 pb-3">
 <div class="col-lg-8 col-md-8 mx-auto text-center mb-5">
 <h2>Web Development & Programming Skills</h2><hr/>
@@ -69,9 +70,10 @@ faqs:
 </div>
   <div class="row g-4">
     {% for item in site.data.skills.skills %}
-      <div class="col-6 col-md-3 col-lg-2 mb-3  text-center">
-        <img src="{{ item.image }}" alt="{{ item.name }}" width="60" height="auto" class="mb-2">
+      <div class="col-6 col-md-3 col-lg-2 mb-3  text-center skills">
+        <img src="{{ item.image }}" alt="{{ item.alt }}" width="60" height="auto" class="mb-2"/>
         <h3 class="mb-0 fw-normal fs-6">{{ item.name }}</h3>
+        <p>{{ item.description }}</p>
       </div>
     {% endfor %}
   </div>
@@ -80,9 +82,10 @@ faqs:
 
   <div class="row g-4">
     {% for item in site.data.additionalskills.skills %}
-      <div class="col-6 col-md-3 col-lg-2 mb-3  text-center">
-        <img src="{{ item.image }}" alt="{{ item.name }}" width="60" height="auto" class="mb-2">
-        <h5 class="mb-0 fw-normal fs-6">{{ item.name }}</h5>
+      <div class="col-6 col-md-3 col-lg-2 mb-3  text-center skills">
+        <img src="{{ item.image }}" alt="{{ item.alt }}" width="60" height="auto" class="mb-2"/>
+        <h3 class="mb-0 fw-normal fs-6">{{ item.name }}</h3>
+        <p>{{ item.description }}</p>
       </div>
     {% endfor %}
   </div>
@@ -96,9 +99,10 @@ faqs:
 </div>
   <div class="row g-4">
     {% for item in site.data.stack.tools %}
-      <div class="col-6 col-md-3 col-lg-2 mb-3  text-center">
-        <img src="{{ item.image }}" alt="{{ item.name }}" width="60" height="auto" class="mb-2">
+      <div class="col-6 col-md-3 col-lg-2 mb-3  text-center skills">
+        <img src="{{ item.image }}" alt="{{ item.alt }}" width="60" height="auto" class="mb-2"/>
         <h3 class="mb-0 fw-normal fs-6">{{ item.name }}</h3>
+        <p>{{ item.description }}</p>
       </div>
     {% endfor %}
   </div>
