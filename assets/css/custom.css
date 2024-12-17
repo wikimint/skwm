@@ -56,3 +56,27 @@ visibility:hidden;
 a{
     color:blue;
 }
+
+hr.ray{
+    opacity:1 ! important;
+    margin: 35px 0;
+    border: 0;
+    height: 3px;
+    background-image: -webkit-linear-gradient(left, #fff, #0077b5, #fff);
+    background-image: -moz-linear-gradient(left, #fff, #0077b5, #fff);
+    background-image: -ms-linear-gradient(left, #fff, #0077b5, #fff);
+    background-image: -o-linear-gradient(left, #fff, #0077b5, #fff);
+}
+.ray-title:before{
+    content:"";
+    display:block;
+    opacity:1 ! important;
+    margin: 35px 0;
+    margin-bottom:-18px;
+    border: 0;
+    height: 3px;
+    background-image: -webkit-linear-gradient(left, #fff, #0077b5, #fff);
+    background-image: -moz-linear-gradient(left, #fff, #0077b5, #fff);
+    background-image: -ms-linear-gradient(left, #fff, #0077b5, #fff);
+    background-image: -o-linear-gradient(left, #fff, #0077b5, #fff);
+}

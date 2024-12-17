@@ -1,0 +1,37 @@
+tools:
+
+  - name: VS Code
+    image: '/assets/images/vs-code.webp'
+  - name: GIT
+    image: '/assets/images/git.webp'
+  - name: GitHub
+    image: '/assets/images/github.webp'
+  - name: SSH
+    image: '/assets/images/shell.webp'
+  - name: FTP
+    image: '/assets/images/ftp.webp'
+ 
+  - name: Ubuntu
+    image: '/assets/images/ubuntu.webp'
+  - name: Linux
+    image: '/assets/images/linux.webp'    
+  - name: Apache
+    image: '/assets/images/apache.webp'   
+  - name: MySQL
+    image: '/assets/images/mysql.webp'       
+
+  - name: GCP
+    image: '/assets/images/google-cloud-platform.webp'    
+ 
+  - name: Shared Server
+    image: '/assets/images/shared-server.webp'   
+  - name: Individual Server
+    image: '/assets/images/individual-server.webp'           
+  - name: API
+    image: '/assets/images/api.webp'     
+  - name: WordPress
+    image: '/assets/images/wordpress.webp'                  
+  - name: Bootstrap
+    image: '/assets/images/bootstrap.webp'     
+  - name: NPM
+    image: '/assets/images/npm.webp'        

@@ -62,6 +62,49 @@ faqs:
 </div>
 
 
+<div id="skills" class="container pt-5 pb-3">
+<div class="col-lg-8 col-md-8 mx-auto text-center mb-5">
+<h2>Web Development & Programming Skills</h2><hr/>
+<p>I specialize in creating modern, user-friendly, and efficient web solutions. With expertise in a diverse range of technologies, I craft tailored experiences that bridge creativity and functionality. Below is a glimpse of the tools and technologies I use to bring ideas to life.</p>
+</div>
+  <div class="row g-4">
+    {% for item in site.data.skills.skills %}
+      <div class="col-6 col-md-3 col-lg-2 mb-3  text-center">
+        <img src="{{ item.image }}" alt="{{ item.name }}" width="60" height="auto" class="mb-2">
+        <h3 class="mb-0 fw-normal fs-6">{{ item.name }}</h3>
+      </div>
+    {% endfor %}
+  </div>
+</div>
+<div class="text-center bg-white ray-title mb-5"><h4 class="lead p-3 bg-white d-inline fs-4 fw-medium">Additional Skills</h4></div>
+
+  <div class="row g-4">
+    {% for item in site.data.additionalskills.skills %}
+      <div class="col-6 col-md-3 col-lg-2 mb-3  text-center">
+        <img src="{{ item.image }}" alt="{{ item.name }}" width="60" height="auto" class="mb-2">
+        <h5 class="mb-0 fw-normal fs-6">{{ item.name }}</h5>
+      </div>
+    {% endfor %}
+  </div>
+
+  <hr class="ray"/>
+
+
+<div id="technologies" class="col-lg-8 col-md-8 mx-auto text-center mb-5">
+<h2>Technologies and Tools Handled</h2><hr/>
+<p>Proficient in diverse tools and technologies that streamline development and deployment. From code editors to version control systems, I utilize cutting-edge stacks to optimize workflows. Each tool is a step toward delivering exceptional results.</p>
+</div>
+  <div class="row g-4">
+    {% for item in site.data.stack.tools %}
+      <div class="col-6 col-md-3 col-lg-2 mb-3  text-center">
+        <img src="{{ item.image }}" alt="{{ item.name }}" width="60" height="auto" class="mb-2">
+        <h3 class="mb-0 fw-normal fs-6">{{ item.name }}</h3>
+      </div>
+    {% endfor %}
+  </div>
+
+<hr class="ray"/>
+
 <div class="row py-3">
 <div class="col-md-6 my-3">
 <h2 class="mb-3">What I Do?</h2>

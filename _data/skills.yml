@@ -1,0 +1,26 @@
+skills:
+
+  - name: HTML
+    image: '/assets/images/html.webp'
+  - name: CSS
+    image: '/assets/images/css.webp'
+  - name: JavaScript
+    image: '/assets/images/javascript.webp'
+  - name: jQuery
+    image: '/assets/images/jquery.webp'
+  - name: JSON
+    image: '/assets/images/json.webp'
+  - name: XML
+    image: '/assets/images/xml.webp'        
+  - name: PHP
+    image: '/assets/images/php.webp'    
+  - name: Python
+    image: '/assets/images/python.webp'    
+  - name: Ruby
+    image: '/assets/images/ruby.webp'   
+  - name: C
+    image: '/assets/images/c.webp'    
+  - name: NodeJS
+    image: '/assets/images/nodejs.webp'       
+  - name: React Native
+    image: '/assets/images/react-js.webp'        

@@ -1,0 +1,37 @@
+skills:
+
+
+  - name: SEO
+    image: '/assets/images/seo.webp'
+  - name: Digital Marketing
+    image: '/assets/images/digital-marketing.webp'
+  - name: Subject Analysis
+    image: '/assets/images/subject-analysis.webp'      
+  - name: Content Creation
+    image: '/assets/images/content-creation.webp'
+  - name: Article Writing
+    image: '/assets/images/article-writing.webp'  
+  - name: Creative Thinking
+    image: '/assets/images/creative-thinking.webp'      
+  - name: Social Media
+    image: '/assets/images/social-media.webp'
+  - name: Problem Solving
+    image: '/assets/images/problem-solving.webp'    
+  - name: Conflict Resolving
+    image: '/assets/images/conflict-resolving.webp'  
+  - name: Research Writing
+    image: '/assets/images/research-writing.webp'      
+
+  - name: Self-Learning
+    image: '/assets/images/self-learning.webp'
+  - name: Multi Tasking
+    image: '/assets/images/multi-tasking.webp'    
+  - name: Branding
+    image: '/assets/images/branding.webp'    
+  - name: Mind Mapping
+    image: '/assets/images/mind-map.webp'   
+     
+  - name: Perfect Planning
+    image: '/assets/images/planning.webp'   
+  - name: On-time Completion
+    image: '/assets/images/on-time.webp'      
