@@ -22,7 +22,7 @@ rem Run the npm javascript-obfuscator command
 echo Obfuscating JavaScript files...
 REM javascript-obfuscator "%BUILD_DIR%" --output "%BUILD_DIR%" --compact true --control-flow-flattening true --control-flow-flattening-threshold 1 --dead-code-injection true --dead-code-injection-threshold 1 --self-defending true --rename-globals true --split-strings true --split-strings-chunk-length 5 --string-array true --string-array-threshold 1 --string-array-encoding base64 --string-array-index-shift true --string-array-wrappers-chained-calls true --string-array-wrappers-count 5 --string-array-wrappers-type function --transform-object-keys true --disable-console-output true
 
-javascript-obfuscator "%BUILD_DIR%" --output "%BUILD_DIR%" --compact true --control-flow-flattening true --dead-code-injection true --string-array true --string-array-threshold 0.75 --string-array-encoding rc4 --disable-console-output true
+javascript-obfuscator "%BUILD_DIR%\assets\js" --output "%BUILD_DIR%\assets\js" --compact true --control-flow-flattening true --dead-code-injection true --string-array true --string-array-threshold 0.75 --string-array-encoding rc4 --disable-console-output true
 
 
 rem Check if the obfuscation was successful

@@ -88,3 +88,54 @@ hr.ray{
   .skills p{
     display:none;
 }
+.hero-image{
+    will-change: transform;
+    transform: rotate(10deg);
+    transition: transform .2s ease-out;
+}
+
+.image-with-lines-1,
+.image-with-lines-2,
+.image-with-lines-3,
+.image-with-lines-4,
+.image-with-lines-5{
+    position: relative;
+    display: inline-block;
+    width: 300px; /* Adjust as needed */
+    height: 300px; /* Adjust as needed */
+ background:#f2f2f2;
+
+    will-change: transform;
+    transform: rotate(-60deg);
+    transition: transform .2s ease-out;
+  }
+
+.image-with-lines-5{
+    transform: rotate(10deg);
+
+  }
+
+.image-with-lines-4{
+    transform: rotate(20deg);
+
+  }
+
+  .image-with-lines-3{
+    transform: rotate(20deg);
+
+  }
+  .image-with-lines-2{
+    transform: rotate(20deg);
+
+  }
+  .image-with-lines-1:hover,
+.image-with-lines-2:hover,
+.image-with-lines-3:hover,
+.image-with-lines-4:hover,
+.image-with-lines-5:hover,
+.hero-image:hover{
+    
+    will-change: transform;
+    transform: rotate(0deg);
+    transition: transform .2s ease-out;
+}
