@@ -195,7 +195,7 @@ Web Development
   <p class="mb-0">This approach allows me to stay current with the latest technologies, apply my knowledge to real-world projects with my employer, and continue growing through new challenges and ideas.</p>
 </div>
 
-<a href="/contact" aria-label="Services offered by Selvakumaran Krishnan" title="Services - Selvakumaran Krishnan" class="btn btn-outline-secondary my-2 px-4 py-2">Get Consultation</a>
+<a href="/contact" aria-label="Services offered by Selvakumaran Krishnan" title="Services - Selvakumaran Krishnan" class="btn btn-outline-secondary my-2 px-4 py-2 float-end">Get Consultation</a>
 
 </div>
 </div>

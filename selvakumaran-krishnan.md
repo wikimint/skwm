@@ -223,8 +223,8 @@ Table of Contents
 
 <div class="col-md-3 my-3">
     <div class="card">
-        <img src="/assets/images/selvakumaran-krishnan.webp" class="card-img-top" alt="Profile Picture">
-        <p class="small text-center">Selvakumaran Krishnan in 2023</p>
+        <img src="/assets/images/selvakumaran-krishnan-software-developer-chennai.webp" class="card-img-top" alt="Selvakumaran Krishnan, a software developer from Chennai, India, focused on coding in a modern workspace, showcasing his expertise in web development and SEO.">
+        <p class="small text-center">Selvakumaran Krishnan in 2021</p>
         <div class="card-body small p-1">
 <table class="table table-borderless">
            <tr>
