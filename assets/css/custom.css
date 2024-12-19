@@ -139,3 +139,7 @@ hr.ray{
     transform: rotate(0deg);
     transition: transform .2s ease-out;
 }
+
+.btn{
+    border-radius:0px ! important;
+}

@@ -51,11 +51,22 @@ faqs:
     </div>
   </section>
 
+
+  <!-- Read More Button -->
+  <div role="button" data-bs-toggle="collapse" data-bs-target="#moreContent" aria-expanded="false" aria-controls="moreContent">
+    <div class="mx-auto text-center">Read More <i class="bi bi-chevron-down d-block fs-1"></i></div>
+</div>
+
+  <!-- Collapsible Content -->
+  <div class="collapse" id="moreContent">
+    <div class="card card-body bg-light">
+
+
 <div class="row">
-<div class="col-md-6 my-3">
+<div class="col-md-6">
 <img width="100%" height="auto" src="/assets/images/selvakumaran-krishnan-web-developer-wikimint.webp" class="rounded img-fluid w-100" alt="Expert Software Developer | SEO, Digital Marketing, Web & PHP Development Services">
 </div>
-<div class="col-md-6 my-3">
+<div class="col-md-6">
 <h2>About <span class="lead fs-2">Selvakumaran Krishnan</span></h2>
 <hr/>
 <p>I am a dedicated professional with a strong passion for web design, online publishing, blog writing, programming, SEO, digital marketing, and framework development.</p>
@@ -63,9 +74,19 @@ faqs:
 <p>My journey began in 2008 when I started exploring various Web 2.0 platforms and quickly developed a keen interest in web design. In 2014, I expanded my expertise into programming, and since then, I have closely followed the evolution of open-source libraries, tools, themes, templates, datasets, plugins, widgets, and frameworks that shape the web development landscape.</p>
 
 <p>Throughout my career, I have successfully managed a wide range of freelance projects, including developing WordPress sites, implementing SEO strategies, executing digital marketing campaigns, and creating web-based products. My commitment to staying at the forefront of industry trends enables me to deliver innovative and high-quality solutions for every project.</p>
-<a href="/selvakumaran-krishnan" aria-label="Everything about Selvakumaran Krishnan" title="About Selvakumaran Krishnan" class="btn btn-outline-primary my-2 px-4 py-2">More About Me</a>
+<a href="/selvakumaran-krishnan" aria-label="Everything about Selvakumaran Krishnan" title="About Selvakumaran Krishnan" class="btn btn-primary my-2 px-4 py-2 float-end">More About Me</a> 
+
+<span aria-label="Everything about Selvakumaran Krishnan" title="About Selvakumaran Krishnan" class="btn btn-outline-primary my-2 px-4 py-2 float-end me-0 me-lg-3" data-bs-toggle="collapse" data-bs-target="#moreContent" aria-expanded="false" aria-controls="moreContent">Close this</span>
 </div>
 </div>
+
+
+    </div>
+  </div>
+
+
+
+
 
 
 
