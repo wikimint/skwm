@@ -32,7 +32,7 @@ faqs:
     answer: "Whether you’re a business looking for a reliable software solution or a fellow developer interested in collaboration, Selvakumaran is open to new opportunities. He enjoys working on innovative projects and is always eager to help others with their web development challenges."
 ---
 <section class="py-5 text-center hero-section">
-    <div class="row container">
+    <div class="row">
       <div class="col-lg-7 col-md-8 mx-auto">
       <div class="image-with-lines-1 rounded-5 shadow mb-5 bg-success-subtle">
       <div class="image-with-lines-2 rounded-5 shadow bg-primary-subtle">
