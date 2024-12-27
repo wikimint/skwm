@@ -39,7 +39,7 @@ faqs:
       <div class="image-with-lines-3 rounded-5 shadow bg-warning-subtle">
       <div class="image-with-lines-4 rounded-5 shadow bg-danger-subtle">
       <div class="image-with-lines-5 rounded-5 shadow bg-info-subtle">
-      <img width="300px" height="300px" src="/assets/images/selvakumaran-krishnan.webp" class="hero-image rounded-5 mx-auto d-block mb-4 shadow" alt="Selvakumaran Krishnan, a skilled software developer dedicated to building clean, efficient, and scalable solutions. Specializing in web development, desktop applications, SEO, and digital marketing, I deliver results that drive performance and growth.">
+      <img width="300px" height="300px" src="/assets/images/selvakumaran-krishnan-software-developer-chennai.webp" class="hero-image rounded-5 mx-auto d-block mb-4 shadow bg-light" alt="Selvakumaran Krishnan, a skilled software developer dedicated to building clean, efficient, and scalable solutions. Specializing in web development, desktop applications, SEO, and digital marketing, I deliver results that drive performance and growth.">
       </div></div></div></div></div>
         <h1 class="lead display-4 fw-medium">Selvakumaran Krishnan</h1>
         <p class="lead text-body-black">A professional software developer with a focus on creating clean, efficient, and scalable solutions. I specialize in web development, native desktop applications, SEO, and digital marketing.</p>
