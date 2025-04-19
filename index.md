@@ -17,22 +17,22 @@ keywords:
 noindex: false
 faqs:
   - question: What are the best web services in Chennai for small businesses?
-  - answer: We offer some of the best web services in Chennai, including responsive website development, SEO, and digital marketing — tailored for startups and small businesses looking to grow online.
+    answer: We offer some of the best web services in Chennai, including responsive website development, SEO, and digital marketing — tailored for startups and small businesses looking to grow online.
 
   - question: Do you provide website services in Neelankarai, Chennai?
-  - answer: Yes, we specialize in website services in Neelankarai, Chennai, delivering fast, user-friendly WordPress websites with built-in SEO optimization.
+    answer: Yes, we specialize in website services in Neelankarai, Chennai, delivering fast, user-friendly WordPress websites with built-in SEO optimization.
 
   - question: Where can I find the best digital marketing services in Chennai?
-  - answer: Our end-to-end solutions are among the best digital marketing services available — combining SEO, content strategy, social media, and analytics to drive real business growth.
+    answer: Our end-to-end solutions are among the best digital marketing services available — combining SEO, content strategy, social media, and analytics to drive real business growth.
 
   - question: How do your SEO services in Chennai help my website rank better?
-  - answer: Our SEO services in Chennai focus on improving your search visibility through keyword optimization, technical SEO audits, and content that ranks — helping you attract the right audience.
+    answer: Our SEO services in Chennai focus on improving your search visibility through keyword optimization, technical SEO audits, and content that ranks — helping you attract the right audience.
   
   - question: Can I hire a web developer freelancer in Chennai for a custom project?
-  - answer: Absolutely. If you're looking for a web developer freelancer in Chennai, I offer custom WordPress development, performance optimization, and content-first design — perfect for businesses and personal brands.
+    answer: Absolutely. If you're looking for a web developer freelancer in Chennai, I offer custom WordPress development, performance optimization, and content-first design — perfect for businesses and personal brands.
   
   - question: Are your website services available only in Chennai?
-  - answer: While we're based in Chennai (including Neelankarai), our website services are available remotely as well. We collaborate with clients across India and globally.
+    answer: While we're based in Chennai (including Neelankarai), our website services are available remotely as well. We collaborate with clients across India and globally.
     
   - question: "Who is Selvakumaran Krishnan?"
     answer: "Selvakumaran Krishnan is a professional software developer with a passion for creating clean, efficient web applications. With years of experience in web development, he also enjoys sharing insights on software trends, coding techniques, and technical writing through his blog."
@@ -179,7 +179,7 @@ faqs:
 
 <hr class="ray"/>
 
-<div class="row py-3 h-scroll">
+<div class="row py-3 h-scroll d-none">
 <div class="col-md-6 my-3">
 <h2 class="mb-3">What I Do?</h2>
 <div class="accordion" id="selvakumaran-krishnan-expertise">
@@ -324,7 +324,7 @@ Web Development
 
 
 
-<section id="faq-section" class="faq-container my-4 h-scroll">
+<section id="faq-section" class="faq-container my-4 h-scroll d-none">
   <h2 class="mb-5 text-center">Frequently Asked Questions About Selvakumaran Krishnan's Work</h2>
 
   <div class="accordion" id="faq">
