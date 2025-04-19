@@ -148,36 +148,25 @@ faqs:
     {% endfor %}
   </div>
 </div>
-<div class="text-center bg-white ray-title mb-5"><h4 class="lead p-3 bg-white d-inline fs-4 fw-medium">Additional Skills</h4></div>
-
-  <div class="row g-4">
-    {% for item in site.data.additionalskills.skills %}
-      <div class="col-6 col-md-3 col-lg-2 mb-3  text-center skills">
-        <img src="{{ item.image }}" alt="{{ item.alt }}" width="60" height="auto" class="mb-2"/>
-        <h3 class="mb-0 fw-normal fs-6">{{ item.name }}</h3>
-        <p>{{ item.description }}</p>
-      </div>
-    {% endfor %}
-  </div>
-
-  <hr class="ray"/>
 
 
+<section class="rounded-3 bg-light border py-5 px-3 my-5 ">
 <div id="technologies" class="col-lg-8 col-md-8 mx-auto text-center mb-5">
 <h2>Technologies and Tools Handled</h2><hr/>
 <p>Proficient in diverse tools and technologies that streamline development and deployment. From code editors to version control systems, I utilize cutting-edge stacks to optimize workflows. Each tool is a step toward delivering exceptional results.</p>
 </div>
-  <div class="row g-4">
+  <div class="row g-0 g-md-4 mx-auto">
     {% for item in site.data.stack.tools %}
-      <div class="col-6 col-md-3 col-lg-2 mb-3  text-center skills">
+      <div class="col-6 col-md-3 col-lg-2 mb-0 mb-md-2 mx-0 mx-md-3 border text-center skills bg-white p-3">
         <img src="{{ item.image }}" alt="{{ item.alt }}" width="60" height="auto" class="mb-2"/>
         <h3 class="mb-0 fw-normal fs-6">{{ item.name }}</h3>
         <p>{{ item.description }}</p>
       </div>
     {% endfor %}
   </div>
+  </section>
 
-<hr class="ray"/>
+
 
 <div class="row py-3 h-scroll d-none">
 <div class="col-md-6 my-3">
@@ -272,10 +261,7 @@ Web Development
 
 <div class="album py-5">
     <div class="container p-0">
-
-
-
-        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+<div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
             {% assign projects_pages = site.pages | where_exp: "page", "page.url contains '/projects/'" %}
             {% if projects_pages.size > 0 %}
                 {% assign shuffled_projects = projects_pages | sort: 'random' | limit: 6 %}
@@ -308,6 +294,25 @@ Web Development
     </div>
 </div>
 
+
+
+
+
+<div class="row py-3">
+<div class="col-md-6 my-3 pe-0 pe-md-5">
+<h2>Why Work With Me?</h2>
+<hr/>
+<p>I take pride in clear communication, dependable delivery, and consistently high-quality results. Whether collaborating on a team or leading a project independently, my approach remains the same: understand the goal, align with the vision, and execute with precision.</p>
+
+<p>I’m committed to delivering outcomes that not only meet expectations but also make the process smooth, efficient, and collaborative. I adapt quickly, take ownership, and always stay focused on creating value, whether it's for a growing business or within a fast-paced team environment.
+</p>
+
+
+</div>
+<div class="col-md-6 my-3">
+<iframe src="https://wikimint-server.blogspot.com/p/contact.html?site=SK_SELVAKUMARAN_KRISHNAN" style="width:100%;height:370px;border:none;overflow:hidden;"></iframe>
+</div>
+</div>
 
 
 ## Latest Blog Posts

@@ -104,9 +104,10 @@ hr.ray{
 }
 
 .bg-grad{
-    background: #457fca;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #5691c8, #457fca);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #5691c8, #457fca); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */      
+    background: #232526;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        
 }
 
 .custom-list {
@@ -114,19 +115,24 @@ hr.ray{
   }
   
   .custom-list li {
-    border-bottom: 1px solid #6c757d; /* Bootstrap's 'border-secondary' */
     padding: 0.7rem 0; /* Equivalent to py-2 */
     font-size: 1rem;
+    display:flex;
   }
   .custom-list li::before {
     content: "";
     display: inline-block;
     width: 20px;
     height: 20px;
-    background-image: url('https://img.icons8.com/?size=100&id=7690&format=png&color=40C057');
+    background-image: url('https://img.icons8.com/?size=100&id=7690&format=png&color=0d6efd');
     background-size: cover;
     background-repeat: no-repeat;
     margin-right: 12px;
     vertical-align: middle;
   }
-  
+  @media only screen and (max-width:600px){
+    .custom-list {
+        padding: 0px ! important;
+      }
+  }
+
