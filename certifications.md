@@ -36,7 +36,7 @@ faqs:
     <div class="row">
       <div class="col-lg-7 col-md-8 mx-auto">
       <h1 class="display-1 fw-medium lead text-center">Certifications <hr/><span class="d-block small fs-3 fw-normal">That Reflect Expertise and Professional Growth</span></h1>    
-<p class="mt-3">Welcome to my certifications page, where I showcase my professional achievements and milestones. Each certification represents a commitment to learning, honing my skills, and staying ahead in the ever-evolving tech landscape. From mastering web development to exploring cutting-edge technologies, these credentials reflect my journey of continuous improvement and innovation.</p>
+<p class="mt-3">My professional achievements and milestones. Each certification represents a commitment to learning, honing my skills, and staying ahead in the ever-evolving tech landscape. From mastering web development to exploring cutting-edge technologies, these credentials reflect my journey of continuous improvement and innovation.</p>
 </div>
 </div>
 </section>

@@ -16,6 +16,24 @@ keywords:
   - software solutions
 noindex: false
 faqs:
+  - question: What are the best web services in Chennai for small businesses?
+  - answer: We offer some of the best web services in Chennai, including responsive website development, SEO, and digital marketing — tailored for startups and small businesses looking to grow online.
+
+  - question: Do you provide website services in Neelankarai, Chennai?
+  - answer: Yes, we specialize in website services in Neelankarai, Chennai, delivering fast, user-friendly WordPress websites with built-in SEO optimization.
+
+  - question: Where can I find the best digital marketing services in Chennai?
+  - answer: Our end-to-end solutions are among the best digital marketing services available — combining SEO, content strategy, social media, and analytics to drive real business growth.
+
+  - question: How do your SEO services in Chennai help my website rank better?
+  - answer: Our SEO services in Chennai focus on improving your search visibility through keyword optimization, technical SEO audits, and content that ranks — helping you attract the right audience.
+  
+  - question: Can I hire a web developer freelancer in Chennai for a custom project?
+  - answer: Absolutely. If you're looking for a web developer freelancer in Chennai, I offer custom WordPress development, performance optimization, and content-first design — perfect for businesses and personal brands.
+  
+  - question: Are your website services available only in Chennai?
+  - answer: While we're based in Chennai (including Neelankarai), our website services are available remotely as well. We collaborate with clients across India and globally.
+    
   - question: "Who is Selvakumaran Krishnan?"
     answer: "Selvakumaran Krishnan is a professional software developer with a passion for creating clean, efficient web applications. With years of experience in web development, he also enjoys sharing insights on software trends, coding techniques, and technical writing through his blog."
 
@@ -31,27 +49,51 @@ faqs:
   - question: "How can you collaborate with Selvakumaran Krishnan?"
     answer: "Whether you’re a business looking for a reliable software solution or a fellow developer interested in collaboration, Selvakumaran is open to new opportunities. He enjoys working on innovative projects and is always eager to help others with their web development challenges."
 ---
-<section class="py-5 text-center hero-section">
+<section class="py-3 hero-section">
     <div class="row">
-      <div class="col-lg-7 col-md-8 mx-auto">
-      <!-- <div class="image-with-lines-1 rounded-5 shadow mb-5 bg-success-subtle">
-      <div class="image-with-lines-2 rounded-5 shadow bg-primary-subtle">
-      <div class="image-with-lines-3 rounded-5 shadow bg-warning-subtle">
-      <div class="image-with-lines-4 rounded-5 shadow bg-danger-subtle">
-      <div class="image-with-lines-5 rounded-5 shadow bg-info-subtle"> -->
-      <img width="350px" height="auto" src="/assets/images/selvakumaran-krishnan-software-developer-chennai.webp" class="hero-image rounded-5 mx-auto d-block mb-4 bg-white" alt="Selvakumaran Krishnan, a skilled software developer dedicated to building clean, efficient, and scalable solutions. Specializing in web development, desktop applications, SEO, and digital marketing, I deliver results that drive performance and growth.">
-      <!-- <div class="line-shadow"></div> -->
-      <!-- </div></div></div></div></div> -->
+      <div class="col-md-7 d-flex align-items-center">
+      <div>
         <h1 class="lead display-4 fw-medium">Selvakumaran Krishnan</h1>
         <p class="lead text-body-black">A professional software developer with a focus on creating clean, efficient, and scalable solutions. I specialize in web development, native desktop applications, SEO, and digital marketing.</p>
         <p>
           <a href="/certifications" class="btn btn-primary my-2 px-4 py-2">Certifications</a>
           <a href="https://selvakumaran.is-a.dev" class="btn btn-outline-primary my-2 px-4 py-2">Curriculum Vitae</a>
         </p>
+        </div>
+      </div>
+      <div class="col-md-5">
+            <img width="350px" height="auto" src="/assets/images/selvakumaran-krishnan-software-developer-chennai.webp" class="hero-image rounded-5 mx-auto d-block mb-4 bg-white" alt="Selvakumaran Krishnan, a skilled software developer dedicated to building clean, efficient, and scalable solutions. Specializing in web development, desktop applications, SEO, and digital marketing, I deliver results that drive performance and growth.">
+
       </div>
     </div>
   </section>
 
+
+
+<section class="bg-grad p-5 rounded-3 text-white ">
+<div class="row">
+<div class="col-md-6">
+<h2 class="lead display-4 fw-medium">Digital Marketing</h2>
+<hr/>
+<p>A results-driven web developer & digital strategist focused on building SEO-optimized, content-rich WordPress experiences. With a passion for clean code, meaningful content, and growth-focused digital marketing, I bring ideas to life, whether it’s scaling a brand or solving real-world business problems.</p>
+
+<p>Being a WordPress web developer and digital marketing specialist with a strong focus on SEO, content strategy, and performance optimization, I’ve collaborated on diverse projects, helping businesses grow their online presence through smart, data-driven solutions. Whether it’s building fast, content-rich websites or boosting organic traffic, I bring a strategic and creative mindset to every project.</p>
+</div>
+<div class="col-md-6">
+<ul class="custom-list">
+  <li>Search Engine Optimization (SEO)</li>
+  <li>Content Marketing</li>
+  <li>Social Media Marketing</li>
+  <li>Website Development & Optimization</li>
+  <li>Email Marketing</li>
+  <li>Paid Advertising (PPC & Social Ads)</li>
+  <li>Analytics & Tracking</li>
+  <li>Digital Strategy & Consulting</li>
+  <li>Online Reputation Management</li>
+</ul>
+</div>
+</div>
+</section>
 
   <!-- Read More Button -->
   <div role="button" data-bs-toggle="collapse" data-bs-target="#moreContent" aria-expanded="false" aria-controls="moreContent">
@@ -137,7 +179,7 @@ faqs:
 
 <hr class="ray"/>
 
-<div class="row py-3">
+<div class="row py-3 h-scroll">
 <div class="col-md-6 my-3">
 <h2 class="mb-3">What I Do?</h2>
 <div class="accordion" id="selvakumaran-krishnan-expertise">
@@ -282,7 +324,7 @@ Web Development
 
 
 
-<section id="faq-section" class="faq-container my-4 d-none">
+<section id="faq-section" class="faq-container my-4 h-scroll">
   <h2 class="mb-5 text-center">Frequently Asked Questions About Selvakumaran Krishnan's Work</h2>
 
   <div class="accordion" id="faq">

@@ -88,57 +88,6 @@ hr.ray{
   .skills p{
     display:none;
 }
-/* .hero-image{
-    will-change: transform;
-    transform: rotate(10deg);
-    transition: transform .2s ease-out;
-}
-
-.image-with-lines-1,
-.image-with-lines-2,
-.image-with-lines-3,
-.image-with-lines-4,
-.image-with-lines-5{
-    position: relative;
-    display: inline-block;
-    width: 300px; 
-    height: 300px; 
- background:#f2f2f2;
-
-    will-change: transform;
-    transform: rotate(-60deg);
-    transition: transform .2s ease-out;
-  }
-
-.image-with-lines-5{
-    transform: rotate(10deg);
-
-  }
-
-.image-with-lines-4{
-    transform: rotate(20deg);
-
-  }
-
-  .image-with-lines-3{
-    transform: rotate(20deg);
-
-  }
-  .image-with-lines-2{
-    transform: rotate(20deg);
-
-  }
-  .image-with-lines-1:hover,
-.image-with-lines-2:hover,
-.image-with-lines-3:hover,
-.image-with-lines-4:hover,
-.image-with-lines-5:hover,
-.hero-image:hover{
-    
-    will-change: transform;
-    transform: rotate(0deg);
-    transition: transform .2s ease-out;
-} */
 
 .line-shadow{
     opacity: 1 ! important;
@@ -153,3 +102,31 @@ hr.ray{
 .btn{
     border-radius:0px ! important;
 }
+
+.bg-grad{
+    background: #457fca;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #5691c8, #457fca);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #5691c8, #457fca); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */      
+}
+
+.custom-list {
+    list-style: none;
+  }
+  
+  .custom-list li {
+    border-bottom: 1px solid #6c757d; /* Bootstrap's 'border-secondary' */
+    padding: 0.7rem 0; /* Equivalent to py-2 */
+    font-size: 1rem;
+  }
+  .custom-list li::before {
+    content: "";
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-image: url('https://img.icons8.com/?size=100&id=7690&format=png&color=40C057');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-right: 12px;
+    vertical-align: middle;
+  }
+  
