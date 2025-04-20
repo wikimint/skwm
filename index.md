@@ -62,7 +62,7 @@ faqs:
         </div>
       </div>
       <div class="col-md-5">
-            <img width="350px" height="auto" src="/assets/images/selvakumaran-krishnan-software-developer-chennai.webp" class="hero-image rounded-5 mx-auto d-block mb-4 bg-white" alt="Selvakumaran Krishnan, a skilled software developer dedicated to building clean, efficient, and scalable solutions. Specializing in web development, desktop applications, SEO, and digital marketing, I deliver results that drive performance and growth.">
+            <img width="350px" height="auto" src="/assets/images/selvakumaran-krishnan-founder-of-wikimint-creative-writer-web-developer.webp" class="hero-image rounded-5 mx-auto d-block bg-white" alt="Selvakumaran Krishnan, a skilled software developer dedicated to building clean, efficient, and scalable solutions. Specializing in web development, desktop applications, SEO, and digital marketing, I deliver results that drive performance and growth.">
 
       </div>
     </div>
@@ -70,7 +70,7 @@ faqs:
 
 
 
-<section class="bg-grad p-5 rounded-3 text-white ">
+<section class="bg-grad p-5 rounded-5 text-white border-top border-5 border-primary">
 <div class="row">
 <div class="col-md-6">
 <h2 class="lead display-4 fw-medium">Digital Marketing</h2>

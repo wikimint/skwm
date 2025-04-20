@@ -136,3 +136,10 @@ hr.ray{
       }
   }
 
+.hero-section .hero-image{
+    margin-bottom:-16px ! important;
+}
+
+.site-header{
+    border-top:none ! important;
+}
