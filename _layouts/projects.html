@@ -64,7 +64,7 @@ layout: default
 
 
 <div class="row">
-    <div class="col-lg-8">
+    <div class="col-lg-12">
 <h2 class="my-4">Explore Other Projects</h2>
 <hr/>
 <p>
@@ -73,39 +73,40 @@ layout: default
 
 <div class="album py-5">
     <div class="container p-0">
-        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-2 g-3">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
             <!-- Get all project pages excluding the current one -->
-            {% assign projects_pages = site.pages | where_exp: "page", "page.url contains '/projects/'" %}
-            {% assign current_url = page.url %}
-            {% assign other_projects = projects_pages | where_exp: "page", "page.url != current_url" %}
-            
-            {% if other_projects.size > 0 %}
-                {% assign shuffled_projects = other_projects | sort: 'random' | limit: 6 %}
+{% assign projects_pages = site.pages | where_exp: "p", "p.url contains '/projects/'" %}
+{% assign current_url = page.url %}
+{% assign other_projects = projects_pages | where_exp: "p", "p.url != current_url" %}
+
+{% if other_projects.size > 0 %}
+    {% assign shuffled_projects = other_projects | sample: 6 %} <!-- Use 'sample' for random selection -->
+    
+    {% for project in shuffled_projects %}
+        <div class="col">
+            <div class="card shadow-sm projects-card">
+                {% assign image_url = project.image %}
+                <div class="img-cont">
                 
-                {% for project in shuffled_projects %}
-                    <div class="col">
-                        <div class="card shadow-sm projects-card">
-                            {% assign image_url = page.image %}
-                            <div class="img-cont">
-                            
-                            {% if page.tags.size > 0 %}
-                                <span class="tag w-sm-100 bg-primary text-white p-3 py-1">{{ page.tags[0] }}</span>
-                            {% endif %}
-                            
-                            <img src="{{ image_url }}" class="card-img-top card-img" alt="{{ page.title }}">
-                            </div>
-                        <p class="card-text p-3 pb-0 mb-0">{{ page.description | strip_html | truncate: 150 }}</p>
-                        <div class="row d-flex align-items-center py-3 mx-3">
-                              <a aria-label="{{ page.title }}" title="{{ page.title }}" href="{{ site.url }}{{ page.url | remove: '.md' | remove: '.html' }}" class="btn bg-primary-subtle text-dark border border-primary w-100">View Project</a>
-                        </div>
-                    </div>
-                    </div>
-                {% endfor %}
-            {% else %}
-                <div class="col">
-                    <p>No projects found.</p>
+                {% if project.tags and project.tags.size > 0 %}
+                    <span class="tag w-sm-100 bg-primary text-white p-3 py-1">{{ project.tags[0] }}</span>
+                {% endif %}
+                
+                <img src="{{ image_url }}" class="card-img-top card-img" alt="{{ project.title }}">
                 </div>
-            {% endif %}
+                <p class="card-text p-3 pb-0 mb-0">{{ project.description | strip_html | truncate: 150 }}</p>
+                <div class="row d-flex align-items-center py-3 mx-3">
+                    <a aria-label="{{ project.title }}" title="{{ project.title }}" href="{{ site.url }}{{ project.url | remove: '.md' | remove: '.html' }}" class="btn bg-primary-subtle text-dark border border-primary w-100">View Project</a>
+                </div>
+            </div>
+        </div>
+    {% endfor %}
+{% else %}
+    <div class="col">
+        <p>No projects found.</p>
+    </div>
+{% endif %}
+
         </div>
     </div>
 </div>

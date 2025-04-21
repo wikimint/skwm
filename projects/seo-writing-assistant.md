@@ -1,7 +1,7 @@
 ---
 layout: projects
 title: "SEO Writing Assistant Tool for Content Optimization"
-description: "Optimize your content with the SEO Writing Assistant—a free online tool offering real-time keyword suggestions, readability analysis, and SEO optimization tips, similar to Yoast SEO and SEMRUSH Writing Assistant."
+description: "Optimize your content with the SEO Writing Assistant, a free online tool offering real-time keyword suggestions, readability analysis, and SEO optimization tips, similar to Yoast SEO and SEMRUSH Writing Assistant."
 keywords: "SEO writing tool, content optimization, SEO assistant, keyword suggestions, readability analysis, free SEO tool, writing assistant, SEO checker, on-page SEO, Yoast SEO alternative"
 pname: wmdCaptcha
 psite: https://developer.wikimint.com/p/seo-writing-tool-article-score.html

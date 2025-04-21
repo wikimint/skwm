@@ -56,8 +56,8 @@ faqs:
         <h1 class="lead display-4 fw-medium">Selvakumaran Krishnan</h1>
         <p class="lead text-body-black">A professional software developer with a focus on creating clean, efficient, and scalable solutions. I specialize in web development, native desktop applications, SEO, and digital marketing.</p>
         <p>
-          <a href="/certifications" class="btn btn-primary my-2 px-4 py-2">Certifications</a>
-          <a href="https://selvakumaran.is-a.dev" class="btn btn-outline-primary my-2 px-4 py-2">Curriculum Vitae</a>
+          <a href="/projects" class="btn btn-primary my-2 px-4 py-2">Successful Projects</a>
+          <a href="/certifications" class="btn btn-outline-primary my-2 px-4 py-2">Certifications</a>
         </p>
         </div>
       </div>
