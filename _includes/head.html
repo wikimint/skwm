@@ -4,6 +4,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" href="/favicon.ico" sizes="120x120">
   {%- include custom-head.html -%}
+
+  {% if jekyll.environment == "production" %}
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-HBNN5MVE39"></script>
 <script>
@@ -15,12 +17,17 @@
 </script>
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7784071102690039"
      crossorigin="anonymous"></script>
+{% endif %}
+
+
+
      
   <script src="/assets/lib/jquery.min.js"></script> 
   <link rel="stylesheet" href="/assets/lib/bootstrap-icons.min.css">
   <link rel="stylesheet" href="{{ "/assets/css/style.css" | relative_url }}">
   <link href="/assets/lib/bootstrap.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="/assets/css/custom.css?v=6">
+  <link rel="stylesheet" href="/assets/css/custom.css?v=7">
+
 
 
 

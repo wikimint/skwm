@@ -49,7 +49,7 @@ faqs:
   - question: "How can you collaborate with Selvakumaran Krishnan?"
     answer: "Whether you’re a business looking for a reliable software solution or a fellow developer interested in collaboration, Selvakumaran is open to new opportunities. He enjoys working on innovative projects and is always eager to help others with their web development challenges."
 ---
-<section class="py-3 hero-section">
+<section class="py-3 hero-section z-0">
     <div class="row">
       <div class="col-md-7 d-flex align-items-center">
       <div>
@@ -62,13 +62,11 @@ faqs:
         </div>
       </div>
       <div class="col-md-5">
-            <img width="350px" height="auto" src="/assets/images/selvakumaran-krishnan-founder-of-wikimint-creative-writer-web-developer.webp" class="hero-image rounded-5 mx-auto d-block bg-white" alt="Selvakumaran Krishnan, a skilled software developer dedicated to building clean, efficient, and scalable solutions. Specializing in web development, desktop applications, SEO, and digital marketing, I deliver results that drive performance and growth.">
+            <img width="350px" height="auto" src="/assets/images/selvakumaran-krishnan-founder-of-wikimint-creative-writer-web-developer.webp" class="slide-bottom hero-image rounded-5 mx-auto d-block bg-white" alt="Selvakumaran Krishnan, a skilled software developer dedicated to building clean, efficient, and scalable solutions. Specializing in web development, desktop applications, SEO, and digital marketing, I deliver results that drive performance and growth.">
 
       </div>
     </div>
   </section>
-
-
 
 <section class="bg-grad p-5 rounded-5 text-white border-top border-5 border-primary">
 <div class="row">
@@ -80,17 +78,43 @@ faqs:
 <p>Being a WordPress web developer and digital marketing specialist with a strong focus on SEO, content strategy, and performance optimization, I’ve collaborated on diverse projects, helping businesses grow their online presence through smart, data-driven solutions. Whether it’s building fast, content-rich websites or boosting organic traffic, I bring a strategic and creative mindset to every project.</p>
 </div>
 <div class="col-md-6">
-<ul class="custom-list">
-  <li>Search Engine Optimization (SEO)</li>
-  <li>Content Marketing</li>
-  <li>Social Media Marketing</li>
-  <li>Website Development & Optimization</li>
-  <li>Email Marketing</li>
-  <li>Paid Advertising (PPC & Social Ads)</li>
-  <li>Analytics & Tracking</li>
-  <li>Digital Strategy & Consulting</li>
-  <li>Online Reputation Management</li>
+
+<ul class="list ps-0 ps-md-5">
+    <li class="item-reveal display-6 inline-block text-truncate">
+        <span class="text"><span class="sub">01</span> Search Engine Optimization</span>
+        <span class="text" aria-hidden="true"><span class="sub">01</span> Search Engine Optimization</span>
+    </li>
+    <li class="item-reveal display-6 inline-block text-truncate">
+        <span class="text"><span class="sub">02</span> Website Development</span>
+        <span class="text" aria-hidden="true"><span class="sub">02</span> Website Development</span>
+    </li>
+    <li class="item-reveal display-6 inline-block text-truncate">
+        <span class="text"><span class="sub">03</span> Content Marketing</span>
+        <span class="text" aria-hidden="true"><span class="sub">03</span> Content Marketing</span>
+    </li>
+    <li class="item-reveal display-6 inline-block text-truncate">
+        <span class="text"><span class="sub">04</span> Social Media Marketing</span>
+        <span class="text" aria-hidden="true"><span class="sub">04</span> Social Media Marketing</span>
+    </li>
+    <li class="item-reveal display-6 inline-block text-truncate">
+        <span class="text"><span class="sub">05</span> Email Marketing</span>
+        <span class="text" aria-hidden="true"><span class="sub">05</span> Email Marketing</span>
+    </li>
+    <li class="item-reveal display-6 inline-block text-truncate">
+        <span class="text"><span class="sub">06</span> Analytics & Tracking</span>
+        <span class="text" aria-hidden="true"><span class="sub">06</span> Analytics & Tracking</span>
+    </li>
+    <li class="item-reveal display-6 inline-block text-truncate">
+        <span class="text"><span class="sub">07</span> Paid Advertising</span>
+        <span class="text" aria-hidden="true"><span class="sub">07</span> Paid Advertising</span>
+    </li>
+    <li class="item-reveal display-6 inline-block text-truncate">
+        <span class="text"><span class="sub">08</span> Online Reputation</span>
+        <span class="text" aria-hidden="true"><span class="sub">08</span> Online Reputation</span>
+    </li>
 </ul>
+
+
 </div>
 </div>
 </section>
@@ -140,7 +164,7 @@ faqs:
 </div>
   <div class="row g-4">
     {% for item in site.data.skills.skills %}
-      <div class="col-6 col-md-3 col-lg-2 mb-3  text-center skills">
+      <div class="col-6 col-md-3 col-lg-2 mb-3  text-center skills zoom-in-on-scroll zoom-in">
         <img src="{{ item.image }}" alt="{{ item.alt }}" width="60" height="auto" class="mb-2"/>
         <h3 class="mb-0 fw-normal fs-6">{{ item.name }}</h3>
         <p>{{ item.description }}</p>
@@ -157,7 +181,7 @@ faqs:
 </div>
   <div class="row g-0 g-md-4 mx-auto">
     {% for item in site.data.stack.tools %}
-      <div class="col-6 col-md-3 col-lg-2 mb-0 mb-md-2 mx-0 mx-md-3 border text-center skills bg-white p-3">
+      <div class="col-6 col-md-3 col-lg-2 mb-0 mb-md-2 mx-0 mx-md-3 border text-center skills  zoom-in-on-scroll zoom-in bg-white p-3 shadow-sm">
         <img src="{{ item.image }}" alt="{{ item.alt }}" width="60" height="auto" class="mb-2"/>
         <h3 class="mb-0 fw-normal fs-6">{{ item.name }}</h3>
         <p>{{ item.description }}</p>
@@ -236,6 +260,7 @@ Web Development
 
 
 </div>
+
 <div class="col-md-6 my-3">
 <h2>Why Work With Me?</h2>
 <hr/>
@@ -267,7 +292,7 @@ Web Development
                 {% assign shuffled_projects = projects_pages | sort: 'random' | limit: 6 %}
 
                 {% for page in shuffled_projects %}
-                    <div class="col">
+                    <div class="col zoom-in-on-scroll">
                         <div class="card shadow-sm projects-card">
                                 {% assign image_url = page.image %}
                                 <div class="img-cont">
@@ -297,23 +322,21 @@ Web Development
 
 
 
-
+<section class="bg-grad-black text-white rounded-5 px-4 px-md-5 mb-5 my-0 my-md-5 border-bottom border-light border-5 pb-0">
 <div class="row py-3">
-<div class="col-md-6 my-3 pe-0 pe-md-5">
+<div class="col-md-7 my-3 pe-0 pe-md-5 my-5">
 <h2>Why Work With Me?</h2>
 <hr/>
-<p>I take pride in clear communication, dependable delivery, and consistently high-quality results. Whether collaborating on a team or leading a project independently, my approach remains the same: understand the goal, align with the vision, and execute with precision.</p>
-
-<p>I’m committed to delivering outcomes that not only meet expectations but also make the process smooth, efficient, and collaborative. I adapt quickly, take ownership, and always stay focused on creating value, whether it's for a growing business or within a fast-paced team environment.
+<p class="mb-5 mb-md-0">I take pride in clear communication, dependable delivery, and consistently high-quality results. Whether collaborating on a team or leading a project independently, my approach remains the same: understand the goal, align with the vision, and execute with precision. I’m committed to delivering outcomes that not only meet expectations but also make the process smooth, efficient, and collaborative.
 </p>
 
 
 </div>
-<div class="col-md-6 my-3">
-<iframe src="https://wikimint-server.blogspot.com/p/contact.html?site=SK_SELVAKUMARAN_KRISHNAN" style="width:100%;height:370px;border:none;overflow:hidden;"></iframe>
+<div class="col-md-5 my-3">
+<iframe src="https://wikimint-server.blogspot.com/p/contact.html?site=SK_SELVAKUMARAN_KRISHNAN" style="height:380px;border:none;overflow:hidden;margin-top:-75px;" class="p-3 p-md-5 bg-white mb-0 mb-md-5 position-absolute shadow rounded-5 border-top border-left border-primary border-5 zoom-in-on-scroll cta-contact-form"></iframe>
 </div>
 </div>
-
+</section>
 
 ## Latest Blog Posts
 <hr/>

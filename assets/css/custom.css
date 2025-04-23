@@ -109,6 +109,12 @@ hr.ray{
     background: linear-gradient(to right, #000000, #0d6efd); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
         
 }
+.bg-grad-black{
+    background: #555555;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #555555, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #555555, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        
+}
 
 .custom-list {
     list-style: none;
@@ -143,3 +149,261 @@ hr.ray{
 .site-header{
     border-top:none ! important;
 }
+@media only screen and (max-width:600px){
+.cta-contact-form{position:relative ! important;
+    width:100% ! important;
+}
+}
+
+/*test-reveal*/
+.text {
+    color: #fff;
+    font-size:25px;
+    font-weight: 500 ! important;
+    display: block;
+    opacity: 1;
+    transition: opacity 0.3S ease, transform 0.3S ease, position 0.3S ease;
+    
+    cursor:pointer;
+  }
+  
+  .item-reveal {
+    position: relative;
+    overflow: hidden;
+    margin:6px 0;
+  }
+  
+  .item-reveal .sub{
+  opacity:0.5;
+  margin-right:6px;
+  }
+  .item-reveal .text:last-child {
+    opacity: 0;
+    position: absolute;
+    left: 0;
+    top: 0;
+    transform: translateY(20px);
+    transition: opacity 0.3S ease, transform 0.3S ease, position 0.3S ease;
+    
+  }
+  .item-reveal .text:first-child {
+    transition: opacity 0.3S ease, transform 0.3S ease, position 0.3S ease;
+    
+  }
+  .item-reveal:hover .text:first-child {
+    opacity: 0;
+    transform: translateY(-20px);
+    position: absolute;
+    left: 0;
+    top: 0;
+    transition: opacity 0.3S ease, transform 0.3S ease, position 0.3S ease;
+    
+  }
+  
+  .item-reveal:hover .text:last-child {
+    opacity: 1;
+    transform: translateY(0);
+    position: relative;
+      transition: opacity 0.3S ease, transform 0.3S ease, position 0.3S ease;
+     /* delay before this element animates */
+  }
+  
+/*text-reveal*/
+
+/*zoom fade slide*/
+/* Shared animation base */
+img {
+    transition: all 0.3s ease;
+  }
+  
+/* Zoom In on Scroll */
+.zoom-in-on-scroll {
+    opacity: 0;
+    transform: scale(0.3);
+    transition: opacity 0.3s ease, transform 0.3s ease;
+  }
+  .zoom-in-on-scroll.visible {
+    opacity: 1;
+    transform: scale(1);
+  }
+  
+  /* Fade In on Scroll */
+  .fade-in-on-scroll {
+    opacity: 0;
+    transition: opacity 0.6s ease;
+  }
+  .fade-in-on-scroll.visible {
+    opacity: 1;
+  }
+  
+  /* Fade from Left */
+  .fade-left-on-scroll {
+    opacity: 0;
+    transform: translateX(-30px);
+    transition: opacity 0.6s ease, transform 0.6s ease;
+  }
+  .fade-left-on-scroll.visible {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  
+  /* Fade from Right */
+  .fade-right-on-scroll {
+    opacity: 0;
+    transform: translateX(30px);
+    transition: opacity 0.6s ease, transform 0.6s ease;
+  }
+  .fade-right-on-scroll.visible {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  
+  /* Slide In on Scroll (All Directions) */
+  .slide-left-on-scroll,
+  .slide-right-on-scroll,
+  .slide-top-on-scroll,
+  .slide-bottom-on-scroll {
+    opacity: 0;
+    transition: opacity 0.4s ease, transform 0.4s ease;
+  }
+  .slide-left-on-scroll {
+    transform: translateX(-50px);
+  }
+  .slide-right-on-scroll {
+    transform: translateX(50px);
+  }
+  .slide-top-on-scroll {
+    transform: translateY(-50px);
+  }
+  .slide-bottom-on-scroll {
+    transform: translateY(50px);
+  }
+  .slide-left-on-scroll.visible,
+  .slide-right-on-scroll.visible,
+  .slide-top-on-scroll.visible,
+  .slide-bottom-on-scroll.visible {
+    opacity: 1;
+    transform: translate(0, 0);
+  }
+  
+
+  /* Zoom In */
+  .zoom-in:hover {
+    transform: scale(1.3);
+  }
+  
+  /* Zoom Out */
+  .zoom-out:hover {
+    transform: scale(0.9);
+  }
+  
+  /* Fade In */
+  .fade-in {
+    opacity: 0;
+    animation: fadeIn 1s forwards;
+  }
+  
+  /* Fade Out */
+  .fade-out {
+    opacity: 1;
+    animation: fadeOut 1s forwards;
+  }
+  
+  /* Fade In from Left */
+  .fade-left {
+    opacity: 0;
+    transform: translateX(-30px);
+    animation: fadeInLeft 0.8s forwards;
+  }
+  
+  /* Fade In from Right */
+  .fade-right {
+    opacity: 0;
+    transform: translateX(30px);
+    animation: fadeInRight 0.8s forwards;
+  }
+  
+  /* Keyframes */
+  @keyframes fadeIn {
+    to {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes fadeOut {
+    to {
+      opacity: 0;
+    }
+  }
+  
+  @keyframes fadeInLeft {
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  
+  @keyframes fadeInRight {
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+/* Slide from Left */
+.slide-left {
+    opacity: 0;
+    transform: translateX(-50px);
+    animation: slideInLeft 0.3s ease forwards;
+  }
+  
+  /* Slide from Right */
+  .slide-right {
+    opacity: 0;
+    transform: translateX(50px);
+    animation: slideInRight 0.3s ease forwards;
+  }
+  
+  /* Slide from Top */
+  .slide-top {
+    opacity: 0;
+    transform: translateY(-50px);
+    animation: slideInTop 0.3s ease forwards;
+  }
+  
+  /* Slide from Bottom */
+  .slide-bottom {
+    opacity: 0;
+    transform: translateY(50px);
+    animation: slideInBottom 0.3s ease forwards;
+  }
+  
+  /* Keyframes */
+  @keyframes slideInLeft {
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  
+  @keyframes slideInRight {
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  
+  @keyframes slideInTop {
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  @keyframes slideInBottom {
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+    
+/*zoom fade slide*/
