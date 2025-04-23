@@ -68,6 +68,9 @@ faqs:
     </div>
   </section>
 
+
+
+
 <section class="bg-grad p-5 rounded-5 text-white border-top border-5 border-primary">
 <div class="row">
 <div class="col-md-6">
@@ -118,6 +121,62 @@ faqs:
 </div>
 </div>
 </section>
+
+
+
+
+
+<!--
+
+  <div class="horizontal-scroll-wrapper squares">
+    <div class="scroll-item bg-primary text-white d-flex align-items-center justify-content-center">1</div>
+    <div class="scroll-item bg-success text-white d-flex align-items-center justify-content-center">2</div>
+    <div class="scroll-item bg-warning text-white d-flex align-items-center justify-content-center">3</div>
+    <div class="scroll-item bg-danger text-white d-flex align-items-center justify-content-center">4</div>
+    <div class="scroll-item bg-info text-white d-flex align-items-center justify-content-center">5</div>
+    <div class="scroll-item bg-secondary text-white d-flex align-items-center justify-content-center">6</div>
+    <div class="scroll-item bg-dark text-white d-flex align-items-center justify-content-center">7</div>
+    <div class="scroll-item bg-light text-dark d-flex align-items-center justify-content-center">8</div>
+  </div>
+
+
+
+<style>
+.horizontal-scroll-wrapper::-webkit-scrollbar {
+  width: 2px;
+  height: 2px;
+}
+.horizontal-scroll-wrapper::-webkit-scrollbar-thumb {
+  background-color: rgba(0,0,0,0.3);
+}
+
+.horizontal-scroll-wrapper {
+  width: 100%;
+  max-height: calc(100vh - 60px);
+  overflow-y: auto;
+  overflow-x: hidden;
+  transform: rotate(-90deg) translateY(-80px);
+  background: #999;
+ 
+}
+
+.horizontal-scroll-wrapper > .scroll-item {
+  display: block;
+  width: 300px;
+  height: 300px;
+  margin: 10px auto;
+  padding: 0.75rem;
+  background: #aaa;
+  transform: rotate(90deg);
+  transform-origin: right top;
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+  </style>
+-->
+
+
 
   <!-- Read More Button -->
   <div role="button" data-bs-toggle="collapse" data-bs-target="#moreContent" aria-expanded="false" aria-controls="moreContent">
@@ -293,7 +352,7 @@ Web Development
 
                 {% for page in shuffled_projects %}
                     <div class="col zoom-in-on-scroll">
-                        <div class="card shadow-sm projects-card">
+                        <div class="card shadow-sm projects-card  bg-light">
                                 {% assign image_url = page.image %}
                                 <div class="img-cont">
                                 
@@ -303,8 +362,8 @@ Web Development
                                 
                                 <img src="{{ image_url }}" class="card-img-top card-img" alt="{{ page.title }}">
                                 </div>
-                            <p class="card-text p-3 pb-0 mb-0">{{ page.description | strip_html | truncate: 150 }}</p>
-                            <div class="row d-flex align-items-center py-3 mx-3">
+                            <p class="card-text p-4 pb-0 mb-0 truncate-3">{{ page.description | strip_html }}</p>
+                            <div class="row d-flex align-items-center py-4 mx-4">
                                   <a aria-label="{{ page.title }}" title="{{ page.title }}" href="{{ site.url }}{{ page.url | remove: '.md' | remove: '.html' }}" class="btn bg-primary-subtle text-dark border border-primary w-100">View Project</a>
                             </div>
                         </div>
@@ -389,4 +448,4 @@ Web Development
 
 
 
-<script src="/assets/js/index.js?v=8"></script>
+<script src="/assets/js/index.js?v=9"></script>
