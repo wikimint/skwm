@@ -1,6 +1,8 @@
 ---
 layout: projects
 title: "wmdCaptcha is a reCaptcha alternative with full web protection"
+subtitle: "Lightweight, Privacy-First CAPTCHA for Ultimate Site Security"
+brief: "wmdCaptcha offers robust bot protection without the bloat—easy to integrate, user-friendly, and privacy-respecting for a safer web experience."
 description: "Discover wmdCaptcha, the ultimate reCaptcha alternative designed to provide comprehensive web protection. Enhance your site's security while ensuring a seamless user experience. Protect against bots and spam effortlessly"
 keywords: "wmdCaptcha, reCaptcha alternative, web protection, bot prevention, spam protection, website security, user experience, online security solutions"
 pname: wmdCaptcha

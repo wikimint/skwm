@@ -1,6 +1,8 @@
 ---
 layout: projects
 title: "Free Online Tools Platform for Developers, Designers & SEO Professionals"
+subtitle: "All-in-One Toolkit for Web Pros, Totally Free"
+brief: "Access a powerful suite of online tools built for coders, creatives, and marketers—streamline your workflow with no cost and no clutter."
 description: "Discover free tools platform, a collection of free, fast, and easy-to-use web tools for developers, SEO experts, and designers. From code formatting to image optimization, explore the utilities that simplify digital workflows."
 keywords: "free developer tools, SEO tools, web development tools, image optimizer, code formatter, online utilities, PHP API tools, CSS generator, technical tools for developers"
 pname: WikiMint Tools

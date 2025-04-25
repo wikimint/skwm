@@ -2,12 +2,19 @@
 layout: default
 ---
 
+
+
 <div class="container px-0 py-3">
+    <section class="hero text-center col-md-10 p-4 mb-5 mx-auto">
+        <h1 class="display-4 fw-bold">{{ page.title }}</h1>
+        <p class="lead col-md-9 mx-auto">{{ page.brief }}</p>
+    </section>
+
     <!-- Project Header -->
-    <div class="project-header position-relative text-white text-center py-5" style="background:#555;">
-        <div class="overlay position-absolute top-0 start-0 w-100 h-100" style="background: rgba(0, 0, 0, 0.5);"></div>
-        <div class="position-relative p-5">
-            <h1 class="display-4 fw-bold">{{ page.title }}</h1>
+    <div class="project-header position-relative text-white text-center py-5 rounded-5" style="background:#555;">
+        <div class="overlay position-absolute top-0 start-0 w-100 h-100 rounded-5" style="background: rgba(0, 0, 0, 0.5);"></div>
+        <div class="position-relative p-4 p-md-5 col-md-9 mx-auto">
+            <h2 class="display-6 fw-light">{{ page.subtitle }}</h2>
             <p class="lead">{{ page.description }}</p>
             <a href="{{ page.psite }}" target="_blank" aria-label="{{ page.title }}" title="{{ page.pname }}" class="btn btn-lg btn-primary mt-3">Go to {{ page.pname }}</a>
         </div>

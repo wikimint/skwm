@@ -1,6 +1,8 @@
 ---
 layout: projects
-title: "Wikimint: Content Writing, Blog Management & Web Development Expertise"
+title: "Wikimint: Blog on Finance, Business & Marketing Strategy"
+subtitle: "Real-World Insights on Money, Growth & Digital Strategy"
+brief: "Wikimint is where personal finance meets sharp business thinking, featuring original blogs that reflect hands-on writing expertise and strategic know-how."
 description: "Explore how I built and managed Wikimint, a blog focused on personal finance, business motivation, and marketing strategies. From SEO-driven content creation to custom website development, discover the skills behind a professional and impactful blog."
 keywords: "Content writing, blogging, SEO writing, blog management, personal finance blog, business blog, marketing strategies, HTML CSS JavaScript blog, website development, Wikimint"
 pname: Wikimint

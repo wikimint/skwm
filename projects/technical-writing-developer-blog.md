@@ -1,6 +1,8 @@
 ---
 layout: projects
 title: "Technical Writing Expertise for Web Development & SEO Tutorials"
+subtitle: "Clear, Code-Driven Content That Actually Teaches"
+brief: "Specializing in developer-focused tutorials and SEO guides, this project bridges the gap between complex topics and clear, actionable learning."
 description: "Explore my technical writing portfolio through developer.wikimint.com, featuring web development guides, SEO tutorials, and programming tips. From writing to hands-on coding, discover how I deliver value to developers and digital professionals alike."
 keywords: "technical writing, web development blog, SEO tutorials, coding guides, developer blog, front-end development, programming tips, HTML CSS JavaScript blog, technical SEO writer"
 pname: Developer WikiMint

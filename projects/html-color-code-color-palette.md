@@ -1,6 +1,8 @@
 ---
 layout: projects
 title: "Interactive HTML Color Code Picker with HEX & RGB Output"
+subtitle: "Pick the Perfect Color with Real-Time HEX & RGB Codes"
+brief: "A user-friendly color picker that helps you instantly grab HEX and RGB codes for any shade, ideal for designers, developers, and creative minds."
 description: "An interactive HTML color code palette that allows color picking, image color extraction, and selection from predefined color names. Instantly generate and copy HEX and RGB color codes with an easy-to-use, responsive interface designed for web developers and designers seeking efficient color code generation tools."
 keywords: "color picker, HTML color palette, RGB to HEX, image color extraction, color code generator, predefined color list, web color picker, color codes, HEX and RGB picker, jQuery color tool"
 pname: Color Palette
